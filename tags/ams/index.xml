@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMS on LeiShengxiao&#39;s Blog</title>
+    <link>https://leishengxiao.github.io/tags/ams/</link>
+    <description>Recent content in AMS on LeiShengxiao&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> All rights reserved.</copyright>
+    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://leishengxiao.github.io/tags/ams/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2020-08-05</title>
+      <link>https://leishengxiao.github.io/posts/20200805/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200805/</guid>
+      <description>昨天终于把GridView折腾的差不多了，从开始算起，一共折腾了两天，新版本的很多用法都要去看，还可以了。 今天开始，要把所有的表格相关的界面全部完成，不然总体进度就会超。
+ 早晨起床，竟然发现是周三了，一周周的过的好快&amp;hellip;
+ 今天开始，还要增加一项VR的学习内容，当作兴趣慢慢了解吧。
+ 种一颗树最好的时间是十年期，其次是现在。</description>
+    </item>
+    
+  </channel>
+</rss>

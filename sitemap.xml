@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://leishengxiao.github.io/posts/20200805/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://leishengxiao.github.io/about/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/tags/ams/</loc>
     <lastmod>2020-08-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,8 +53,28 @@
   </url>
   
   <url>
+    <loc>https://leishengxiao.github.io/tags/work/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/series/work-2020/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://leishengxiao.github.io/posts/my_first_blog/</loc>
     <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/tags/ota/</loc>
+    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/posts/20200731/</loc>
+    <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
