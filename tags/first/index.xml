@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>first on LeiShengxiao&#39;s Blog</title>
+    <link>https://leishengxiao.github.io/tags/first/</link>
+    <description>Recent content in first on LeiShengxiao&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> All rights reserved.</copyright>
+    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://leishengxiao.github.io/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>第一篇博客</title>
+      <link>https://leishengxiao.github.io/posts/my_first_blog/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/my_first_blog/</guid>
+      <description>折腾了半天，终于搞起来了，挺好的，以后就入驻这里了。 希望能经常更新吧，至少已经在种树了&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

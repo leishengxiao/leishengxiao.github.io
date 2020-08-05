@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LeiShengxiao&#39;s Blog</title>
+    <link>https://leishengxiao.github.io/</link>
+    <description>Recent content on LeiShengxiao&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright> All rights reserved.</copyright>
+    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://leishengxiao.github.io/about/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/about/</guid>
+      <description>This is LeiShengxiao&amp;rsquo;s blog,and it&amp;rsquo;s written by a supper noob. It is recorded its owner&amp;rsquo;s coding experience bit by bit.
+It makes use of a variety of experience including:
+ coding work life family  Learn more about me on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>第一篇博客</title>
+      <link>https://leishengxiao.github.io/posts/my_first_blog/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/my_first_blog/</guid>
+      <description>折腾了半天，终于搞起来了，挺好的，以后就入驻这里了。 希望能经常更新吧，至少已经在种树了&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>
