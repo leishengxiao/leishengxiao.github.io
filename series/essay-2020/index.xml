@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>充实的一天</title>
-      <link>https://leishengxiao.github.io/posts/20200806-1/</link>
-      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://leishengxiao.github.io/posts/20200806-1/</guid>
-      <description> 今天是充实的一天，使用昨天完工的GridView，一天完成了两个界面的展示和开发，进度还可以。时间过的好快，一眨眼明天又要回家了，好期待，可以见到我可爱的小䶮䶮了，哈哈哈^_^继续撸代码... </description>
-    </item>
     
     <item>
       <title>第一篇博客</title>
@@ -28,6 +19,15 @@
       
       <guid>https://leishengxiao.github.io/posts/my_first_blog/</guid>
       <description>折腾了半天，终于搞起来了，挺好的，以后就入驻这里了。 希望能经常更新吧，至少已经在种树了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>充实的一天</title>
+      <link>https://leishengxiao.github.io/posts/20200806-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200806-1/</guid>
+      <description> 今天是充实的一天，使用昨天完工的GridView，一天完成了两个界面的展示和开发，进度还可以。时间过的好快，一眨眼明天又要回家了，好期待，可以见到我可爱的小䶮䶮了，哈哈哈^_^继续撸代码... </description>
     </item>
     
   </channel>
