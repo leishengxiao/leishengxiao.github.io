@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title>Essay 2020</title>
       <link>https://leishengxiao.github.io/series/essay-2020/</link>
-      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://leishengxiao.github.io/series/essay-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life 2020</title>
+      <link>https://leishengxiao.github.io/series/life-2020/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/series/life-2020/</guid>
       <description></description>
     </item>
     
@@ -27,15 +36,6 @@
       <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://leishengxiao.github.io/series/work-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Life 2020</title>
-      <link>https://leishengxiao.github.io/series/life-2020/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leishengxiao.github.io/series/life-2020/</guid>
       <description></description>
     </item>
     

@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>充实的一天</title>
+      <link>https://leishengxiao.github.io/posts/20200806-1/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200806-1/</guid>
+      <description> 今天是充实的一天，使用昨天完工的GridView，一天完成了两个界面的展示和开发，进度还可以。时间过的好快，一眨眼明天又要回家了，好期待，可以见到我可爱的小䶮䶮了，哈哈哈^_^继续撸代码... </description>
+    </item>
+    
+    <item>
+      <title>她离职了</title>
+      <link>https://leishengxiao.github.io/posts/20200806/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200806/</guid>
+      <description> 她昨天向公司提出了离职，虽然钱没少太多，但我认为还是件好事情：1.到了这个年纪，她不再适合如此强度的工作了2.前段时间身体一直不是很好，虽然我知道更多的是心理上3.新工作相对轻松，待遇也没差到哪儿去4.新工作离家比较近，时间上宽松些，可以更多的顾及闺女  风风雨雨过了快十年了，一直在一起共事了八年，由于自己去年创业，这一年来，真的辛苦她了，虽然她肯定看不到，但还是要说声&amp;quot;谢谢老婆，辛苦了!&amp;quot;  闺女最近很听话，很是欣慰，你也加油吧，我的䶮䶮！  </description>
+    </item>
     
     <item>
       <title>2020-08-05</title>
@@ -52,24 +70,6 @@ It makes use of a variety of experience including:
       <guid>https://leishengxiao.github.io/posts/20200731/</guid>
       <description>7月31日至8月3日，原本已经调试好的设备和程序，到了现场，结果又相当于重新调试了一遍，暴露了测试和个人的不少问题，值得反思。
 一 、暴露的问题 1. 程序发布 上位机增加了读取PLC的SLMP解析，但是PLC程序未发布，导致主界面的坐标值无法刷新2. 谨慎性 在踩点时，竟然遗忘了踩点的坐标是脉冲，导致Y轴撞破了吸波材料的木板3. 代码质量 1） 手工界面的门、灯、散热扇、排气扇的开关，写的不正确，导致打开界面时散热扇自动打开2） 主界面的操作结果，因为没有加默认值0的字典映射，PLC将结果状态置为0时，上位机竟然还在显示前一条的错误信息4. 专业性 在调试过程中，将“平移台”说成了“周转车”，严重缺乏专业性，丢人5. 严肃性 在更改监控摄像头登录密码时，竟然忘了自己设置的是什么，而且不断的错误登录，导致监控登录锁死了半小时二、个人反思 1. 测试方面 1） 所有的程序更改之后，一定要上级调试，哪怕是再有把握的修改也要如此2） 所有的测试，要增加异常的测试，不能只是测大面的正常流程3） 测试要经过压力测试，多次重复测试，直到连续测试没有任何问题为止2. 个人能力 1） 加强对业务的理解和专业性2） 加强代码的健壮性和测试多样性三、改进措施 1. 入木三分，加强对现有业务文档的理解2. 日积月累，加强对机械和控制方面的学习3. 随时记录，养成所有修改记录的好习惯</description>
-    </item>
-    
-    <item>
-      <title>充实的一天</title>
-      <link>https://leishengxiao.github.io/posts/20200806-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leishengxiao.github.io/posts/20200806-1/</guid>
-      <description> 今天是充实的一天，使用昨天完工的GridView，一天完成了两个界面的展示和开发，进度还可以。时间过的好快，一眨眼明天又要回家了，好期待，可以见到我可爱的小䶮䶮了，哈哈哈^_^继续撸代码... </description>
-    </item>
-    
-    <item>
-      <title>她离职了</title>
-      <link>https://leishengxiao.github.io/posts/20200806/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://leishengxiao.github.io/posts/20200806/</guid>
-      <description> 她昨天向公司提出了离职，虽然钱没少太多，但我认为还是件好事情：1.到了这个年纪，她不再适合如此强度的工作了2.前段时间身体一直不是很好，虽然我知道更多的是心理上3.新工作相对轻松，待遇也没差到哪儿去4.新工作离家比较近，时间上宽松些，可以更多的顾及闺女  风风雨雨过了快十年了，一直在一起共事了八年，由于自己去年创业，这一年来，真的辛苦她了，虽然她肯定看不到，但还是要说声&amp;quot;谢谢老婆，辛苦了!&amp;quot;  闺女最近很听话，很是欣慰，你也加油吧，我的䶮䶮！  </description>
     </item>
     
   </channel>
