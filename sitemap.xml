@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://leishengxiao.github.io/tags/essay/</loc>
+    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/series/essay-2020/</loc>
+    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://leishengxiao.github.io/tags/home/</loc>
     <lastmod>2020-08-06T00:00:00+00:00</lastmod>
   </url>
@@ -38,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://leishengxiao.github.io/posts/20200806-1/</loc>
+    <lastmod>2020-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://leishengxiao.github.io/posts/20200806/</loc>
     <lastmod>2020-08-06T00:00:00+00:00</lastmod>
   </url>
@@ -59,11 +74,6 @@
   
   <url>
     <loc>https://leishengxiao.github.io/tags/blog/</loc>
-    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://leishengxiao.github.io/series/essay-2020/</loc>
     <lastmod>2020-08-05T00:00:00+00:00</lastmod>
   </url>
   
