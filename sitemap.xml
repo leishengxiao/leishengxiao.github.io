@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://leishengxiao.github.io/posts/20200810-backgroundworker/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/tags/c#/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/posts/20200810-comboboxedit/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/tags/devexpress/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://leishengxiao.github.io/tags/essay/</loc>
     <lastmod>2020-08-10T00:00:00+00:00</lastmod>
   </url>
@@ -24,6 +44,16 @@
   
   <url>
     <loc>https://leishengxiao.github.io/series/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/tags/study/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/series/study-2020/</loc>
     <lastmod>2020-08-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,11 +103,6 @@
   </url>
   
   <url>
-    <loc>https://leishengxiao.github.io/posts/20200805/</loc>
-    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://leishengxiao.github.io/about/</loc>
     <lastmod>2020-08-05T00:00:00+00:00</lastmod>
   </url>
@@ -104,6 +129,11 @@
   
   <url>
     <loc>https://leishengxiao.github.io/series/work-2020/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://leishengxiao.github.io/posts/20200805/</loc>
     <lastmod>2020-08-05T00:00:00+00:00</lastmod>
   </url>
   
