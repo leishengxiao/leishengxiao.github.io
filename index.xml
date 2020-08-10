@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sun, 09 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>折腾的一周</title>
+      <link>https://leishengxiao.github.io/posts/20200810/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200810/</guid>
+      <description>美好的一周的第一天，就在修改之前的程序中度过了，有之前程序的不足，也有对工作的新的感触，更有新的收获1. 在写程序时，不要只是简简单单的去做实现，更要去多想一些用户操作，比如重复定位，如果只是单单的去做一些循环，那样程序会卡死在那里，对用户来说就是操作的不便。而是要启用后台进程，并将进程的进度实时的展示在界面上2. 在做UI设计时，也不能简单的所见即所得，虽然直观，但有时候真的是控件放不下啊。可以采用弹出窗口的方式进行，这样界面更直观更有层次感3. 今天改的功能，单轴归零和单轴定位前几天让王改了下，还是有问题，今天的工作就是在重新折腾了。这就存在一个个人与团队的权衡问题，也对老师之前的一句话“还不如自己写呢”有了感触，也对也不对，要看做的事情难度以及紧迫性4. 今天在用SLMP发指令时，又重新复习了下之前的笔记，存在的问题就是笔记太潦草和不详细了，导致又重新看了一遍手册，这是要改进的地方5. 今天AMS新的程序一点没动，只能晚上加班了 我的她已经在走离职了，未来是什么样，谁也不知道，但我坚信幸福属于努力和实在的人，毕竟越努力越幸运&amp;hellip; 可能对于去年的离职，更多的人是看不起，但我认为，如果不折腾，谁又能知道不行呢，相比他们而言，至少折腾过，也不枉此生了吧
+ 我的蓝胖子还是没发货，燕麦片倒是快到了，女儿的TPU的桌垫明天也要到了，网购是个剁手的活啊！</description>
+    </item>
     
     <item>
       <title>周末回家归来</title>
