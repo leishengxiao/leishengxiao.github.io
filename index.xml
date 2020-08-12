@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>惊喜不断的一天</title>
+      <link>https://leishengxiao.github.io/posts/20200812/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200812/</guid>
+      <description>一大早接到了孔老师，和我印象中不太一样，短裤+人字拖，唏嘘的胡渣子，感觉好邋遢好大条的样子，估计大神都是这个模样吧。 通过接触，感觉还是蛮自信的，据说自学完了电磁学，不过我感觉电磁学和EDA没什么直接的关系吧，不应该学光电吗？可能我也不是很了解&amp;hellip;
+ 今天是她第一天去新工作，蛮波折的，先是被项目经理给鄙视，然后又是要干一项无厘头的工作。不过我相信她，肯定能够坚持下来，能够成长起来，能够幸福起来&amp;hellip; 可能对于我们这样的人，还是太过于认真了，本身就是一项迁移报表的工作，原样对照数据表映射做替换就好了，结果还是太认真的去分析表之间的关系，慢慢来吧&amp;hellip; 对于CirroData，还是要看资料的，送她了一个联想小新的Air笔记本，希望她能改变之前的状态，教子之余学习起来，能量满满&amp;hellip;
+ ZTC有了新的要求，估计又快要有新任务了，很期待，因为又有新的知识可以学了，又很懵懂，因为新的要求自己想象不到怎么实现，智商限制了我的想象？呵呵呵吧&amp;hellip;
+ Fighting&amp;hellip;</description>
+    </item>
     
     <item>
       <title>忙碌的一天</title>
