@@ -4,20 +4,23 @@
         <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="author" content="map[name:LeiShengxiao]">
-<meta name="description" content="7月31日至8月3日，原本已经调试好的设备和程序，到了现场，结果又相当于重新调试了一遍，暴露了测试和个人的不少问题，值得反思。
+<meta name="author"
+    content="map[name:LeiShengxiao]">
+<meta name="description"
+    content="7月31日至8月3日，原本已经调试好的设备和程序，到了现场，结果又相当于重新调试了一遍，暴露了测试和个人的不少问题，值得反思。
 一 、暴露的问题 1. 程序发布 上位机增加了读取PLC的SLMP解析，但是PLC程序未发布，导致主界面的坐标值无法刷新2. 谨慎性 在踩点时，竟然遗忘了踩点的坐标是脉冲，导致Y轴撞破了吸波材料的木板3. 代码质量 1） 手工界面的门、灯、散热扇、排气扇的开关，写的不正确，导致打开界面时散热扇自动打开2） 主界面的操作结果，因为没有加默认值0的字典映射，PLC将结果状态置为0时，上位机竟然还在显示前一条的错误信息4. 专业性 在调试过程中，将“平移台”说成了“周转车”，严重缺乏专业性，丢人5. 严肃性 在更改监控摄像头登录密码时，竟然忘了自己设置的是什么，而且不断的错误登录，导致监控登录锁死了半小时二、个人反思 1. 测试方面 1） 所有的程序更改之后，一定要上级调试，哪怕是再有把握的修改也要如此2） 所有的测试，要增加异常的测试，不能只是测大面的正常流程3） 测试要经过压力测试，多次重复测试，直到连续测试没有任何问题为止2. 个人能力 1） 加强对业务的理解和专业性2） 加强代码的健壮性和测试多样性三、改进措施 1. 入木三分，加强对现有业务文档的理解2. 日积月累，加强对机械和控制方面的学习3. 随时记录，养成所有修改记录的好习惯" />
-<meta name="keywords" content=", Work, OTA" />
+<meta name="keywords"
+    content=", Work, OTA" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
 <link rel="canonical" href="https://leishengxiao.github.io/posts/20200731/" />
 
 
-    <title>
-        
-            第一次现场调试 :: LeiShengxiao&#39;s Blog  — supper noob
-        
-    </title>
+<title>
+    
+    第一次现场调试 :: LeiShengxiao&#39;s Blog  — supper noob
+    
+</title>
 
 
 
@@ -54,7 +57,7 @@
 
 
 
-    <meta property="og:title" content="第一次现场调试" />
+<meta property="og:title" content="第一次现场调试" />
 <meta property="og:description" content="7月31日至8月3日，原本已经调试好的设备和程序，到了现场，结果又相当于重新调试了一遍，暴露了测试和个人的不少问题，值得反思。
 一 、暴露的问题 1. 程序发布 上位机增加了读取PLC的SLMP解析，但是PLC程序未发布，导致主界面的坐标值无法刷新2. 谨慎性 在踩点时，竟然遗忘了踩点的坐标是脉冲，导致Y轴撞破了吸波材料的木板3. 代码质量 1） 手工界面的门、灯、散热扇、排气扇的开关，写的不正确，导致打开界面时散热扇自动打开2） 主界面的操作结果，因为没有加默认值0的字典映射，PLC将结果状态置为0时，上位机竟然还在显示前一条的错误信息4. 专业性 在调试过程中，将“平移台”说成了“周转车”，严重缺乏专业性，丢人5. 严肃性 在更改监控摄像头登录密码时，竟然忘了自己设置的是什么，而且不断的错误登录，导致监控登录锁死了半小时二、个人反思 1. 测试方面 1） 所有的程序更改之后，一定要上级调试，哪怕是再有把握的修改也要如此2） 所有的测试，要增加异常的测试，不能只是测大面的正常流程3） 测试要经过压力测试，多次重复测试，直到连续测试没有任何问题为止2. 个人能力 1） 加强对业务的理解和专业性2） 加强代码的健壮性和测试多样性三、改进措施 1. 入木三分，加强对现有业务文档的理解2. 日积月累，加强对机械和控制方面的学习3. 随时记录，养成所有修改记录的好习惯" />
 <meta property="og:type" content="article" />
@@ -67,19 +70,29 @@
 
 
 
-    <meta property="article:section" content="Work" />
+<meta property="article:section" content="Work" />
 
 
 
-    <meta property="article:published_time" content="2020-07-31 00:00:00 &#43;0000 UTC" />
-
-
-
-
+<meta property="article:published_time" content="2020-07-31 00:00:00 &#43;0000 UTC" />
 
 
 
 
+
+
+
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6bc62acc05941583aeae8f35d4038b42";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
     </head>
 
     <body class="dark-theme">

@@ -4,19 +4,22 @@
         <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="author" content="map[name:LeiShengxiao]">
-<meta name="description" content="声明BackgroundWorker变量  private BackgroundWorker backgroundWorker = new BackgroundWorker();  建立InitializeBackgroundWorker线程初始化方法  private void InitializeBackgroundWorker() { backgroundWorker.WorkerReportsProgress = true; backgroundWorker.WorkerSupportsCancellation = true; backgroundWorker.DoWork &#43;= new DoWorkEventHandler(backgroundWorker_DoWork); backgroundWorker.ProgressChanged &#43;= new ProgressChangedEventHandler(backgroundWorker_ProcessChanged); backgroundWorker.RunWorkerCompleted &#43;= new RunWorkerCompletedEventHandler(backgroundWorker_WorkerCompleted); }  在构造函数FormScan中调用初始化方法  public FormScan() { InitializeComponent(); InitializeBackgroundWorker(); }  建立backgroundWorker_DoWork执行方法  private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e) { try { int intTimes = Convert.ToInt16(ceTestTimes.Value); int intPositions = axPoints.Length; int intTotalTimes = intTimes * intPositions; int intDid = 0; for (int i = 0; i &amp;lt; intTimes; i&#43;&#43;) { for (int j = 0; j &amp;lt; intPositions; j&#43;&#43;) { if (backgroundWorker." />
-<meta name="keywords" content=", Study, CSharp" />
+<meta name="author"
+    content="map[name:LeiShengxiao]">
+<meta name="description"
+    content="声明BackgroundWorker变量  private BackgroundWorker backgroundWorker = new BackgroundWorker();  建立InitializeBackgroundWorker线程初始化方法  private void InitializeBackgroundWorker() { backgroundWorker.WorkerReportsProgress = true; backgroundWorker.WorkerSupportsCancellation = true; backgroundWorker.DoWork &#43;= new DoWorkEventHandler(backgroundWorker_DoWork); backgroundWorker.ProgressChanged &#43;= new ProgressChangedEventHandler(backgroundWorker_ProcessChanged); backgroundWorker.RunWorkerCompleted &#43;= new RunWorkerCompletedEventHandler(backgroundWorker_WorkerCompleted); }  在构造函数FormScan中调用初始化方法  public FormScan() { InitializeComponent(); InitializeBackgroundWorker(); }  建立backgroundWorker_DoWork执行方法  private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e) { try { int intTimes = Convert.ToInt16(ceTestTimes.Value); int intPositions = axPoints.Length; int intTotalTimes = intTimes * intPositions; int intDid = 0; for (int i = 0; i &amp;lt; intTimes; i&#43;&#43;) { for (int j = 0; j &amp;lt; intPositions; j&#43;&#43;) { if (backgroundWorker." />
+<meta name="keywords"
+    content=", Study, CSharp" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
 <link rel="canonical" href="https://leishengxiao.github.io/posts/20200810-backgroundworker/" />
 
 
-    <title>
-        
-            BackgroundWorker :: LeiShengxiao&#39;s Blog  — supper noob
-        
-    </title>
+<title>
+    
+    BackgroundWorker :: LeiShengxiao&#39;s Blog  — supper noob
+    
+</title>
 
 
 
@@ -51,7 +54,7 @@
 
 
 
-    <meta property="og:title" content="BackgroundWorker" />
+<meta property="og:title" content="BackgroundWorker" />
 <meta property="og:description" content="声明BackgroundWorker变量  private BackgroundWorker backgroundWorker = new BackgroundWorker();  建立InitializeBackgroundWorker线程初始化方法  private void InitializeBackgroundWorker() { backgroundWorker.WorkerReportsProgress = true; backgroundWorker.WorkerSupportsCancellation = true; backgroundWorker.DoWork &#43;= new DoWorkEventHandler(backgroundWorker_DoWork); backgroundWorker.ProgressChanged &#43;= new ProgressChangedEventHandler(backgroundWorker_ProcessChanged); backgroundWorker.RunWorkerCompleted &#43;= new RunWorkerCompletedEventHandler(backgroundWorker_WorkerCompleted); }  在构造函数FormScan中调用初始化方法  public FormScan() { InitializeComponent(); InitializeBackgroundWorker(); }  建立backgroundWorker_DoWork执行方法  private void backgroundWorker_DoWork(object sender, DoWorkEventArgs e) { try { int intTimes = Convert.ToInt16(ceTestTimes.Value); int intPositions = axPoints.Length; int intTotalTimes = intTimes * intPositions; int intDid = 0; for (int i = 0; i &lt; intTimes; i&#43;&#43;) { for (int j = 0; j &lt; intPositions; j&#43;&#43;) { if (backgroundWorker." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://leishengxiao.github.io/posts/20200810-backgroundworker/" />
@@ -63,19 +66,29 @@
 
 
 
-    <meta property="article:section" content="CSharp" />
+<meta property="article:section" content="CSharp" />
 
 
 
-    <meta property="article:published_time" content="2020-08-10 00:00:00 &#43;0000 UTC" />
-
-
-
-
+<meta property="article:published_time" content="2020-08-10 00:00:00 &#43;0000 UTC" />
 
 
 
 
+
+
+
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6bc62acc05941583aeae8f35d4038b42";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
     </head>
 
     <body class="dark-theme">
