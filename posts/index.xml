@@ -6,8 +6,50 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>收获满满的一天</title>
+            <link>https://leishengxiao.github.io/posts/20200815/</link>
+            <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20200815/</guid>
+            <description>虽然没有回家，但收获颇丰，概括讲以下几点吧：
+ 工作方面：   AMS的SolutionTreeView的New、Open、Save、Save as都完成了，明天计划做完邮件菜单的相关部分 上午参加了EDA的交流，虽然似懂非懂，但大体知道了要做的事情、难度和周期了，因为小众，所以有前途，我喜欢   学习方面：   通过AMS的开发，在以下几个方面更加深入了： XML作为DataTable的读写方法；单例模式的写法和用途；UserControl的用法和事件委托方法；弹出窗体的定位；窗体的重加载；文件的读取、保存&amp;hellip; 心里长草了两天，今天入手了Three.js开发指南，话费了70+大洋，血疼但又很期待，期待能有所收获，哪怕是能学到点皮毛呢   生活方面：   中午Mr.Zhao请吃的外卖，吃了两个鸡腿堡一瓶可乐，好饱&amp;hellip; 我那碎碎念的可爱的白色富光保温瓶今天就到了，晚上洗干净就用上了，喝了满满两大瓶，至少得4L，不会水中毒吧？ 把积攒的衣服、床单、枕巾、毛巾、浴巾通通洗了个干净，清清爽爽，哇咔咔&amp;hellip;   晚上和宝贝女儿视频，竟然不怎么理我，好失落&amp;hellip;亲爱的宝贝儿，你是像爸爸了吧，一定是，对于多愁善感、沉默寡言、所有事情放到心里的一个小人儿来说，肯定是这样，爸爸原谅你了，嘿嘿&amp;hellip;
+ 视频见到了我的她，从穿着、言谈、心态上来看，都比离职前阳光了不少，很欣慰她能离开那个鬼地方，挣钱？多少是多呢？虽然很穷，但钱比心情重要吗？恭喜你了，我的爱人！ 我也会好好努力，度过这段空窗期、积累期，更加期待明天的爆发期！</description>
+            <content type="html"><![CDATA[<hr>
+<p>虽然没有回家，但收获颇丰，概括讲以下几点吧：</p>
+<ul>
+<li>工作方面：</li>
+</ul>
+<ol>
+<li>AMS的SolutionTreeView的New、Open、Save、Save as都完成了，明天计划做完邮件菜单的相关部分</li>
+<li>上午参加了EDA的交流，虽然似懂非懂，但大体知道了要做的事情、难度和周期了，因为小众，所以有前途，我喜欢</li>
+</ol>
+<ul>
+<li>学习方面：</li>
+</ul>
+<ol>
+<li>通过AMS的开发，在以下几个方面更加深入了：
+XML作为DataTable的读写方法；单例模式的写法和用途；UserControl的用法和事件委托方法；弹出窗体的定位；窗体的重加载；文件的读取、保存&hellip;</li>
+<li>心里长草了两天，今天入手了Three.js开发指南，话费了70+大洋，血疼但又很期待，期待能有所收获，哪怕是能学到点皮毛呢</li>
+</ol>
+<ul>
+<li>生活方面：</li>
+</ul>
+<ol>
+<li>中午Mr.Zhao请吃的外卖，吃了两个鸡腿堡一瓶可乐，好饱&hellip;</li>
+<li>我那碎碎念的可爱的白色富光保温瓶今天就到了，晚上洗干净就用上了，喝了满满两大瓶，至少得4L，不会水中毒吧？</li>
+<li>把积攒的衣服、床单、枕巾、毛巾、浴巾通通洗了个干净，清清爽爽，哇咔咔&hellip;</li>
+</ol>
+<hr>
+<p>晚上和宝贝女儿视频，竟然不怎么理我，好失落&hellip;亲爱的宝贝儿，你是像爸爸了吧，一定是，对于多愁善感、沉默寡言、所有事情放到心里的一个小人儿来说，肯定是这样，爸爸原谅你了，嘿嘿&hellip;</p>
+<hr>
+<p>视频见到了我的她，从穿着、言谈、心态上来看，都比离职前阳光了不少，很欣慰她能离开那个鬼地方，挣钱？多少是多呢？虽然很穷，但钱比心情重要吗？恭喜你了，我的爱人！
+我也会好好努力，度过这段空窗期、积累期，更加期待明天的爆发期！</p>
+]]></content>
+        </item>
         
         <item>
             <title>没回家的一天</title>
@@ -533,10 +575,10 @@
         
         <item>
             <title>第一篇博客</title>
-            <link>https://leishengxiao.github.io/posts/my_first_blog/</link>
+            <link>https://leishengxiao.github.io/posts/20200805-1/</link>
             <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
             
-            <guid>https://leishengxiao.github.io/posts/my_first_blog/</guid>
+            <guid>https://leishengxiao.github.io/posts/20200805-1/</guid>
             <description>折腾了半天，终于搞起来了，挺好的，以后就入驻这里了。 希望能经常更新吧，至少已经在种树了&amp;hellip;</description>
             <content type="html"><![CDATA[<p>折腾了半天，终于搞起来了，挺好的，以后就入驻这里了。
 希望能经常更新吧，至少已经在种树了&hellip;</p>
