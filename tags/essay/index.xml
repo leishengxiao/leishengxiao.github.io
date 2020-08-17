@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>写High的一天</title>
+      <link>https://leishengxiao.github.io/posts/20200817/</link>
+      <pubDate>Mon, 17 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200817/</guid>
+      <description>不得不说，计划是多么的重要！为什么这么有感而发呢？如下： 早晨，用OneNote中的任务项，简单记录了下想到的并且要做的任务项，虽然不全，但至少一两天是做不完的，即便如此，还是超额完成了。今天一天的进展，能赶得上原来两天的进度。也可能是因为对控件的各种用法都习惯了、本地都有例子了，但至少进度是上来了。所以才会感慨，做计划是多么的重要！
+ 由继续用OneNote写了写接下来，或者说明天要做的任务，希望都能如期高效的完成。照此下去，这周基本能做个八九不离十了，吼吼吼&amp;hellip;
+ 和做项目的几个小年轻聊了会，竟然有三个学通信的，而且大家对专业的理解和认识也都是那么惊人的相同，通信专业就是：硬又硬不起来，软又软的不伦不类，高分低能的垃圾专业，哈哈&amp;hellip;
+ 他们大多都是毕业之后自学的计算机，可以看出，年轻就是好，至少学习能力强，但年纪大的也有自身的优势，比如说见多识广，至少能知道要做的事情预期是个什么样子的。
+ 写着写着又快八点半了，今天我的书到了，等Mr.Kong走了之后，我就飞奔回去，一睹新书的风采。
+ 给我那宝贝女儿打电话，老是爱答不理的，看来不回家的坏处还是很大的，两周不见，都有隔阂了，唉，原谅爸爸吧，爸爸也是给你和妈妈一个更好的生活，所以在不断的努力，么么哒&amp;hellip;</description>
+    </item>
     
     <item>
       <title>天热蹭空调</title>
@@ -18,10 +32,12 @@
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://leishengxiao.github.io/posts/20200816-1/</guid>
-      <description>是在是太热了，下午去了办公室蹭空调，刚收拾利索，Mr.Kong一行人也到了，他们也是上午睡了个懒觉，下午来干活，这一干就是到了晚上八点半，阔以阔以&amp;hellip;
+      <description>实在是太热了，下午去了办公室蹭空调，刚收拾利索，Mr.Kong一行人也到了，他们也是上午睡了个懒觉，下午来干活，这一干就是到了晚上八点半，阔以阔以&amp;hellip;
  到了下午五点多钟，饿了一天的我实在是撑不住了，强撑着迈着缓慢的步伐，走到了莒县全羊汤馆，一口气干掉了一大碗全羊汤和三张油饼，美！
- 今天AMS主要做的工作是把Message设计了一下，目前基本功能是可以了，明天还得继续加一些图标、字体颜色以及筛选工具栏按钮 收获如下：
- 软件系统公共的部分还是要早设计，比如今天上午的SolutionConfig和下午的OutputMessage，如果不早设计，可能会牵一发而动全身。就像现在，所有的OutputMessage设计完之后，所有XtraMessageBox的方法都要公共出来，这些事情要明天完成了 数据库的Sql拼接，好恶心，这块东西后续如果有时间，要全部封装出来，不然代码量太大了   下午我的她领着宝贝女儿去吃了个必胜客，她们两个宝贝开心就好 昨晚突然发现Mr.Cao半夜在办公室加班，在忙什么呢？唉，好奇害死猫，罢了罢了&amp;hellip;
+ 今天AMS主要做的工作是把Message设计了一下，目前基本功能是可以了，明天还得继续加一些图标、字体颜色以及筛选工具栏按钮
+收获如下：
+ 软件系统公共的部分还是要早设计，比如今天上午的SolutionConfig和下午的OutputMessage，如果不早设计，可能会牵一发而动全身。就像现在，所有的OutputMessage设计完之后，所有XtraMessageBox的方法都要公共出来，这些事情要明天完成了 数据库的Sql拼接，好恶心，这块东西后续如果有时间，要全部封装出来，不然代码量太大了   下午我的她领着宝贝女儿去吃了个必胜客，她们两个宝贝开心就好
+昨晚突然发现Mr.Cao半夜在办公室加班，在忙什么呢？唉，好奇害死猫，罢了罢了&amp;hellip;
 开始洗刷睡觉咯&amp;hellip;</description>
     </item>
     
