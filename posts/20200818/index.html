@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="map[name:LeiShengxiao]">
+<meta name="description"
+    content="今天将AMS的树、右键按钮UI及可用性判断都搞定了，不过还剩下的就是三个关于Project的右键按钮方法。
+全天的代码敲下来，手背是真的酸啊，是写的代码不够简洁？还是C#本来就这么啰嗦？不管了，先完成功能，再逐步封装优化，罗马帝国不是一天盖成的，眼里都是问题就永远不会进步。
+明天计划将上面三个方法完成后，确定Measure的主逻辑。弄了三周了，终于要登堂入室了，不过对于怎么Measure，目前还是一点思路没有，但是，基本没有UI的东西了，主要是一个后台算法和数据保存的，没什么技术上的难度了，都是业务逻辑方面的东西。
+ 今天和Mr.Kong的两个小朋友聊了会，他们用的Three.js，看来我的书是买对了，这方面的知识还是要多看、多向Mr.Kong学习。
+下午聊天的时候，Mr.Kong对物理确实有着一定的物性，电磁场的书看过之后，还是有两把刷子的，就是人太过于霸气侧漏了点，尤其是指导下面小朋友的时候，那种凌驾于别人之上、天下舍他其谁的感觉，让人非常讨厌。
+ 今天还有一点非常大的感触，每个人的知识领域，都不是一个点上的东西，都很全面。为什么这么说呢？下午Mr.Zhao来的时候，说到了云资源、云计算、3D，Mr.Du更是技术十分全面的人。我很欣慰，能够在这些牛人的身边做事情，或许若干月、若干年之后，我也会成为他们中的一员
+ 宝贵女儿总是对我爱理不理的，为了博得她的&amp;quot;宠幸&amp;rdquo;，昨晚特意挑了一只她喜欢的粉色小猫咪的抖音网红笔袋，希望她能喜欢
+爸爸知道，本来就不招你喜欢，现在又长时间不见你，你的感情肯定会越来越淡，希望能通过一些小礼物，表达我对你的爱，永远不变&amp;hellip;
+ 我的她今天问了我一个问题，虽然我也没接触过，但猜了个差不多，感觉她还是对DB的一些东西不太敏感，规劝了她晚上时间多学习、多积累
+ 从蓝胖子到了之后，每天的晚餐基本就靠他了，挺好的，身体健康了许多，多吃无益，并从口入，哈哈&amp;hellip;
+写着写着又快十一点了，去洗刷咯，哇咔咔" />
+<meta name="keywords"
+    content=", Essay" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20200818/" />
+
+
+<title>
+    
+    撸到手酸 :: LeiShengxiao&#39;s Blog  — supper noob
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.154a87e0ff720e102948892a8eb80881aa81a4faf37376f3093be219f6296c3d.css">
+
+
+
+
+
+
+<meta itemprop="name" content="撸到手酸">
+<meta itemprop="description" content="今天将AMS的树、右键按钮UI及可用性判断都搞定了，不过还剩下的就是三个关于Project的右键按钮方法。
+全天的代码敲下来，手背是真的酸啊，是写的代码不够简洁？还是C#本来就这么啰嗦？不管了，先完成功能，再逐步封装优化，罗马帝国不是一天盖成的，眼里都是问题就永远不会进步。
+明天计划将上面三个方法完成后，确定Measure的主逻辑。弄了三周了，终于要登堂入室了，不过对于怎么Measure，目前还是一点思路没有，但是，基本没有UI的东西了，主要是一个后台算法和数据保存的，没什么技术上的难度了，都是业务逻辑方面的东西。
+ 今天和Mr.Kong的两个小朋友聊了会，他们用的Three.js，看来我的书是买对了，这方面的知识还是要多看、多向Mr.Kong学习。
+下午聊天的时候，Mr.Kong对物理确实有着一定的物性，电磁场的书看过之后，还是有两把刷子的，就是人太过于霸气侧漏了点，尤其是指导下面小朋友的时候，那种凌驾于别人之上、天下舍他其谁的感觉，让人非常讨厌。
+ 今天还有一点非常大的感触，每个人的知识领域，都不是一个点上的东西，都很全面。为什么这么说呢？下午Mr.Zhao来的时候，说到了云资源、云计算、3D，Mr.Du更是技术十分全面的人。我很欣慰，能够在这些牛人的身边做事情，或许若干月、若干年之后，我也会成为他们中的一员
+ 宝贵女儿总是对我爱理不理的，为了博得她的&quot;宠幸&rdquo;，昨晚特意挑了一只她喜欢的粉色小猫咪的抖音网红笔袋，希望她能喜欢
+爸爸知道，本来就不招你喜欢，现在又长时间不见你，你的感情肯定会越来越淡，希望能通过一些小礼物，表达我对你的爱，永远不变&hellip;
+ 我的她今天问了我一个问题，虽然我也没接触过，但猜了个差不多，感觉她还是对DB的一些东西不太敏感，规劝了她晚上时间多学习、多积累
+ 从蓝胖子到了之后，每天的晚餐基本就靠他了，挺好的，身体健康了许多，多吃无益，并从口入，哈哈&hellip;
+写着写着又快十一点了，去洗刷咯，哇咔咔">
+<meta itemprop="datePublished" content="2020-08-18T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-08-18T00:00:00+00:00" />
+<meta itemprop="wordCount" content="11">
+<meta itemprop="image" content="https://leishengxiao.github.io/"/>
+
+
+
+<meta itemprop="keywords" content="Essay," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://leishengxiao.github.io/"/>
+
+<meta name="twitter:title" content="撸到手酸"/>
+<meta name="twitter:description" content="今天将AMS的树、右键按钮UI及可用性判断都搞定了，不过还剩下的就是三个关于Project的右键按钮方法。
+全天的代码敲下来，手背是真的酸啊，是写的代码不够简洁？还是C#本来就这么啰嗦？不管了，先完成功能，再逐步封装优化，罗马帝国不是一天盖成的，眼里都是问题就永远不会进步。
+明天计划将上面三个方法完成后，确定Measure的主逻辑。弄了三周了，终于要登堂入室了，不过对于怎么Measure，目前还是一点思路没有，但是，基本没有UI的东西了，主要是一个后台算法和数据保存的，没什么技术上的难度了，都是业务逻辑方面的东西。
+ 今天和Mr.Kong的两个小朋友聊了会，他们用的Three.js，看来我的书是买对了，这方面的知识还是要多看、多向Mr.Kong学习。
+下午聊天的时候，Mr.Kong对物理确实有着一定的物性，电磁场的书看过之后，还是有两把刷子的，就是人太过于霸气侧漏了点，尤其是指导下面小朋友的时候，那种凌驾于别人之上、天下舍他其谁的感觉，让人非常讨厌。
+ 今天还有一点非常大的感触，每个人的知识领域，都不是一个点上的东西，都很全面。为什么这么说呢？下午Mr.Zhao来的时候，说到了云资源、云计算、3D，Mr.Du更是技术十分全面的人。我很欣慰，能够在这些牛人的身边做事情，或许若干月、若干年之后，我也会成为他们中的一员
+ 宝贵女儿总是对我爱理不理的，为了博得她的&quot;宠幸&rdquo;，昨晚特意挑了一只她喜欢的粉色小猫咪的抖音网红笔袋，希望她能喜欢
+爸爸知道，本来就不招你喜欢，现在又长时间不见你，你的感情肯定会越来越淡，希望能通过一些小礼物，表达我对你的爱，永远不变&hellip;
+ 我的她今天问了我一个问题，虽然我也没接触过，但猜了个差不多，感觉她还是对DB的一些东西不太敏感，规劝了她晚上时间多学习、多积累
+ 从蓝胖子到了之后，每天的晚餐基本就靠他了，挺好的，身体健康了许多，多吃无益，并从口入，哈哈&hellip;
+写着写着又快十一点了，去洗刷咯，哇咔咔"/>
+
+
+
+<meta property="og:title" content="撸到手酸" />
+<meta property="og:description" content="今天将AMS的树、右键按钮UI及可用性判断都搞定了，不过还剩下的就是三个关于Project的右键按钮方法。
+全天的代码敲下来，手背是真的酸啊，是写的代码不够简洁？还是C#本来就这么啰嗦？不管了，先完成功能，再逐步封装优化，罗马帝国不是一天盖成的，眼里都是问题就永远不会进步。
+明天计划将上面三个方法完成后，确定Measure的主逻辑。弄了三周了，终于要登堂入室了，不过对于怎么Measure，目前还是一点思路没有，但是，基本没有UI的东西了，主要是一个后台算法和数据保存的，没什么技术上的难度了，都是业务逻辑方面的东西。
+ 今天和Mr.Kong的两个小朋友聊了会，他们用的Three.js，看来我的书是买对了，这方面的知识还是要多看、多向Mr.Kong学习。
+下午聊天的时候，Mr.Kong对物理确实有着一定的物性，电磁场的书看过之后，还是有两把刷子的，就是人太过于霸气侧漏了点，尤其是指导下面小朋友的时候，那种凌驾于别人之上、天下舍他其谁的感觉，让人非常讨厌。
+ 今天还有一点非常大的感触，每个人的知识领域，都不是一个点上的东西，都很全面。为什么这么说呢？下午Mr.Zhao来的时候，说到了云资源、云计算、3D，Mr.Du更是技术十分全面的人。我很欣慰，能够在这些牛人的身边做事情，或许若干月、若干年之后，我也会成为他们中的一员
+ 宝贵女儿总是对我爱理不理的，为了博得她的&quot;宠幸&rdquo;，昨晚特意挑了一只她喜欢的粉色小猫咪的抖音网红笔袋，希望她能喜欢
+爸爸知道，本来就不招你喜欢，现在又长时间不见你，你的感情肯定会越来越淡，希望能通过一些小礼物，表达我对你的爱，永远不变&hellip;
+ 我的她今天问了我一个问题，虽然我也没接触过，但猜了个差不多，感觉她还是对DB的一些东西不太敏感，规劝了她晚上时间多学习、多积累
+ 从蓝胖子到了之后，每天的晚餐基本就靠他了，挺好的，身体健康了许多，多吃无益，并从口入，哈哈&hellip;
+写着写着又快十一点了，去洗刷咯，哇咔咔" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20200818/" />
+<meta property="og:image" content="https://leishengxiao.github.io/"/>
+<meta property="article:published_time" content="2020-08-18T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-18T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+
+
+
+
+
+<meta property="article:section" content="Essay" />
+
+
+
+<meta property="article:published_time" content="2020-08-18 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6bc62acc05941583aeae8f35d4038b42";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://leishengxiao.github.io/about">About</a></li><li><a href="https://leishengxiao.github.io/posts">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        One minute
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://leishengxiao.github.io/posts/20200818/">撸到手酸</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <hr>
+<p>今天将AMS的树、右键按钮UI及可用性判断都搞定了，不过还剩下的就是三个关于Project的右键按钮方法。</p>
+<p>全天的代码敲下来，手背是真的酸啊，是写的代码不够简洁？还是C#本来就这么啰嗦？不管了，先完成功能，再逐步封装优化，罗马帝国不是一天盖成的，眼里都是问题就永远不会进步。</p>
+<p>明天计划将上面三个方法完成后，确定Measure的主逻辑。弄了三周了，终于要登堂入室了，不过对于怎么Measure，目前还是一点思路没有，但是，基本没有UI的东西了，主要是一个后台算法和数据保存的，没什么技术上的难度了，都是业务逻辑方面的东西。</p>
+<hr>
+<p>今天和Mr.Kong的两个小朋友聊了会，他们用的Three.js，看来我的书是买对了，这方面的知识还是要多看、多向Mr.Kong学习。</p>
+<p>下午聊天的时候，Mr.Kong对物理确实有着一定的物性，电磁场的书看过之后，还是有两把刷子的，就是人太过于霸气侧漏了点，尤其是指导下面小朋友的时候，那种凌驾于别人之上、天下舍他其谁的感觉，让人非常讨厌。</p>
+<hr>
+<p>今天还有一点非常大的感触，每个人的知识领域，都不是一个点上的东西，都很全面。为什么这么说呢？下午Mr.Zhao来的时候，说到了云资源、云计算、3D，Mr.Du更是技术十分全面的人。我很欣慰，能够在这些牛人的身边做事情，或许若干月、若干年之后，我也会成为他们中的一员</p>
+<hr>
+<p>宝贵女儿总是对我爱理不理的，为了博得她的&quot;宠幸&rdquo;，昨晚特意挑了一只她喜欢的粉色小猫咪的抖音网红笔袋，希望她能喜欢</p>
+<p>爸爸知道，本来就不招你喜欢，现在又长时间不见你，你的感情肯定会越来越淡，希望能通过一些小礼物，表达我对你的爱，永远不变&hellip;</p>
+<hr>
+<p>我的她今天问了我一个问题，虽然我也没接触过，但猜了个差不多，感觉她还是对DB的一些东西不太敏感，规劝了她晚上时间多学习、多积累</p>
+<hr>
+<p>从蓝胖子到了之后，每天的晚餐基本就靠他了，挺好的，身体健康了许多，多吃无益，并从口入，哈哈&hellip;</p>
+<p>写着写着又快十一点了，去洗刷咯，哇咔咔</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon">
+            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+            <line x1="7" y1="7" x2="7" y2="7"></line>
+          </svg><span class="tag"><a href="https://leishengxiao.github.io/tags/essay/">Essay</a></span>
+        </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        11 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        2020-08-18 08:00 &#43;0800
+      </p>
+    </div>
+
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+
+        <div class="pagination__buttons">
+          
+
+          
+            <span class="button next">
+              <a href="https://leishengxiao.github.io/posts/20200817/">
+                <span class="button__text">写High的一天</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            
+            <span> All rights reserved.</span>
+            
+            <span> <a
+                    href="https://leishengxiao.github.io/posts/index.xml" target="_blank" title="rss"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-rss">
+                        <path d="M4 11a9 9 0 0 1 9 9"></path>
+                        <path d="M4 4a16 16 0 0 1 16 16"></path>
+                        <circle cx="5" cy="19" r="1"></circle>
+                    </svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            
+            
+        </div>
+    </div>
+</footer>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
+</html>
