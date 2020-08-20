@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>手酸背疼心里High</title>
+      <link>https://leishengxiao.github.io/posts/20200820/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200820/</guid>
+      <description>按照自己制定的计划，本来今天要完成Add New Project和Add Exist Project的画面开发，结果只完成了Add New这一个。主要原因还是有亮点：
+ 本来计划是利用之前做的UI，不用重做，结果心血来潮，想做成Wizard模式的，稍微有点浪费时间，不过成功了，很爽，哈哈 在开发的过程中，对于ComboBoxEdit的获取值，没记住写法，用了一种比较笨的方法，结果测试下来有问题不说，中间还浪费了大量时间，这是后续要改进的。要有总体的思路，然后再动手，不能盲目的上来就撸代码，切记，切记&amp;hellip;   总体来讲，界面还是做的不错的，个人很满意，写的也很爽，就是手酸的要命。
+Meta公司的一个小姐姐和一个小哥哥看了我写的代码，小哥哥问遇到问题怎么办，我说查啊，又没法问别人；小姐姐滚动着看了下，说代码量挺大的，快转JS吧
+话说我会写JS好吧？太小瞧人了，等我做完AMS，Show给你们看，哼哼&amp;hellip;
+在我写C#的时候，小姐姐说我是写C#的大佬，心里窃喜，嘿嘿&amp;hellip;
+ 和小哥哥小姐姐聊了会他们Stove的APP开发，本以为是用Java做的Android和Object-C做的ios，结果他们是用的ReactNative，类似原生，也能兼容原生，挺有新意的
+看来确定技术路线是很重要的，如果用纯原生的方式，浪费时间不说，估计得赔的裤子都掉了；而用ReactNative的方式呢，既能发挥他们JS的技术优势，同时还能节省开发时间和成本
+佩服他们的CTO，据说是从Baosight出来的Mr.Ye
+世界很大，还是要多看、多听、多学，等你真的看透了，你就超俗成神了
+ 给宝贝女儿打了几次电话，感觉今天挺听话的，有进步，值得我送给她礼物
+ 明天就能回家了，就能见到我的大小宝贝了，顺便从家带点东西，Mark如下：
+ 茶叶 碗+勺子 卫生纸 键盘   10点40多了，吃饭洗刷睡觉，明天班师还朝，共享天伦之乐！</description>
+    </item>
     
     <item>
       <title>世界很小</title>
@@ -18,7 +38,7 @@
       <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://leishengxiao.github.io/posts/20200819/</guid>
-      <description>其实做完看简书就大概了解到了Mr.Kong之前在Ouyeel，今天一句话引出来确实如此，之前Ouyeel的电商架构是他搭起来的，但是我感觉是用Python做的就有点不敢相信了，怎么说也应该是Java的吧，不纠结了，他和顾以及小夏都很熟，看来真的是逃不出六人定律
+      <description>其实昨晚看简书就大概了解到了Mr.Kong之前在Ouyeel，今天一句话引出来确实如此，之前Ouyeel的电商架构是他搭起来的，但是我感觉是用Python做的就有点不敢相信了，怎么说也应该是Java的吧，不纠结了，他和顾以及小夏都很熟，看来真的是逃不出六人定律
  让Mr.Kong看了下写的AMS代码，他也感觉代码量很大，也提出了一个Event的思路，我看了下，有所启发，但感觉也要辩证的看问题，不能滥用也不能不用，目前我是想不到通过什么有效的方法能够减少代码量，慢慢摸索吧，夜路走多了，总会明朗起来，不是吗？
 通过晚上Mr.Du对系统的检查，也证实了我的想法，用DB去做真的很麻烦。之前他们用静态类去实现XML，我现在套用了一个之前的XML转DataTable的方式去做，我觉得很棒、很香，哈哈&amp;hellip;
  Mr.Kong也介绍了一个Electron的框架，是用JS、HTML和CSS构建跨平台桌面系统的一套框架，有空了找个小功能练练手
