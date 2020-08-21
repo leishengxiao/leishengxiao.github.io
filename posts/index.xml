@@ -6,8 +6,38 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 21 Aug 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>有点失落</title>
+            <link>https://leishengxiao.github.io/posts/20200821/</link>
+            <pubDate>Fri, 21 Aug 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20200821/</guid>
+            <description>上午和Mr.Kong聊天，说我要用Event的方式减少代码量，不然还是搬砖的而且累死。随便说话不好听、心里不喜欢，但还是要好好思考下。下周晚上的时候，要好好reView下之前的代码
+ 今天开始，又多了一项准备验厂资料的工作，估计下周要在这项事情中度过了吧
+下午去Darong聊了下资料准备的情况，我讲了一些自己的观点，他们说还是很专业的，本来就是专业的好吧，哈哈&amp;hellip;
+ 本来想不回家好好把代码改造下，但是一方面家里人想念，一方面我也想我大小宝贝了，冒雨回来了
+吃了三个大包子，真香，谢谢老妈&amp;hellip;
+ 把礼物给了宝贝女儿，她很喜欢，迫不及待的就用上了，我好开心
+体验了下她的小新，挺流畅的，好想换换用，被闺女识破了我的&amp;quot;奸计&amp;rdquo;，作罢了
+ 宁静的夜，不平静的心，迫切的要提升，干就完了！</description>
+            <content type="html"><![CDATA[<hr>
+<p>上午和Mr.Kong聊天，说我要用Event的方式减少代码量，不然还是搬砖的而且累死。随便说话不好听、心里不喜欢，但还是要好好思考下。下周晚上的时候，要好好reView下之前的代码</p>
+<hr>
+<p>今天开始，又多了一项准备验厂资料的工作，估计下周要在这项事情中度过了吧</p>
+<p>下午去Darong聊了下资料准备的情况，我讲了一些自己的观点，他们说还是很专业的，本来就是专业的好吧，哈哈&hellip;</p>
+<hr>
+<p>本来想不回家好好把代码改造下，但是一方面家里人想念，一方面我也想我大小宝贝了，冒雨回来了</p>
+<p>吃了三个大包子，真香，谢谢老妈&hellip;</p>
+<hr>
+<p>把礼物给了宝贝女儿，她很喜欢，迫不及待的就用上了，我好开心</p>
+<p>体验了下她的小新，挺流畅的，好想换换用，被闺女识破了我的&quot;奸计&rdquo;，作罢了</p>
+<hr>
+<p>宁静的夜，不平静的心，迫切的要提升，干就完了！</p>
+]]></content>
+        </item>
         
         <item>
             <title>手酸背疼心里High</title>
@@ -15,7 +45,7 @@
             <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
             
             <guid>https://leishengxiao.github.io/posts/20200820/</guid>
-            <description>按照自己制定的计划，本来今天要完成Add New Project和Add Exist Project的画面开发，结果只完成了Add New这一个。主要原因还是有亮点：
+            <description>按照自己制定的计划，本来今天要完成Add New Project和Add Exist Project的画面开发，结果只完成了Add New这一个。主要原因还是有两点：
  本来计划是利用之前做的UI，不用重做，结果心血来潮，想做成Wizard模式的，稍微有点浪费时间，不过成功了，很爽，哈哈 在开发的过程中，对于ComboBoxEdit的获取值，没记住写法，用了一种比较笨的方法，结果测试下来有问题不说，中间还浪费了大量时间，这是后续要改进的。要有总体的思路，然后再动手，不能盲目的上来就撸代码，切记，切记&amp;hellip;   总体来讲，界面还是做的不错的，个人很满意，写的也很爽，就是手酸的要命。
 Meta公司的一个小姐姐和一个小哥哥看了我写的代码，小哥哥问遇到问题怎么办，我说查啊，又没法问别人；小姐姐滚动着看了下，说代码量挺大的，快转JS吧
 话说我会写JS好吧？太小瞧人了，等我做完AMS，Show给你们看，哼哼&amp;hellip;
@@ -28,7 +58,7 @@ Meta公司的一个小姐姐和一个小哥哥看了我写的代码，小哥哥�
  明天就能回家了，就能见到我的大小宝贝了，顺便从家带点东西，Mark如下：
  茶叶 碗+勺子 卫生纸 键盘   10点40多了，吃饭洗刷睡觉，明天班师还朝，共享天伦之乐！</description>
             <content type="html"><![CDATA[<hr>
-<p>按照自己制定的计划，本来今天要完成Add New Project和Add Exist Project的画面开发，结果只完成了Add New这一个。主要原因还是有亮点：</p>
+<p>按照自己制定的计划，本来今天要完成Add New Project和Add Exist Project的画面开发，结果只完成了Add New这一个。主要原因还是有两点：</p>
 <ol>
 <li>本来计划是利用之前做的UI，不用重做，结果心血来潮，想做成Wizard模式的，稍微有点浪费时间，不过成功了，很爽，哈哈</li>
 <li>在开发的过程中，对于ComboBoxEdit的获取值，没记住写法，用了一种比较笨的方法，结果测试下来有问题不说，中间还浪费了大量时间，这是后续要改进的。要有总体的思路，然后再动手，不能盲目的上来就撸代码，切记，切记&hellip;</li>
