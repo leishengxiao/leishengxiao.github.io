@@ -7,24 +7,24 @@
 <meta name="author"
     content="map[name:LeiShengxiao]">
 <meta name="description"
-    content="告一段落，并不是结束了，而是延期了，不过不管怎么说，今天把质量记录造的差不多了，都要吐了&amp;hellip;
-伤心的是，Mr.Wang怎么就不能主动些呢？
- 七夕，虽然我和你们相隔胶州湾，但我很想念你们，我亲爱的大小宝贝，祝你们节日快乐，永远迷人！
- 昨晚看C#高级编程后面的章节，真的是有种老了的感觉，好多快速的新的知识，又省代码量又高效，结果都不知道，认知还停留在十年前的层次上，怪不得还在搬砖呢？
-不过，我总会都了解的，种一棵树其次最好的季节就是现在，不是吗？
- 有种弱弱的感觉，Mr.Kong和海宁好像啊，性格和说话口吻都像，让人特别讨厌的那种，区别就是Mr.Kong比海宁技术厉害点，哈哈&amp;hellip;
- 宝贝女儿的礼物，最慢后天就要到了，这次我可没告诉这个小坏蛋是什么礼物，哼哼，让她猜去吧，估计她会以为是个惊喜蛋，一定要给她个惊喜，吼吼&amp;hellip;
- 不唠叨了，开始继续看书咯&amp;hellip;" />
+    content="苦思冥想、百思不得其解的Add Exist Project的解决办法终于找到了，办法总比困难多，看来人真的是被逼出来的
+对于主界面调用子界面的控件方法，找到了新的实现方式，高兴&amp;hellip;
+隔了不到一周再看代码，开始有些生疏，但后来越看越感觉到之前的代码有很多需要改善的地方，尤其是写法，总是感觉那么的笨拙；而且还发现了不少Bug
+花了一晚上的时间，修复了几个Bug，改写了一个方法。看来代码还是要经常Review，你会有意想不到的收获，是对自己的审视，也是对知识的巩固和代码质量的提升
+很棒！
+ 我的他昨天的测试没有通过，今天中午和她电话沟通了下Left Join的用法，感觉她还是比较生疏，可能对这块不是太敏感吧；但我相信，她一定可以的，因为成功属于勤奋的人！
+宝贝女儿的礼物今天到了，明天去拿，希望她会喜欢，Bless&amp;hellip;
+ 今天是干活到比较晚的一天，刚洗刷完就12点半了，怼完这篇就睡觉了，安啦&amp;hellip;" />
 <meta name="keywords"
     content=", Essay" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://leishengxiao.github.io/posts/20200825/" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20200826/" />
 
 
 <title>
     
-    验厂告一段落 :: LeiShengxiao&#39;s Blog  — supper noob
+    代码Review :: LeiShengxiao&#39;s Blog  — supper noob
     
 </title>
 
@@ -42,18 +42,18 @@
 
 
 
-<meta itemprop="name" content="验厂告一段落">
-<meta itemprop="description" content="告一段落，并不是结束了，而是延期了，不过不管怎么说，今天把质量记录造的差不多了，都要吐了&hellip;
-伤心的是，Mr.Wang怎么就不能主动些呢？
- 七夕，虽然我和你们相隔胶州湾，但我很想念你们，我亲爱的大小宝贝，祝你们节日快乐，永远迷人！
- 昨晚看C#高级编程后面的章节，真的是有种老了的感觉，好多快速的新的知识，又省代码量又高效，结果都不知道，认知还停留在十年前的层次上，怪不得还在搬砖呢？
-不过，我总会都了解的，种一棵树其次最好的季节就是现在，不是吗？
- 有种弱弱的感觉，Mr.Kong和海宁好像啊，性格和说话口吻都像，让人特别讨厌的那种，区别就是Mr.Kong比海宁技术厉害点，哈哈&hellip;
- 宝贝女儿的礼物，最慢后天就要到了，这次我可没告诉这个小坏蛋是什么礼物，哼哼，让她猜去吧，估计她会以为是个惊喜蛋，一定要给她个惊喜，吼吼&hellip;
- 不唠叨了，开始继续看书咯&hellip;">
-<meta itemprop="datePublished" content="2020-08-25T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-08-25T00:00:00+00:00" />
-<meta itemprop="wordCount" content="8">
+<meta itemprop="name" content="代码Review">
+<meta itemprop="description" content="苦思冥想、百思不得其解的Add Exist Project的解决办法终于找到了，办法总比困难多，看来人真的是被逼出来的
+对于主界面调用子界面的控件方法，找到了新的实现方式，高兴&hellip;
+隔了不到一周再看代码，开始有些生疏，但后来越看越感觉到之前的代码有很多需要改善的地方，尤其是写法，总是感觉那么的笨拙；而且还发现了不少Bug
+花了一晚上的时间，修复了几个Bug，改写了一个方法。看来代码还是要经常Review，你会有意想不到的收获，是对自己的审视，也是对知识的巩固和代码质量的提升
+很棒！
+ 我的他昨天的测试没有通过，今天中午和她电话沟通了下Left Join的用法，感觉她还是比较生疏，可能对这块不是太敏感吧；但我相信，她一定可以的，因为成功属于勤奋的人！
+宝贝女儿的礼物今天到了，明天去拿，希望她会喜欢，Bless&hellip;
+ 今天是干活到比较晚的一天，刚洗刷完就12点半了，怼完这篇就睡觉了，安啦&hellip;">
+<meta itemprop="datePublished" content="2020-08-26T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-08-26T00:00:00+00:00" />
+<meta itemprop="wordCount" content="11">
 <meta itemprop="image" content="https://leishengxiao.github.io/"/>
 
 
@@ -63,32 +63,32 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://leishengxiao.github.io/"/>
 
-<meta name="twitter:title" content="验厂告一段落"/>
-<meta name="twitter:description" content="告一段落，并不是结束了，而是延期了，不过不管怎么说，今天把质量记录造的差不多了，都要吐了&hellip;
-伤心的是，Mr.Wang怎么就不能主动些呢？
- 七夕，虽然我和你们相隔胶州湾，但我很想念你们，我亲爱的大小宝贝，祝你们节日快乐，永远迷人！
- 昨晚看C#高级编程后面的章节，真的是有种老了的感觉，好多快速的新的知识，又省代码量又高效，结果都不知道，认知还停留在十年前的层次上，怪不得还在搬砖呢？
-不过，我总会都了解的，种一棵树其次最好的季节就是现在，不是吗？
- 有种弱弱的感觉，Mr.Kong和海宁好像啊，性格和说话口吻都像，让人特别讨厌的那种，区别就是Mr.Kong比海宁技术厉害点，哈哈&hellip;
- 宝贝女儿的礼物，最慢后天就要到了，这次我可没告诉这个小坏蛋是什么礼物，哼哼，让她猜去吧，估计她会以为是个惊喜蛋，一定要给她个惊喜，吼吼&hellip;
- 不唠叨了，开始继续看书咯&hellip;"/>
+<meta name="twitter:title" content="代码Review"/>
+<meta name="twitter:description" content="苦思冥想、百思不得其解的Add Exist Project的解决办法终于找到了，办法总比困难多，看来人真的是被逼出来的
+对于主界面调用子界面的控件方法，找到了新的实现方式，高兴&hellip;
+隔了不到一周再看代码，开始有些生疏，但后来越看越感觉到之前的代码有很多需要改善的地方，尤其是写法，总是感觉那么的笨拙；而且还发现了不少Bug
+花了一晚上的时间，修复了几个Bug，改写了一个方法。看来代码还是要经常Review，你会有意想不到的收获，是对自己的审视，也是对知识的巩固和代码质量的提升
+很棒！
+ 我的他昨天的测试没有通过，今天中午和她电话沟通了下Left Join的用法，感觉她还是比较生疏，可能对这块不是太敏感吧；但我相信，她一定可以的，因为成功属于勤奋的人！
+宝贝女儿的礼物今天到了，明天去拿，希望她会喜欢，Bless&hellip;
+ 今天是干活到比较晚的一天，刚洗刷完就12点半了，怼完这篇就睡觉了，安啦&hellip;"/>
 
 
 
-<meta property="og:title" content="验厂告一段落" />
-<meta property="og:description" content="告一段落，并不是结束了，而是延期了，不过不管怎么说，今天把质量记录造的差不多了，都要吐了&hellip;
-伤心的是，Mr.Wang怎么就不能主动些呢？
- 七夕，虽然我和你们相隔胶州湾，但我很想念你们，我亲爱的大小宝贝，祝你们节日快乐，永远迷人！
- 昨晚看C#高级编程后面的章节，真的是有种老了的感觉，好多快速的新的知识，又省代码量又高效，结果都不知道，认知还停留在十年前的层次上，怪不得还在搬砖呢？
-不过，我总会都了解的，种一棵树其次最好的季节就是现在，不是吗？
- 有种弱弱的感觉，Mr.Kong和海宁好像啊，性格和说话口吻都像，让人特别讨厌的那种，区别就是Mr.Kong比海宁技术厉害点，哈哈&hellip;
- 宝贝女儿的礼物，最慢后天就要到了，这次我可没告诉这个小坏蛋是什么礼物，哼哼，让她猜去吧，估计她会以为是个惊喜蛋，一定要给她个惊喜，吼吼&hellip;
- 不唠叨了，开始继续看书咯&hellip;" />
+<meta property="og:title" content="代码Review" />
+<meta property="og:description" content="苦思冥想、百思不得其解的Add Exist Project的解决办法终于找到了，办法总比困难多，看来人真的是被逼出来的
+对于主界面调用子界面的控件方法，找到了新的实现方式，高兴&hellip;
+隔了不到一周再看代码，开始有些生疏，但后来越看越感觉到之前的代码有很多需要改善的地方，尤其是写法，总是感觉那么的笨拙；而且还发现了不少Bug
+花了一晚上的时间，修复了几个Bug，改写了一个方法。看来代码还是要经常Review，你会有意想不到的收获，是对自己的审视，也是对知识的巩固和代码质量的提升
+很棒！
+ 我的他昨天的测试没有通过，今天中午和她电话沟通了下Left Join的用法，感觉她还是比较生疏，可能对这块不是太敏感吧；但我相信，她一定可以的，因为成功属于勤奋的人！
+宝贝女儿的礼物今天到了，明天去拿，希望她会喜欢，Bless&hellip;
+ 今天是干活到比较晚的一天，刚洗刷完就12点半了，怼完这篇就睡觉了，安啦&hellip;" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leishengxiao.github.io/posts/20200825/" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20200826/" />
 <meta property="og:image" content="https://leishengxiao.github.io/"/>
-<meta property="article:published_time" content="2020-08-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-08-25T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+<meta property="article:published_time" content="2020-08-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-26T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
 
 
 
@@ -98,7 +98,7 @@
 
 
 
-<meta property="article:published_time" content="2020-08-25 00:00:00 &#43;0000 UTC" />
+<meta property="article:published_time" content="2020-08-26 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -182,26 +182,23 @@
 
     <article>
       <h1 class="post-title">
-        <a href="https://leishengxiao.github.io/posts/20200825/">验厂告一段落</a>
+        <a href="https://leishengxiao.github.io/posts/20200826/">代码Review</a>
       </h1>
 
       
 
       <div class="post-content">
         <hr>
-<p>告一段落，并不是结束了，而是延期了，不过不管怎么说，今天把质量记录造的差不多了，都要吐了&hellip;</p>
-<p>伤心的是，Mr.Wang怎么就不能主动些呢？</p>
+<p>苦思冥想、百思不得其解的Add Exist Project的解决办法终于找到了，办法总比困难多，看来人真的是被逼出来的</p>
+<p>对于主界面调用子界面的控件方法，找到了新的实现方式，高兴&hellip;</p>
+<p>隔了不到一周再看代码，开始有些生疏，但后来越看越感觉到之前的代码有很多需要改善的地方，尤其是写法，总是感觉那么的笨拙；而且还发现了不少Bug</p>
+<p>花了一晚上的时间，修复了几个Bug，改写了一个方法。看来代码还是要经常Review，你会有意想不到的收获，是对自己的审视，也是对知识的巩固和代码质量的提升</p>
+<p>很棒！</p>
 <hr>
-<p>七夕，虽然我和你们相隔胶州湾，但我很想念你们，我亲爱的大小宝贝，祝你们节日快乐，永远迷人！</p>
+<p>我的他昨天的测试没有通过，今天中午和她电话沟通了下Left Join的用法，感觉她还是比较生疏，可能对这块不是太敏感吧；但我相信，她一定可以的，因为成功属于勤奋的人！</p>
+<p>宝贝女儿的礼物今天到了，明天去拿，希望她会喜欢，Bless&hellip;</p>
 <hr>
-<p>昨晚看C#高级编程后面的章节，真的是有种老了的感觉，好多快速的新的知识，又省代码量又高效，结果都不知道，认知还停留在十年前的层次上，怪不得还在搬砖呢？</p>
-<p>不过，我总会都了解的，种一棵树其次最好的季节就是现在，不是吗？</p>
-<hr>
-<p>有种弱弱的感觉，Mr.Kong和海宁好像啊，性格和说话口吻都像，让人特别讨厌的那种，区别就是Mr.Kong比海宁技术厉害点，哈哈&hellip;</p>
-<hr>
-<p>宝贝女儿的礼物，最慢后天就要到了，这次我可没告诉这个小坏蛋是什么礼物，哼哼，让她猜去吧，估计她会以为是个惊喜蛋，一定要给她个惊喜，吼吼&hellip;</p>
-<hr>
-<p>不唠叨了，开始继续看书咯&hellip;</p>
+<p>今天是干活到比较晚的一天，刚洗刷完就12点半了，怼完这篇就睡觉了，安啦&hellip;</p>
 
       </div>
     </article>
@@ -224,7 +221,7 @@
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        8 Words
+        11 Words
       </p>
 
       <p>
@@ -234,7 +231,7 @@
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        2020-08-25 08:00 &#43;0800
+        2020-08-26 08:00 &#43;0800
       </p>
     </div>
 
@@ -247,18 +244,11 @@
 
         <div class="pagination__buttons">
           
-            <span class="button previous">
-              <a href="https://leishengxiao.github.io/posts/20200826/">
-                <span class="button__icon">←</span>
-                <span class="button__text">代码Review</span>
-              </a>
-            </span>
-          
 
           
             <span class="button next">
-              <a href="https://leishengxiao.github.io/posts/20200824/">
-                <span class="button__text">一天写了39个文件</span>
+              <a href="https://leishengxiao.github.io/posts/20200825/">
+                <span class="button__text">验厂告一段落</span>
                 <span class="button__icon">→</span>
               </a>
             </span>

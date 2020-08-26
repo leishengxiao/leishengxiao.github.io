@@ -6,8 +6,36 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Tue, 25 Aug 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>代码Review</title>
+            <link>https://leishengxiao.github.io/posts/20200826/</link>
+            <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20200826/</guid>
+            <description>苦思冥想、百思不得其解的Add Exist Project的解决办法终于找到了，办法总比困难多，看来人真的是被逼出来的
+对于主界面调用子界面的控件方法，找到了新的实现方式，高兴&amp;hellip;
+隔了不到一周再看代码，开始有些生疏，但后来越看越感觉到之前的代码有很多需要改善的地方，尤其是写法，总是感觉那么的笨拙；而且还发现了不少Bug
+花了一晚上的时间，修复了几个Bug，改写了一个方法。看来代码还是要经常Review，你会有意想不到的收获，是对自己的审视，也是对知识的巩固和代码质量的提升
+很棒！
+ 我的他昨天的测试没有通过，今天中午和她电话沟通了下Left Join的用法，感觉她还是比较生疏，可能对这块不是太敏感吧；但我相信，她一定可以的，因为成功属于勤奋的人！
+宝贝女儿的礼物今天到了，明天去拿，希望她会喜欢，Bless&amp;hellip;
+ 今天是干活到比较晚的一天，刚洗刷完就12点半了，怼完这篇就睡觉了，安啦&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>苦思冥想、百思不得其解的Add Exist Project的解决办法终于找到了，办法总比困难多，看来人真的是被逼出来的</p>
+<p>对于主界面调用子界面的控件方法，找到了新的实现方式，高兴&hellip;</p>
+<p>隔了不到一周再看代码，开始有些生疏，但后来越看越感觉到之前的代码有很多需要改善的地方，尤其是写法，总是感觉那么的笨拙；而且还发现了不少Bug</p>
+<p>花了一晚上的时间，修复了几个Bug，改写了一个方法。看来代码还是要经常Review，你会有意想不到的收获，是对自己的审视，也是对知识的巩固和代码质量的提升</p>
+<p>很棒！</p>
+<hr>
+<p>我的他昨天的测试没有通过，今天中午和她电话沟通了下Left Join的用法，感觉她还是比较生疏，可能对这块不是太敏感吧；但我相信，她一定可以的，因为成功属于勤奋的人！</p>
+<p>宝贝女儿的礼物今天到了，明天去拿，希望她会喜欢，Bless&hellip;</p>
+<hr>
+<p>今天是干活到比较晚的一天，刚洗刷完就12点半了，怼完这篇就睡觉了，安啦&hellip;</p>
+]]></content>
+        </item>
         
         <item>
             <title>验厂告一段落</title>
