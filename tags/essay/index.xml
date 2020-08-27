@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 26 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tuple真香</title>
+      <link>https://leishengxiao.github.io/posts/20200827/</link>
+      <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200827/</guid>
+      <description>在开发Measure Network Connect的过程中，Review了下之前的Measure Config文件，发现之前的方法太笨拙了，通过几种数据结构的尝试，最终发现了用Tuple的List的很好的解决了，代码量不到之前的十分之一
+Tuple真香，涨姿势了！
+ Mr.Kong今天说了一句很经典而且很有意义的话，说只要掌握了学习的能力就可以了，怎么可能什么都会。的确如此啊，给Mr.Kong点个赞！
+ 明天去Darong，正好回家，哈哈，省时间又省地铁票了，嘎嘎&amp;hellip;
+ 中午把宝贝女儿的礼物拿回来了，我感觉挺好的，就是不知道宝贝女儿喜欢不喜欢了，Bless&amp;hellip;
+我的她今天难得的晚上加班了，通过自己的努力去弥补一些技能，我觉得非常好，哪怕结果如何呢，努力了就好，你真棒！
+么么哒&amp;hellip;</description>
+    </item>
     
     <item>
       <title>代码Review</title>
@@ -23,7 +38,7 @@
 隔了不到一周再看代码，开始有些生疏，但后来越看越感觉到之前的代码有很多需要改善的地方，尤其是写法，总是感觉那么的笨拙；而且还发现了不少Bug
 花了一晚上的时间，修复了几个Bug，改写了一个方法。看来代码还是要经常Review，你会有意想不到的收获，是对自己的审视，也是对知识的巩固和代码质量的提升
 很棒！
- 我的他昨天的测试没有通过，今天中午和她电话沟通了下Left Join的用法，感觉她还是比较生疏，可能对这块不是太敏感吧；但我相信，她一定可以的，因为成功属于勤奋的人！
+ 我的她昨天的测试没有通过，今天中午和她电话沟通了下Left Join的用法，感觉她还是比较生疏，可能对这块不是太敏感吧；但我相信，她一定可以的，因为成功属于勤奋的人！
 宝贝女儿的礼物今天到了，明天去拿，希望她会喜欢，Bless&amp;hellip;
  今天是干活到比较晚的一天，刚洗刷完就12点半了，怼完这篇就睡觉了，安啦&amp;hellip;</description>
     </item>
