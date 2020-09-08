@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Mon, 07 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>复盘AMS</title>
+      <link>https://leishengxiao.github.io/posts/20200908/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200908/</guid>
+      <description>开发到了最关键的逻辑，重新对照LavView的程序以及文档，复盘了所有的AMS的逻辑，发现有很多遗漏的问题和需要优化的细节
+对于Measure的主逻辑，还是朦朦胧胧，希望明天能有突破性的进展吧，总是感觉离成功就差那么一点点了
+完成主逻辑之后，就剩数据分析和展示了，计划买个图标展示控件，这就是我的强项了，开发速度应该快上来吧，哈哈&amp;hellip;
+给自己定个小目标吧，这周完成Measure主逻辑，下周完成数据分析，正好两个月整
+如果接下来没有其他任务，一方面把所有的AMS程序全部优化一遍，一方面继续学习Three.js
+ 最近小王没什么状态，总是感觉好像在熬时间一样，年轻挺好的，希望他能珍惜青春，多学习多进步，不管学什么，至少是自己的收获，看来有必要旁征侧引的启发启发他
+ 宝贝女儿的日记本就快到了，好期待啊，更期待她能喜欢，在喜欢的同时能够坚持对每天的经历做个复盘记录，加油哦宝贝！
+ 最近睡眠总是很晚，报复性熬夜啊，睡啦睡啦&amp;hellip;</description>
+    </item>
     
     <item>
       <title>受表扬了</title>
