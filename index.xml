@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Measure终于有了思路</title>
+      <link>https://leishengxiao.github.io/posts/20200909/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200909/</guid>
+      <description>经过两天的苦思冥想、连蒙带猜，Measure的过程终于了解了，明天开始正式写过程逻辑
+离完工又近了一步，好高兴！
+ 晚上刷碗的时候，小王说了句&amp;quot;你天天吃这个不腻啊?&amp;quot;，是啊，你还小，不知道生活的艰辛
+成年人的生活并不像你过的这样，每天上班慢条斯理、翻来覆去对着同一个文档或程序、偶尔玩玩手机、散散步，下班可以变着花样吃饭、熬夜玩着手机
+生活就是再苦再难也要为父辈和子辈着想，没有了自我，因为他们才是生命中的重要！
+ 看到他烫一包中药都要用上一锅水，唉，生活真的不易的，你不交电费、水费是真的不会肉疼啊！
+强烈有必要分摊房租、物业费和水电费！
+ 宝贝女儿的日记本终于到了，下班迫不及待的去拿了回来打开欣赏，说实话，我挺喜欢的，就是不知道女儿的感觉如何
+在礼物扉页给女儿写了寄语，希望女儿健康快乐！
+ 十一点了，睡觉觉咯&amp;hellip;安啦，大小宝贝们！</description>
+    </item>
     
     <item>
       <title>复盘AMS</title>
