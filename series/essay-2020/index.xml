@@ -7,10 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sat, 12 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一天的调试</title>
+      <link>https://leishengxiao.github.io/posts/20200914/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200914/</guid>
+      <description>起了个大早，赶往了黄岛调试设备，青岛的公交车真的是不靠谱，突然间发现可以坐到董家口，然后一路地铁的，这样又快又省钱又舒服，下次就这么办
+把之前的几个软件功能调试了下，有个非常生气的地方，为什么出了什么问题小王都是没动过、不是他写的等等的话呢？即使是别人的程序，你现在不是在拿这个吃饭吗？还是年轻
+硬件还是问题比较多，探头板下的阻燃板，探头孔不合适，得改；探头板和校准板的Y轴十字打光对齐，还是不太靠谱；拖链还不太齐&amp;hellip;还得再去一趟
+ 今天有件很高兴的事，验厂通过了！分数还挺高的，心里挺高兴的，啊哈哈哈哈哈&amp;hellip;
+也有件不高兴的事，裤子破洞了，哇哇哇哇&amp;hellip;
+中午请客户吃了个饭，得找Mr.Zhao报销，哼哼&amp;hellip;
+ 宝贝女儿忙活了一晚上给我写了一封信，好期待哦，谢谢宝贝！
+明天继续AMS，加油！</description>
+    </item>
+    
+    <item>
+      <title>创业已枉然</title>
+      <link>https://leishengxiao.github.io/posts/20200913/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200913/</guid>
+      <description>中午Mr.Ji叫着创业时的三个发起人一起吃了个饭，开始时谈到有个工作的机会年薪70w，问我去不去，我回绝了。一是太远了，在河北唐山，估计最多一个月回家一趟吧；再者，我有他想的那么天真吗？真以为是那么的单纯好哄么？
+中间谈到了我是不是可以公司发展好的时候回来，我也回绝了。法人？是啊，我还是法人啊？！你们瞎胡搞，现在想起了呢，哈哈哈&amp;hellip;我即使偏安一隅也不会再给一个哄来骗去的人出力的，之前的投资，就当是交学费喂狗了吧
+最后谈了下公司的近况，做一些外包，几万几万的小单子苟延残喘，还提到了去找财务投资人，也是哈哈哈了吧&amp;hellip;都没什么好留恋的了，还在瞎折腾，真的以为有个这样的经历就很NB么？即使是在做外包，Mr.Cao有必要在家里呆着么，为什么不出去谋一份差事呢？真的不会吗？不对吧，是私心太重吧
+这也是我毅然决然离开的最主要原因
+一切皆枉然！
+ 宝贝女儿一天都是乖乖的，么么哒~</description>
+    </item>
     
     <item>
       <title>带娃一天</title>
