@@ -7,10 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>撸了一天，脖子疼</title>
+      <link>https://leishengxiao.github.io/posts/20200915/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200915/</guid>
+      <description>办公室又恢复了两个人，早上到了办公室打扫了一遍，规整多了，心情也舒服了&amp;hellip;
+年轻真的是眼里没有活，真心为公司付出的人真的不多，像我这样的又有几个呢？哈哈哈&amp;hellip;
+ 把遗留的机械扫描坐标轴的设置问题全部搞定了，脖子咔吧咔吧响，但是进度还是不尽人意，还得努力！
+ 宝贝女儿这两天很听话，昨晚挑来选去，给女儿选了一套不锈钢的直尺工具套装，希望女儿能够喜欢，更希望女儿能够每天都自觉听话，不耍性子
+我的她最近也在努力的工作中，那个SB XiaoMin最近也消停了许多，那姐姐就一神经质，也希望我的她工作越来越顺利，不管工作能干多久，至少是一份收获。钱？多少是多，又多少是少呢？人开开心心的不好吗？加油，大宝贝！
+ C#复习的差不多了，最近开始复习C++了，确实生涩了许多，积累中&amp;hellip;
+ 下午Mr.Liu问我他们公司的整体信息化，Borch能不能搞，我说了实话。我又何尝不想Borch能搞呢，可是满眼望去，能干活的又几个，如果搞，所有的压力估计都会到我这吧，其余的，呵呵，不是彻底务虚的，就是混天度日的，唉&amp;hellip;
+把工作交给团队的前提，应该是大家都怀揣着同样的目标吧，不然，也就洒洒水湿层皮罢了
+搞不懂，难倒Mr.Ji和Cao看不透么？还是看透不说透？唉&amp;hellip;
+回想起来，都觉得好搞笑搞笑的，自己更是SB。从最初的招Luo和Li进来，输出了什么呢？推一步走一步，扶不起来，也可能是我自己能力不行吧
+再到后来的变更法人，自己有给小舅子的担保？哈哈哈，太逗了，或许别人都是傻子吧，我好想知道你会做些什么
+突然想起连Cai这样的渣渣都抢手到年薪30~40w了，这个社会啊，估计大家都笑了吧，跳过去，估计能干到转正？Pass吧&amp;hellip;
+ 浮躁的社会，阴暗的人心，痛苦的老实人
+天道轮回，终究会归于平衡，抬头三尺有神灵，不是吗？</description>
+    </item>
     
     <item>
       <title>一天的调试</title>
