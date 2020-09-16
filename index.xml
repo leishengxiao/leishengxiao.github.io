@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>今天进展不错</title>
+      <link>https://leishengxiao.github.io/posts/20200916/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200916/</guid>
+      <description>一大早就开始，终于把所有遗留的修改表结构的Bug全修复完了，同时也把设备初始化和扫描初始化写完了
+写的过程中发现了一个问题，就是&amp;quot;列表扫描&amp;quot;遗漏了一个Frequency的List，后天加上
+终于到了测量主逻辑了，不容易啊&amp;hellip;
+之前还真的SB呵呵的以为两周能搞定，看来真的是眼高手低了，shy&amp;hellip;
+ 因为撸的专心，连somker都少了一半，哈哈&amp;hellip;
+明天去41所，早睡了&amp;hellip;</description>
+    </item>
     
     <item>
       <title>撸了一天，脖子疼</title>
