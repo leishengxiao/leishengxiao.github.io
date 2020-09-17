@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="map[name:LeiShengxiao]">
+<meta name="description"
+    content="原定给HuaWei的OTA设备要给大唐，因此要加一些探头板、标准版，周一来调的时候，探头板下的阻燃板探头孔开的不合适，昨天重新弄了之后，今天过来安装
+原以为会很顺利的安装并调试完，结果出现了各种各样的问题：
+ 阻燃板的魔术贴公母带反了，重新打车发过来现场安装 Z轴处于原点时进行复位操作，Z轴会出现伺服报警，重新打开机箱进行调试 长时间不动作(例如一个小时)，PLC会出现假死的状态   真的好奇葩的问题都会出现，虽然我们都开玩笑的说是Mr.Du来了之后才会出各种问题，但是真的好奇怪，到了十二点，还是没找到PLC假死的原因
+通过查了一些度娘的乌七八糟的说法，我也怀疑是PLC未接地导致的电磁兼容问题了，希望是这个原因吧
+如果明天还调试不完，只能周六继续了，唉&amp;hellip;
+如果调试完，我就直接从黄岛回家家了
+ 因为一天的调试，也没给我的宝贝女儿打个电话，也没回Jimo，礼物没有带回，希望女儿能够体谅我吧
+大宝贝给买的裤子今天也到了，也是没有拿，好期待，谢谢大宝贝，么么哒~" />
+<meta name="keywords"
+    content=", Essay" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20200917/" />
+
+
+<title>
+    
+    现场调试一天 :: LeiShengxiao&#39;s Blog  — supper noob
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.154a87e0ff720e102948892a8eb80881aa81a4faf37376f3093be219f6296c3d.css">
+
+
+
+
+
+
+<meta itemprop="name" content="现场调试一天">
+<meta itemprop="description" content="原定给HuaWei的OTA设备要给大唐，因此要加一些探头板、标准版，周一来调的时候，探头板下的阻燃板探头孔开的不合适，昨天重新弄了之后，今天过来安装
+原以为会很顺利的安装并调试完，结果出现了各种各样的问题：
+ 阻燃板的魔术贴公母带反了，重新打车发过来现场安装 Z轴处于原点时进行复位操作，Z轴会出现伺服报警，重新打开机箱进行调试 长时间不动作(例如一个小时)，PLC会出现假死的状态   真的好奇葩的问题都会出现，虽然我们都开玩笑的说是Mr.Du来了之后才会出各种问题，但是真的好奇怪，到了十二点，还是没找到PLC假死的原因
+通过查了一些度娘的乌七八糟的说法，我也怀疑是PLC未接地导致的电磁兼容问题了，希望是这个原因吧
+如果明天还调试不完，只能周六继续了，唉&hellip;
+如果调试完，我就直接从黄岛回家家了
+ 因为一天的调试，也没给我的宝贝女儿打个电话，也没回Jimo，礼物没有带回，希望女儿能够体谅我吧
+大宝贝给买的裤子今天也到了，也是没有拿，好期待，谢谢大宝贝，么么哒~">
+<meta itemprop="datePublished" content="2020-09-17T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-09-17T00:00:00+00:00" />
+<meta itemprop="wordCount" content="11">
+<meta itemprop="image" content="https://leishengxiao.github.io/"/>
+
+
+
+<meta itemprop="keywords" content="Essay," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://leishengxiao.github.io/"/>
+
+<meta name="twitter:title" content="现场调试一天"/>
+<meta name="twitter:description" content="原定给HuaWei的OTA设备要给大唐，因此要加一些探头板、标准版，周一来调的时候，探头板下的阻燃板探头孔开的不合适，昨天重新弄了之后，今天过来安装
+原以为会很顺利的安装并调试完，结果出现了各种各样的问题：
+ 阻燃板的魔术贴公母带反了，重新打车发过来现场安装 Z轴处于原点时进行复位操作，Z轴会出现伺服报警，重新打开机箱进行调试 长时间不动作(例如一个小时)，PLC会出现假死的状态   真的好奇葩的问题都会出现，虽然我们都开玩笑的说是Mr.Du来了之后才会出各种问题，但是真的好奇怪，到了十二点，还是没找到PLC假死的原因
+通过查了一些度娘的乌七八糟的说法，我也怀疑是PLC未接地导致的电磁兼容问题了，希望是这个原因吧
+如果明天还调试不完，只能周六继续了，唉&hellip;
+如果调试完，我就直接从黄岛回家家了
+ 因为一天的调试，也没给我的宝贝女儿打个电话，也没回Jimo，礼物没有带回，希望女儿能够体谅我吧
+大宝贝给买的裤子今天也到了，也是没有拿，好期待，谢谢大宝贝，么么哒~"/>
+
+
+
+<meta property="og:title" content="现场调试一天" />
+<meta property="og:description" content="原定给HuaWei的OTA设备要给大唐，因此要加一些探头板、标准版，周一来调的时候，探头板下的阻燃板探头孔开的不合适，昨天重新弄了之后，今天过来安装
+原以为会很顺利的安装并调试完，结果出现了各种各样的问题：
+ 阻燃板的魔术贴公母带反了，重新打车发过来现场安装 Z轴处于原点时进行复位操作，Z轴会出现伺服报警，重新打开机箱进行调试 长时间不动作(例如一个小时)，PLC会出现假死的状态   真的好奇葩的问题都会出现，虽然我们都开玩笑的说是Mr.Du来了之后才会出各种问题，但是真的好奇怪，到了十二点，还是没找到PLC假死的原因
+通过查了一些度娘的乌七八糟的说法，我也怀疑是PLC未接地导致的电磁兼容问题了，希望是这个原因吧
+如果明天还调试不完，只能周六继续了，唉&hellip;
+如果调试完，我就直接从黄岛回家家了
+ 因为一天的调试，也没给我的宝贝女儿打个电话，也没回Jimo，礼物没有带回，希望女儿能够体谅我吧
+大宝贝给买的裤子今天也到了，也是没有拿，好期待，谢谢大宝贝，么么哒~" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20200917/" />
+<meta property="og:image" content="https://leishengxiao.github.io/"/>
+<meta property="article:published_time" content="2020-09-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-09-17T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+
+
+
+
+
+<meta property="article:section" content="Essay" />
+
+
+
+<meta property="article:published_time" content="2020-09-17 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6bc62acc05941583aeae8f35d4038b42";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://leishengxiao.github.io/about">About</a></li><li><a href="https://leishengxiao.github.io/posts">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        One minute
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://leishengxiao.github.io/posts/20200917/">现场调试一天</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <hr>
+<p>原定给HuaWei的OTA设备要给大唐，因此要加一些探头板、标准版，周一来调的时候，探头板下的阻燃板探头孔开的不合适，昨天重新弄了之后，今天过来安装</p>
+<p>原以为会很顺利的安装并调试完，结果出现了各种各样的问题：</p>
+<ul>
+<li>阻燃板的魔术贴公母带反了，重新打车发过来现场安装</li>
+<li>Z轴处于原点时进行复位操作，Z轴会出现伺服报警，重新打开机箱进行调试</li>
+<li>长时间不动作(例如一个小时)，PLC会出现假死的状态</li>
+</ul>
+<hr>
+<p>真的好奇葩的问题都会出现，虽然我们都开玩笑的说是Mr.Du来了之后才会出各种问题，但是真的好奇怪，到了十二点，还是没找到PLC假死的原因</p>
+<p>通过查了一些度娘的乌七八糟的说法，我也怀疑是PLC未接地导致的电磁兼容问题了，希望是这个原因吧</p>
+<p>如果明天还调试不完，只能周六继续了，唉&hellip;</p>
+<p>如果调试完，我就直接从黄岛回家家了</p>
+<hr>
+<p>因为一天的调试，也没给我的宝贝女儿打个电话，也没回Jimo，礼物没有带回，希望女儿能够体谅我吧</p>
+<p>大宝贝给买的裤子今天也到了，也是没有拿，好期待，谢谢大宝贝，么么哒~</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon">
+            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+            <line x1="7" y1="7" x2="7" y2="7"></line>
+          </svg><span class="tag"><a href="https://leishengxiao.github.io/tags/essay/">Essay</a></span>
+        </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        11 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        2020-09-17 08:00 &#43;0800
+      </p>
+    </div>
+
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+
+        <div class="pagination__buttons">
+          
+
+          
+            <span class="button next">
+              <a href="https://leishengxiao.github.io/posts/20200916/">
+                <span class="button__text">今天进展不错</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            
+            <span> All rights reserved.</span>
+            
+            <span> <a
+                    href="https://leishengxiao.github.io/posts/index.xml" target="_blank" title="rss"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-rss">
+                        <path d="M4 11a9 9 0 0 1 9 9"></path>
+                        <path d="M4 4a16 16 0 0 1 16 16"></path>
+                        <circle cx="5" cy="19" r="1"></circle>
+                    </svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            
+            
+        </div>
+    </div>
+</footer>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
+</html>

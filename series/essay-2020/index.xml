@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 16 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>现场调试一天</title>
+      <link>https://leishengxiao.github.io/posts/20200917/</link>
+      <pubDate>Thu, 17 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200917/</guid>
+      <description>原定给HuaWei的OTA设备要给大唐，因此要加一些探头板、标准版，周一来调的时候，探头板下的阻燃板探头孔开的不合适，昨天重新弄了之后，今天过来安装
+原以为会很顺利的安装并调试完，结果出现了各种各样的问题：
+ 阻燃板的魔术贴公母带反了，重新打车发过来现场安装 Z轴处于原点时进行复位操作，Z轴会出现伺服报警，重新打开机箱进行调试 长时间不动作(例如一个小时)，PLC会出现假死的状态   真的好奇葩的问题都会出现，虽然我们都开玩笑的说是Mr.Du来了之后才会出各种问题，但是真的好奇怪，到了十二点，还是没找到PLC假死的原因
+通过查了一些度娘的乌七八糟的说法，我也怀疑是PLC未接地导致的电磁兼容问题了，希望是这个原因吧
+如果明天还调试不完，只能周六继续了，唉&amp;hellip;
+如果调试完，我就直接从黄岛回家家了
+ 因为一天的调试，也没给我的宝贝女儿打个电话，也没回Jimo，礼物没有带回，希望女儿能够体谅我吧
+大宝贝给买的裤子今天也到了，也是没有拿，好期待，谢谢大宝贝，么么哒~</description>
+    </item>
     
     <item>
       <title>今天进展不错</title>
