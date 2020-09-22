@@ -7,10 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>奇葩问题不断</title>
+      <link>https://leishengxiao.github.io/posts/20200922/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200922/</guid>
+      <description>产品交付第二天，上午的时候，41所的两位大拿把昨天遇到的问题重新诊断了下，发现矢网的转接头有问题，有可能造成测试数据不准
+紧接着，改用41所自己的矢网进行测试，发现线性出现了非线性，又逐一排查，发现T1的传输线缆损耗较大，最后发现线缆的转接头松动了，重新拧紧之后，问题解决
+下午在测试前，又重新校准了下平移台位置及探头，偏差不太大之后，终于重新开始测量了
+第一台设备还好，第二台设备的数据明细有较大偏差，没有找到原因&amp;hellip;
+ 快手工时，重新把早晨发现的现象进行了复现：断电时间较长(超过10分钟)后，重新上电时，PLC程序跑飞，所有程序逻辑混乱；重新断电并紧接着上电后，又恢复正常；这时PLC告警&amp;quot;存储器错误&amp;rdquo;
+在网上查了下资料，也是各种说法都有，最后我怀疑是电池或者时钟的问题，重新通过软件对时钟进行了校准后，再次停电15分钟后再上电，问题没再复现
+具体的最终确认，要等到明早入厂之后了，希望这个奇葩的问题不再存在，Bless&amp;hellip;
+ 时隔上次测试之后的一个月，真的是各种奇葩问题都有啊，我都开始怀疑PLC是不能长时间停电的了，也可能是本命年诸事不顺吧&amp;hellip;总的来讲，还是不害怕问题、积极解决问题吧
+ 宝贝女儿和她妈妈又不和谐了，这俩家伙，咋整呢，愁人&amp;hellip;</description>
+    </item>
     
     <item>
       <title>第一次产品交付</title>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="map[name:LeiShengxiao]">
+<meta name="description"
+    content="产品交付第二天，上午的时候，41所的两位大拿把昨天遇到的问题重新诊断了下，发现矢网的转接头有问题，有可能造成测试数据不准
+紧接着，改用41所自己的矢网进行测试，发现线性出现了非线性，又逐一排查，发现T1的传输线缆损耗较大，最后发现线缆的转接头松动了，重新拧紧之后，问题解决
+下午在测试前，又重新校准了下平移台位置及探头，偏差不太大之后，终于重新开始测量了
+第一台设备还好，第二台设备的数据明细有较大偏差，没有找到原因&amp;hellip;
+ 快手工时，重新把早晨发现的现象进行了复现：断电时间较长(超过10分钟)后，重新上电时，PLC程序跑飞，所有程序逻辑混乱；重新断电并紧接着上电后，又恢复正常；这时PLC告警&amp;quot;存储器错误&amp;rdquo;
+在网上查了下资料，也是各种说法都有，最后我怀疑是电池或者时钟的问题，重新通过软件对时钟进行了校准后，再次停电15分钟后再上电，问题没再复现
+具体的最终确认，要等到明早入厂之后了，希望这个奇葩的问题不再存在，Bless&amp;hellip;
+ 时隔上次测试之后的一个月，真的是各种奇葩问题都有啊，我都开始怀疑PLC是不能长时间停电的了，也可能是本命年诸事不顺吧&amp;hellip;总的来讲，还是不害怕问题、积极解决问题吧
+ 宝贝女儿和她妈妈又不和谐了，这俩家伙，咋整呢，愁人&amp;hellip;" />
+<meta name="keywords"
+    content=", Essay" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20200922/" />
+
+
+<title>
+    
+    奇葩问题不断 :: LeiShengxiao&#39;s Blog  — supper noob
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.154a87e0ff720e102948892a8eb80881aa81a4faf37376f3093be219f6296c3d.css">
+
+
+
+
+
+
+<meta itemprop="name" content="奇葩问题不断">
+<meta itemprop="description" content="产品交付第二天，上午的时候，41所的两位大拿把昨天遇到的问题重新诊断了下，发现矢网的转接头有问题，有可能造成测试数据不准
+紧接着，改用41所自己的矢网进行测试，发现线性出现了非线性，又逐一排查，发现T1的传输线缆损耗较大，最后发现线缆的转接头松动了，重新拧紧之后，问题解决
+下午在测试前，又重新校准了下平移台位置及探头，偏差不太大之后，终于重新开始测量了
+第一台设备还好，第二台设备的数据明细有较大偏差，没有找到原因&hellip;
+ 快手工时，重新把早晨发现的现象进行了复现：断电时间较长(超过10分钟)后，重新上电时，PLC程序跑飞，所有程序逻辑混乱；重新断电并紧接着上电后，又恢复正常；这时PLC告警&quot;存储器错误&rdquo;
+在网上查了下资料，也是各种说法都有，最后我怀疑是电池或者时钟的问题，重新通过软件对时钟进行了校准后，再次停电15分钟后再上电，问题没再复现
+具体的最终确认，要等到明早入厂之后了，希望这个奇葩的问题不再存在，Bless&hellip;
+ 时隔上次测试之后的一个月，真的是各种奇葩问题都有啊，我都开始怀疑PLC是不能长时间停电的了，也可能是本命年诸事不顺吧&hellip;总的来讲，还是不害怕问题、积极解决问题吧
+ 宝贝女儿和她妈妈又不和谐了，这俩家伙，咋整呢，愁人&hellip;">
+<meta itemprop="datePublished" content="2020-09-22T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-09-22T00:00:00+00:00" />
+<meta itemprop="wordCount" content="9">
+<meta itemprop="image" content="https://leishengxiao.github.io/"/>
+
+
+
+<meta itemprop="keywords" content="Essay," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://leishengxiao.github.io/"/>
+
+<meta name="twitter:title" content="奇葩问题不断"/>
+<meta name="twitter:description" content="产品交付第二天，上午的时候，41所的两位大拿把昨天遇到的问题重新诊断了下，发现矢网的转接头有问题，有可能造成测试数据不准
+紧接着，改用41所自己的矢网进行测试，发现线性出现了非线性，又逐一排查，发现T1的传输线缆损耗较大，最后发现线缆的转接头松动了，重新拧紧之后，问题解决
+下午在测试前，又重新校准了下平移台位置及探头，偏差不太大之后，终于重新开始测量了
+第一台设备还好，第二台设备的数据明细有较大偏差，没有找到原因&hellip;
+ 快手工时，重新把早晨发现的现象进行了复现：断电时间较长(超过10分钟)后，重新上电时，PLC程序跑飞，所有程序逻辑混乱；重新断电并紧接着上电后，又恢复正常；这时PLC告警&quot;存储器错误&rdquo;
+在网上查了下资料，也是各种说法都有，最后我怀疑是电池或者时钟的问题，重新通过软件对时钟进行了校准后，再次停电15分钟后再上电，问题没再复现
+具体的最终确认，要等到明早入厂之后了，希望这个奇葩的问题不再存在，Bless&hellip;
+ 时隔上次测试之后的一个月，真的是各种奇葩问题都有啊，我都开始怀疑PLC是不能长时间停电的了，也可能是本命年诸事不顺吧&hellip;总的来讲，还是不害怕问题、积极解决问题吧
+ 宝贝女儿和她妈妈又不和谐了，这俩家伙，咋整呢，愁人&hellip;"/>
+
+
+
+<meta property="og:title" content="奇葩问题不断" />
+<meta property="og:description" content="产品交付第二天，上午的时候，41所的两位大拿把昨天遇到的问题重新诊断了下，发现矢网的转接头有问题，有可能造成测试数据不准
+紧接着，改用41所自己的矢网进行测试，发现线性出现了非线性，又逐一排查，发现T1的传输线缆损耗较大，最后发现线缆的转接头松动了，重新拧紧之后，问题解决
+下午在测试前，又重新校准了下平移台位置及探头，偏差不太大之后，终于重新开始测量了
+第一台设备还好，第二台设备的数据明细有较大偏差，没有找到原因&hellip;
+ 快手工时，重新把早晨发现的现象进行了复现：断电时间较长(超过10分钟)后，重新上电时，PLC程序跑飞，所有程序逻辑混乱；重新断电并紧接着上电后，又恢复正常；这时PLC告警&quot;存储器错误&rdquo;
+在网上查了下资料，也是各种说法都有，最后我怀疑是电池或者时钟的问题，重新通过软件对时钟进行了校准后，再次停电15分钟后再上电，问题没再复现
+具体的最终确认，要等到明早入厂之后了，希望这个奇葩的问题不再存在，Bless&hellip;
+ 时隔上次测试之后的一个月，真的是各种奇葩问题都有啊，我都开始怀疑PLC是不能长时间停电的了，也可能是本命年诸事不顺吧&hellip;总的来讲，还是不害怕问题、积极解决问题吧
+ 宝贝女儿和她妈妈又不和谐了，这俩家伙，咋整呢，愁人&hellip;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20200922/" />
+<meta property="og:image" content="https://leishengxiao.github.io/"/>
+<meta property="article:published_time" content="2020-09-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-09-22T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+
+
+
+
+
+<meta property="article:section" content="Essay" />
+
+
+
+<meta property="article:published_time" content="2020-09-22 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6bc62acc05941583aeae8f35d4038b42";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://leishengxiao.github.io/about">About</a></li><li><a href="https://leishengxiao.github.io/posts">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        One minute
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://leishengxiao.github.io/posts/20200922/">奇葩问题不断</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <hr>
+<p>产品交付第二天，上午的时候，41所的两位大拿把昨天遇到的问题重新诊断了下，发现矢网的转接头有问题，有可能造成测试数据不准</p>
+<p>紧接着，改用41所自己的矢网进行测试，发现线性出现了非线性，又逐一排查，发现T1的传输线缆损耗较大，最后发现线缆的转接头松动了，重新拧紧之后，问题解决</p>
+<p>下午在测试前，又重新校准了下平移台位置及探头，偏差不太大之后，终于重新开始测量了</p>
+<p>第一台设备还好，第二台设备的数据明细有较大偏差，没有找到原因&hellip;</p>
+<hr>
+<p>快手工时，重新把早晨发现的现象进行了复现：断电时间较长(超过10分钟)后，重新上电时，PLC程序跑飞，所有程序逻辑混乱；重新断电并紧接着上电后，又恢复正常；这时PLC告警&quot;存储器错误&rdquo;</p>
+<p>在网上查了下资料，也是各种说法都有，最后我怀疑是电池或者时钟的问题，重新通过软件对时钟进行了校准后，再次停电15分钟后再上电，问题没再复现</p>
+<p>具体的最终确认，要等到明早入厂之后了，希望这个奇葩的问题不再存在，Bless&hellip;</p>
+<hr>
+<p>时隔上次测试之后的一个月，真的是各种奇葩问题都有啊，我都开始怀疑PLC是不能长时间停电的了，也可能是本命年诸事不顺吧&hellip;总的来讲，还是不害怕问题、积极解决问题吧</p>
+<hr>
+<p>宝贝女儿和她妈妈又不和谐了，这俩家伙，咋整呢，愁人&hellip;</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon">
+            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+            <line x1="7" y1="7" x2="7" y2="7"></line>
+          </svg><span class="tag"><a href="https://leishengxiao.github.io/tags/essay/">Essay</a></span>
+        </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        9 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        2020-09-22 08:00 &#43;0800
+      </p>
+    </div>
+
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+
+        <div class="pagination__buttons">
+          
+
+          
+            <span class="button next">
+              <a href="https://leishengxiao.github.io/posts/20200921/">
+                <span class="button__text">第一次产品交付</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            
+            <span> All rights reserved.</span>
+            
+            <span> <a
+                    href="https://leishengxiao.github.io/posts/index.xml" target="_blank" title="rss"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-rss">
+                        <path d="M4 11a9 9 0 0 1 9 9"></path>
+                        <path d="M4 4a16 16 0 0 1 16 16"></path>
+                        <circle cx="5" cy="19" r="1"></circle>
+                    </svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            
+            
+        </div>
+    </div>
+</footer>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
+</html>
