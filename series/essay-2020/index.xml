@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>主逻辑完成了1/2</title>
+      <link>https://leishengxiao.github.io/posts/20200927/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200927/</guid>
+      <description>测量主逻辑，已经完成了点频步进、点频连续两个了，还剩下扫频步进、扫频连续这两个，就可以开始做数据分析部分了
+看了几天LabView的程序，感觉LabView还是不错的，做工控画面还是很方便的，如果有简单的逻辑，可以尝试用LabView做一下
+ 下午的时候，Mr.Du去办公室了，把前几天去41所的住宿发票给报销了，另外还给了每人每天50元的出差补助
+MaxOptics真的很不错！
+ 也聊起了Huawei着火的事情，除了资金的损失，更重要的应该就是进度了吧，唉，天灾人祸，可怜的杨&amp;hellip;
+ 穿上了大宝贝给买的新裤子，很舒服、很修身，么么哒，哇咔咔&amp;hellip;
+一周没回去，确实有点想大小宝贝了，希望你们也能想起我^_^</description>
+    </item>
     
     <item>
       <title>黄岛一日游</title>
