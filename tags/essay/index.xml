@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Mon, 28 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>代码Review</title>
+      <link>https://leishengxiao.github.io/posts/20200929/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200929/</guid>
+      <description>AMS所有的主逻辑全部Review完成了，写到眼花缭乱，特别特别想尝试下写个LabView程序了呢！
+原定今天完成的在主界面添加测试进度的，只是找到了思路，明天动手做完，然后添加Start、Pause以及Stop三个事件
+下午问小王，之前的数据图表展示的做完了没，回答是没有，两个月了呢，搞不懂怎么想的，每天都是过的无忧无虑，真的不怕把自己过废了么？长点心吧&amp;hellip;
+ 下午我的她打电话跟我抱怨，在公司做的都是些没有技术含量的杂七杂八的活，我回了句&amp;quot;能干什么呢&amp;rdquo;，结果惹了人家不高兴，晚上还是让宝贝女儿帮忙转达了歉意，还好被原谅了，shy&amp;hellip;
+不是吗？到了这个年纪了，才发现自己会的东西却不能糊口，不应该努力充电赶上么，希望我的她转变思路和心态，不要觉得自己都40了就可以什么都不学习了，现在这个社会，活到老学到老，总是要努力跟上世界变化的节奏才对
+加油，大宝贝!
+ 我那碎碎念的钥匙扣终于到了，迫不及待的取了回来并在路上换上了，酷！
+ 明天就可以回家见到宝贝女儿咯，好期待哦，么么哒^_^</description>
+    </item>
     
     <item>
       <title>主逻辑完成了！！！</title>
