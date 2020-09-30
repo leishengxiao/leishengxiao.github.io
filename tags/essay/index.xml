@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第一次收到中秋过节费</title>
+      <link>https://leishengxiao.github.io/posts/20200930/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20200930/</guid>
+      <description>参加工作13年了，第一次收到中秋发的过节费，虽然不是很多，但心里真的很暖很暖，感谢MaxOptics，一个值得人付出的公司！
+ AMS完成了所有的测量相关程序了，接下来就要进入一些细节的修改和整体Review了，然后就正式开始Analysis工程了
+下午对整个10月份分解了下计划安排，大致思路如下：
+ 第一周（D3）：完成参数设置的判断控制、Review设备连接及VNA扫描参数部分的代码 第二周（D5）：完成测量数据主界面、分析主界面，以及指教坐标切面和等高线图4个界面 第三周（D5）：完成极坐标切面、强度图、极坐标三维、表面图4个界面 第四周（D5）：完成整体SIT测试、Bug修改以及遗漏Comment的添加  同时对晚上的阅读学习计划做了下安排：
+ 第一周：入门知识及测量设备两个Chapter 第二周：设计、建造、鉴定测试，以及远程测量两个Chapter 第三周：辐射参数的远程测量两个Chapter 第四周：近场测量一个Chapter   再过半个小时左右，就要启程回家了，好期待&amp;hellip;
+计划明天在家给父母和大小宝贝做饭，做什么呢？螃蟹+猪蹄？哈哈哈&amp;hellip;
+想你们了，大小宝贝！</description>
+    </item>
     
     <item>
       <title>代码Review</title>
