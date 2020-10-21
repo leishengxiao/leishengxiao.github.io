@@ -7,10 +7,136 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 13 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>给宝贝女儿过生日</title>
+      <link>https://leishengxiao.github.io/posts/20201021/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201021/</guid>
+      <description>早晨起床，给宝贝女儿去yummy订了中午的生日蛋糕，紧接着洗了昨晚的脏衣服，和老爸一起寻找走失的小乌龟，然后蒸好了鱼，等待女儿和大宝贝回家
+老妈整整为生日忙活了一上午，炸酥肉、包睡觉、炒菜&amp;hellip;
+因为中午1点有英语课，12点25开始吃饭，12点50切蛋糕，12点55全家一起给宝贝女儿唱了生日祝福歌，她许了愿，我问她许的什么，这家伙还不告诉我，真是女大不中留啊&amp;hellip;
+ 我把原来7点的高铁改签到了3点多，2点10分左右，我提上老父亲给买的电压力锅，踏上了返青的征程
+一路奔波，到了快7点，到了我的小窝，补写Blog&amp;hellip;
+ 明天开始了我的AMS的Analysis部分，同时还要把去现场测试70dB的部分做个简单总结
+加油！</description>
+    </item>
+    
+    <item>
+      <title>基本测试完毕</title>
+      <link>https://leishengxiao.github.io/posts/20201020/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201020/</guid>
+      <description>7点钟起床洗刷，7点半出门，吃了个济南的大包子和甜沫，紧接着进厂测试
+先是把波导窗改为1.5的铁板，结果屏蔽到了80dB以下，而换上波导窗，只有50，看来真的是波导窗有问题了
+又测了滤波器部分，基本能达到70了
+后门起初也是不行，最后调啊调，终于到70以下了
+最后在我的要求下，又统一全部测试了下，并把测试数据记录了下来
+ 接近中午了，确定了后续的工作： 1.等厂家发新的波导窗 2.工厂按照接线盘并接线 3.工厂贴吸波材料
+确定了这些之后，中午终于吃了个安心饭，和大卢告别之后，我续了一天房让宇航住，自己定了下午4点半的高铁会日照
+ 3个多小时颠簸之后，终于见到了大宝贝，坐着她骑着的可爱的电动车回到了家，这时，我亲爱的父亲和可爱的宝贝女儿已经在小区门口等着我了，好感动&amp;hellip;
+上楼回到家，老妈在准备吃的，我把礼物分别给了宝贝女儿和父亲，他们都很欢喜，我好高兴~
+臭了近一个星期，终于洗了个澡换了个衣服，放纵玩了下下，睡着了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>巧她爹碰到巧她妈---巧极了</title>
+      <link>https://leishengxiao.github.io/posts/20201019/</link>
+      <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201019/</guid>
+      <description>一早吃了个超意兴的早餐，宇航开始协调射频线缆，安排小牛牛从所里发出来
+中途过程中，给ZTC的小谢打了个电话，结果得知之前的两根8m的射频线都已经随箱子发过来了
+于是又联系卢在现场查找
+后来杜老师又告知，老外的矢网这周借出去了，好崩溃
+没办法，先去现场再说吧
+ 到了现场，小卢告诉找到了一根8m的射频线，还有一根找不到，中途又翻了线缆箱子、爬了原暗箱罩查看、一个老头头还在死犟的争论，最后，在监控摄像头箱子里找到了另外一根射频线
+ 有了线缆就好说了，可以把箱体统统走一圈看看了，本着这个目的，又连接了测试环境之后，同时把矢网远离了箱体2m之后，突然发现，测试精度上来了，能测到70dB以下了，好激动&amp;hellip;
+ 然后一通测试，发现前后门、两侧都还可以，唯一几个差的地方是：左右两个波导窗、后门以及滤波器
+这时已经很晚了，确定了让小卢他们进行整改，我们打道回府吃了个饭，约定第二天继续测
+终于有噗了，yeah&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>终于开始测试了</title>
+      <link>https://leishengxiao.github.io/posts/20201018/</link>
+      <pubDate>Sun, 18 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201018/</guid>
+      <description>在两天半的等待之后，终于具备测试条件了，于是把所有的测试环境开始布置，中间过程中，宇航还把放大器接错了，晕菜&amp;hellip;
+结果，结果，结果&amp;hellip;
+41所的VNA忒差了，底噪太大，根本达不到测试的精度要求，没办法，一顿视频讨论，也没得出好的结果
+没办法，只能在现在基础上，把大概比较差的点找出来了
+门不行，原因是没有通气压紧，同时又贴了些铜箔之后，能达到60dB以下了
+可能大家都比较焦急吧，杜老师也是想了很多办法，测到6点左右，宇航还和杜老师争吵了一下下，最后还是按照杜老师的方法测了下
+虽然不行，但勉强能达到最好的测试精度了
+没办法，家伙什不行，确定了： 1.射频线缆走过墙转接器，暗箱内部接一根3m的，外部接一根8m的，宇航负责协调从所里周一发出 2.带来的VNA不行，只能协调台是德的矢网了，又杜老师协调试用
+确定了这些之后，只能等待线缆和矢网了，预计最早也得周二测了
+无奈中&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>终于等来了护罩</title>
+      <link>https://leishengxiao.github.io/posts/20201017/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201017/</guid>
+      <description>一大早联系卢，得知早晨护罩到了，工厂正在安装
+宇航忙着打电话了一上午，而我继续睡觉等待&amp;hellip;
+快到中午时，大卢接我们去了厂里，看了下护罩，工人们还在安装，预计也得到明天周日才能测了
+确定了下接下来一天的计划安排之后，我们回到了酒店
+晚上去了西站对面的一家鲁菜馆，俩人点了三个菜一个汤，又造进去280，忒奢侈了，没办法，谁让咱是乙方呢
+吃完继续回酒店，等待&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>咸鱼一天</title>
+      <link>https://leishengxiao.github.io/posts/20201016/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201016/</guid>
+      <description>一早宇航定了一个早餐，吃过之后，问了下护罩还没有消息，只能继续等待&amp;hellip;
+下午的时候得知，护罩今天发出，预计是晚上到，Bless~
+真真正正的昏睡了一天，到了下午5点多，出门打车去了经四路的万达，一顿逛，最后在一家鲁菜馆吃了一顿，3个菜1个汤2盘睡觉，俩人糟蹋了215，好奢侈&amp;hellip;
+继续回酒店等待&amp;hellip;
+ 中间给闺女打了个电话，道了歉，原计划周日回去给宝贝女儿过生日的计划只能泡汤了，往好了说，最快也得周一才能回去一趟了
+好无奈&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第一次出差</title>
+      <link>https://leishengxiao.github.io/posts/20201015/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201015/</guid>
+      <description> 早晨6点钟起床，一路奔波，终于在中午11点多，抵达了省会济南
+见到了宇航和传说中的Mr.Lu，中午吃了个辣椒炒肉，简单一聊，然后去了工厂看设备
+结果，结果，结果&amp;hellip;
+原计划的外罩还没到，还在河北沧州没进炉烤漆呢，没办法，只能打道回府，到了订的布丁酒店，开了房，宇航蹭我一个房间
+到了晚上的时候，真的是无所事事，找了个百联奥特莱斯，逛了一顿，在那边吃了个面，花了80
+继续回酒店等待中&amp;hellip;
+ </description>
+    </item>
+    
+    <item>
+      <title>结果正常</title>
+      <link>https://leishengxiao.github.io/posts/20201014/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201014/</guid>
+      <description>上午的时候，大小宝贝的核酸检测结果都出来了，一切Ok，学校通知不用去开证明，直接拿着检验结果的截图返校就可以了，于是乎，宝贝女儿下午高高兴兴的上学去了
+下午通电话的时候，宝贝女儿给爷爷、奶奶、爸爸、妈妈都分别准备了精美的礼物，听了好感动
+爱是相互传递的
+ 下午Mr.Du过来的时候，请教了几个问题，有些之前的迷惑解开了，但也发现了新的比较严重的问题，那就是数据存储的问题，看来得好好理一理了，不然会出问题
+ 明天要去济南测70dB，算是学习吧，希望一切顺利，并且收获满满
+更加期待周末和亲人们的相见，加油！</description>
+    </item>
     
     <item>
       <title>父爱如山</title>
