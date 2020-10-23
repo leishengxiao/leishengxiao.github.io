@@ -6,8 +6,31 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 Oct 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>出差后第一天</title>
+            <link>https://leishengxiao.github.io/posts/20201022/</link>
+            <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20201022/</guid>
+            <description>本想着起个大早跑个步，但事与愿违，睡晚了，实在爬不起来了，如此作罢&amp;hellip;
+到了公司，根据出差期间的聊天记录及照片，整理了下70dB的测试记录，发给小航航提了下意见，修改之后发到了群里让Mr.Du审核，给了个大拇指，嘿嘿^_^
+ 打开久违的AMS，将思路重新审视了下，修改了之前关于轴名、轴单位的限制，增加了Measure的Header部分，接近8点了，关于导出文件名，只能明早上班再弄了
+ 给大小宝贝打了个电话，原来明天宝贝女儿有考试，大宝贝在带她复习，只言片语中能够感觉出来，大宝贝的情绪不是很高涨，大家对我的态度也不如之前那么的稀罕和平和，唉&amp;hellip;
+ 纠结了半天关于明天回家不回家的问题，突然一想周日是九九重阳老人节，在乎那一百块钱路费作甚，回家陪老人要紧，订票、回家、看望父母和大小宝贝去！</description>
+            <content type="html"><![CDATA[<hr>
+<p>本想着起个大早跑个步，但事与愿违，睡晚了，实在爬不起来了，如此作罢&hellip;</p>
+<p>到了公司，根据出差期间的聊天记录及照片，整理了下70dB的测试记录，发给小航航提了下意见，修改之后发到了群里让Mr.Du审核，给了个大拇指，嘿嘿^_^</p>
+<hr>
+<p>打开久违的AMS，将思路重新审视了下，修改了之前关于轴名、轴单位的限制，增加了Measure的Header部分，接近8点了，关于导出文件名，只能明早上班再弄了</p>
+<hr>
+<p>给大小宝贝打了个电话，原来明天宝贝女儿有考试，大宝贝在带她复习，只言片语中能够感觉出来，大宝贝的情绪不是很高涨，大家对我的态度也不如之前那么的稀罕和平和，唉&hellip;</p>
+<hr>
+<p>纠结了半天关于明天回家不回家的问题，突然一想周日是九九重阳老人节，在乎那一百块钱路费作甚，回家陪老人要紧，订票、回家、看望父母和大小宝贝去！</p>
+]]></content>
+        </item>
         
         <item>
             <title>给宝贝女儿过生日</title>
