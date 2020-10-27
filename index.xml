@@ -7,10 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sun, 25 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>一个人办公</title>
+      <link>https://leishengxiao.github.io/posts/20201026/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201026/</guid>
+      <description>今天宇航测了下屏蔽，还好还好，偏差不大，那个固定衰减器确实只是影响动态范围而已
+目前所有的屏蔽基本可以了，只有前门有些点的屏蔽值临界
+这次没去调试下位机程序，有点可惜&amp;hellip;
+ 今天上午因为VS扩展的问题，折腾了两小时，下午找到了一个好用的扩展Resharper，确实不错，效率很高
+上午搞定了数据导出，下午在做Excel导入的时候，先是用Microsoft.Ace.Oledb的驱动，结果本地没装dll，寻找了一个DevExpress里的ExcelDataSource的控件，非常好用高效！
+ 今天中午自己做了大米粥，时间有点长，喝起来有点烫
+一共熬了三碗，中午喝了一碗，晚上喝了两碗半，吃了点老妈做的酥肉，饱饱的&amp;hellip;
+谢谢亲爱的妈妈！爱您^_^
+ 中午在京东下单买了个定时插座，这样中午不用早回来熬粥了
+买了个微波炉，这样就可以从家带包子热热吃了
+又省钱又省事又有营养，棒棒哒&amp;hellip;
+ 宝贝女儿因为苏新要来，大发脾气，对大宝贝说话也不是很尊重，其实我倒是觉得宝贝女儿是个个性非常强的人，她希望独立，希望得到别人的表扬，我相信她，这周回家要和大宝贝商量下方法问题
+ 晚上老爸通知我，苏新要过来住一段，但是租的房子实在是太小了，我跟哥哥说了下，可以让苏新和爸妈回家住一段时间，哥哥说和嫂子商量下
+人到中年，全是事啊！
+要努力挣钱了，空窗期赶快过去吧！
+Bless~</description>
+    </item>
     
     <item>
       <title>常在河边走哪有不湿鞋</title>
