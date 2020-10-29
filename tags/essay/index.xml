@@ -7,10 +7,50 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Mon, 26 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AnalysisAddFile完事</title>
+      <link>https://leishengxiao.github.io/posts/20201028/</link>
+      <pubDate>Wed, 28 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201028/</guid>
+      <description>费尽心血，终于把AnalysisAddFile做完了，话说真的是完美
+下午把Analysis的主界面设计完了，接下来就是加上主要的逻辑以及6个数据分析展示了
+胜利在望，加油！
+估计要比原来的计划晚上2周左右了&amp;hellip;
+ 今天OTA暗箱调试完了，Mr.Du和小王晚上也回来了
+一个月的电费都100多，看来有必要跟小王说下AA了，至少在家做饭的话，这个总是正常的吧？总不至于让老子都掏吧？我又不是你爹
+对不对？惊不惊喜意不意外？
+ 今天去了家家悦超市，买了8个饼、一瓶洗洁精、一盒牙线，花了20多，本来想买个汤勺和盘子，结果实在是太对了，便宜的汤勺都要近20，最便宜的盘子还得10块钱，筷子也是，还是算了吧&amp;hellip;
+这周回家得带些东西了：
+ 衣服：保暖内衣、冲锋衣 餐具：盘子和筷子从家带，去地下市场买一个汤勺 粮食：15个大包子、1瓶咸菜 其他：一卷卫生纸  基本全了，希望这个冬天不会太冷
+ 晚上和闺女视频，结果宝贝女儿说不喜欢我，唉，我的倔脾气又上来了，生气挂掉了
+你可是我最最疼爱的人啊女儿，你的不喜欢会影响我很长一段时间的心情的，要不要买个小礼物送给她呢？可是我真的是挑选了半天都没有找到合适的呢&amp;hellip;
+ 刚才和小王说了下电费的事情，他同意了，这是人之常情吧，呵呵&amp;hellip;
+小王回来说周六他可能去南京，看来我不需要去了，估计是杜老师感觉周末我没法回家的缘故吧，也可能是我上次去测屏蔽出了个固定衰减器的问题？亦或是吃饭花钱太多？都有可能，不过可以周末回家见爸妈和大小宝贝了，嘿嘿，好高兴&amp;hellip;
+ 好了，啰嗦了这么多，开始吃饭了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第一天自己做饭</title>
+      <link>https://leishengxiao.github.io/posts/20201027/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201027/</guid>
+      <description>上午做完AnalysisAddFile的大部分功能之后，12点5分回家，到了家，定时的大米粥已经做好了，热气腾腾的，好温暖&amp;hellip;
+烫上些妈妈做的酥肉，超级好吃！
+心里由衷的感谢爸妈^_^
+ Mr.Du下午赶到了济南调试暗箱程序、重复测试机械运动和屏蔽值，希望一切顺利~
+ 中午的时候开始听德云社的相声，忒搞笑了，看来有必要把全集听完，嘿嘿&amp;hellip;
+ 大宝贝打电话说闺女有点做事拖拉，唉，我又何尝不是呢，这该死的拖延症，怎么治呢？
+得想办法解决掉我和宝贝女儿身上的问题&amp;hellip;
+ 哥哥今天还是没有答复苏新回不回老家，估计是不想回老家，而是单纯想来日照吧，呵呵，看来是大宝贝给寄的鱼惹的祸，真馋啊&amp;hellip;
+回头想想，当时老爸打电话的过激行为，应该也是不想让他们来吧，哈哈，可爱的老爸&amp;hellip;</description>
+    </item>
     
     <item>
       <title>一个人办公</title>

@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="map[name:LeiShengxiao]">
+<meta name="description"
+    content="费尽心血，终于把AnalysisAddFile做完了，话说真的是完美
+下午把Analysis的主界面设计完了，接下来就是加上主要的逻辑以及6个数据分析展示了
+胜利在望，加油！
+估计要比原来的计划晚上2周左右了&amp;hellip;
+ 今天OTA暗箱调试完了，Mr.Du和小王晚上也回来了
+一个月的电费都100多，看来有必要跟小王说下AA了，至少在家做饭的话，这个总是正常的吧？总不至于让老子都掏吧？我又不是你爹
+对不对？惊不惊喜意不意外？
+ 今天去了家家悦超市，买了8个饼、一瓶洗洁精、一盒牙线，花了20多，本来想买个汤勺和盘子，结果实在是太对了，便宜的汤勺都要近20，最便宜的盘子还得10块钱，筷子也是，还是算了吧&amp;hellip;
+这周回家得带些东西了：
+ 衣服：保暖内衣、冲锋衣 餐具：盘子和筷子从家带，去地下市场买一个汤勺 粮食：15个大包子、1瓶咸菜 其他：一卷卫生纸  基本全了，希望这个冬天不会太冷
+ 晚上和闺女视频，结果宝贝女儿说不喜欢我，唉，我的倔脾气又上来了，生气挂掉了
+你可是我最最疼爱的人啊女儿，你的不喜欢会影响我很长一段时间的心情的，要不要买个小礼物送给她呢？可是我真的是挑选了半天都没有找到合适的呢&amp;hellip;
+ 刚才和小王说了下电费的事情，他同意了，这是人之常情吧，呵呵&amp;hellip;
+小王回来说周六他可能去南京，看来我不需要去了，估计是杜老师感觉周末我没法回家的缘故吧，也可能是我上次去测屏蔽出了个固定衰减器的问题？亦或是吃饭花钱太多？都有可能，不过可以周末回家见爸妈和大小宝贝了，嘿嘿，好高兴&amp;hellip;
+ 好了，啰嗦了这么多，开始吃饭了&amp;hellip;" />
+<meta name="keywords"
+    content=", Essay" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20201028/" />
+
+
+<title>
+    
+    AnalysisAddFile完事 :: LeiShengxiao&#39;s Blog  — supper noob
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.154a87e0ff720e102948892a8eb80881aa81a4faf37376f3093be219f6296c3d.css">
+
+
+
+
+
+
+<meta itemprop="name" content="AnalysisAddFile完事">
+<meta itemprop="description" content="费尽心血，终于把AnalysisAddFile做完了，话说真的是完美
+下午把Analysis的主界面设计完了，接下来就是加上主要的逻辑以及6个数据分析展示了
+胜利在望，加油！
+估计要比原来的计划晚上2周左右了&hellip;
+ 今天OTA暗箱调试完了，Mr.Du和小王晚上也回来了
+一个月的电费都100多，看来有必要跟小王说下AA了，至少在家做饭的话，这个总是正常的吧？总不至于让老子都掏吧？我又不是你爹
+对不对？惊不惊喜意不意外？
+ 今天去了家家悦超市，买了8个饼、一瓶洗洁精、一盒牙线，花了20多，本来想买个汤勺和盘子，结果实在是太对了，便宜的汤勺都要近20，最便宜的盘子还得10块钱，筷子也是，还是算了吧&hellip;
+这周回家得带些东西了：
+ 衣服：保暖内衣、冲锋衣 餐具：盘子和筷子从家带，去地下市场买一个汤勺 粮食：15个大包子、1瓶咸菜 其他：一卷卫生纸  基本全了，希望这个冬天不会太冷
+ 晚上和闺女视频，结果宝贝女儿说不喜欢我，唉，我的倔脾气又上来了，生气挂掉了
+你可是我最最疼爱的人啊女儿，你的不喜欢会影响我很长一段时间的心情的，要不要买个小礼物送给她呢？可是我真的是挑选了半天都没有找到合适的呢&hellip;
+ 刚才和小王说了下电费的事情，他同意了，这是人之常情吧，呵呵&hellip;
+小王回来说周六他可能去南京，看来我不需要去了，估计是杜老师感觉周末我没法回家的缘故吧，也可能是我上次去测屏蔽出了个固定衰减器的问题？亦或是吃饭花钱太多？都有可能，不过可以周末回家见爸妈和大小宝贝了，嘿嘿，好高兴&hellip;
+ 好了，啰嗦了这么多，开始吃饭了&hellip;">
+<meta itemprop="datePublished" content="2020-10-28T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-10-28T00:00:00+00:00" />
+<meta itemprop="wordCount" content="19">
+<meta itemprop="image" content="https://leishengxiao.github.io/"/>
+
+
+
+<meta itemprop="keywords" content="Essay," />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://leishengxiao.github.io/"/>
+
+<meta name="twitter:title" content="AnalysisAddFile完事"/>
+<meta name="twitter:description" content="费尽心血，终于把AnalysisAddFile做完了，话说真的是完美
+下午把Analysis的主界面设计完了，接下来就是加上主要的逻辑以及6个数据分析展示了
+胜利在望，加油！
+估计要比原来的计划晚上2周左右了&hellip;
+ 今天OTA暗箱调试完了，Mr.Du和小王晚上也回来了
+一个月的电费都100多，看来有必要跟小王说下AA了，至少在家做饭的话，这个总是正常的吧？总不至于让老子都掏吧？我又不是你爹
+对不对？惊不惊喜意不意外？
+ 今天去了家家悦超市，买了8个饼、一瓶洗洁精、一盒牙线，花了20多，本来想买个汤勺和盘子，结果实在是太对了，便宜的汤勺都要近20，最便宜的盘子还得10块钱，筷子也是，还是算了吧&hellip;
+这周回家得带些东西了：
+ 衣服：保暖内衣、冲锋衣 餐具：盘子和筷子从家带，去地下市场买一个汤勺 粮食：15个大包子、1瓶咸菜 其他：一卷卫生纸  基本全了，希望这个冬天不会太冷
+ 晚上和闺女视频，结果宝贝女儿说不喜欢我，唉，我的倔脾气又上来了，生气挂掉了
+你可是我最最疼爱的人啊女儿，你的不喜欢会影响我很长一段时间的心情的，要不要买个小礼物送给她呢？可是我真的是挑选了半天都没有找到合适的呢&hellip;
+ 刚才和小王说了下电费的事情，他同意了，这是人之常情吧，呵呵&hellip;
+小王回来说周六他可能去南京，看来我不需要去了，估计是杜老师感觉周末我没法回家的缘故吧，也可能是我上次去测屏蔽出了个固定衰减器的问题？亦或是吃饭花钱太多？都有可能，不过可以周末回家见爸妈和大小宝贝了，嘿嘿，好高兴&hellip;
+ 好了，啰嗦了这么多，开始吃饭了&hellip;"/>
+
+
+
+<meta property="og:title" content="AnalysisAddFile完事" />
+<meta property="og:description" content="费尽心血，终于把AnalysisAddFile做完了，话说真的是完美
+下午把Analysis的主界面设计完了，接下来就是加上主要的逻辑以及6个数据分析展示了
+胜利在望，加油！
+估计要比原来的计划晚上2周左右了&hellip;
+ 今天OTA暗箱调试完了，Mr.Du和小王晚上也回来了
+一个月的电费都100多，看来有必要跟小王说下AA了，至少在家做饭的话，这个总是正常的吧？总不至于让老子都掏吧？我又不是你爹
+对不对？惊不惊喜意不意外？
+ 今天去了家家悦超市，买了8个饼、一瓶洗洁精、一盒牙线，花了20多，本来想买个汤勺和盘子，结果实在是太对了，便宜的汤勺都要近20，最便宜的盘子还得10块钱，筷子也是，还是算了吧&hellip;
+这周回家得带些东西了：
+ 衣服：保暖内衣、冲锋衣 餐具：盘子和筷子从家带，去地下市场买一个汤勺 粮食：15个大包子、1瓶咸菜 其他：一卷卫生纸  基本全了，希望这个冬天不会太冷
+ 晚上和闺女视频，结果宝贝女儿说不喜欢我，唉，我的倔脾气又上来了，生气挂掉了
+你可是我最最疼爱的人啊女儿，你的不喜欢会影响我很长一段时间的心情的，要不要买个小礼物送给她呢？可是我真的是挑选了半天都没有找到合适的呢&hellip;
+ 刚才和小王说了下电费的事情，他同意了，这是人之常情吧，呵呵&hellip;
+小王回来说周六他可能去南京，看来我不需要去了，估计是杜老师感觉周末我没法回家的缘故吧，也可能是我上次去测屏蔽出了个固定衰减器的问题？亦或是吃饭花钱太多？都有可能，不过可以周末回家见爸妈和大小宝贝了，嘿嘿，好高兴&hellip;
+ 好了，啰嗦了这么多，开始吃饭了&hellip;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20201028/" />
+<meta property="og:image" content="https://leishengxiao.github.io/"/>
+<meta property="article:published_time" content="2020-10-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-28T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+
+
+
+
+
+<meta property="article:section" content="Essay" />
+
+
+
+<meta property="article:published_time" content="2020-10-28 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6bc62acc05941583aeae8f35d4038b42";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://leishengxiao.github.io/about">About</a></li><li><a href="https://leishengxiao.github.io/posts">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        One minute
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://leishengxiao.github.io/posts/20201028/">AnalysisAddFile完事</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <hr>
+<p>费尽心血，终于把AnalysisAddFile做完了，话说真的是完美</p>
+<p>下午把Analysis的主界面设计完了，接下来就是加上主要的逻辑以及6个数据分析展示了</p>
+<p>胜利在望，加油！</p>
+<p>估计要比原来的计划晚上2周左右了&hellip;</p>
+<hr>
+<p>今天OTA暗箱调试完了，Mr.Du和小王晚上也回来了</p>
+<p>一个月的电费都100多，看来有必要跟小王说下AA了，至少在家做饭的话，这个总是正常的吧？总不至于让老子都掏吧？我又不是你爹</p>
+<p>对不对？惊不惊喜意不意外？</p>
+<hr>
+<p>今天去了家家悦超市，买了8个饼、一瓶洗洁精、一盒牙线，花了20多，本来想买个汤勺和盘子，结果实在是太对了，便宜的汤勺都要近20，最便宜的盘子还得10块钱，筷子也是，还是算了吧&hellip;</p>
+<p>这周回家得带些东西了：</p>
+<ul>
+<li>衣服：保暖内衣、冲锋衣</li>
+<li>餐具：盘子和筷子从家带，去地下市场买一个汤勺</li>
+<li>粮食：15个大包子、1瓶咸菜</li>
+<li>其他：一卷卫生纸</li>
+</ul>
+<p>基本全了，希望这个冬天不会太冷</p>
+<hr>
+<p>晚上和闺女视频，结果宝贝女儿说不喜欢我，唉，我的倔脾气又上来了，生气挂掉了</p>
+<p>你可是我最最疼爱的人啊女儿，你的不喜欢会影响我很长一段时间的心情的，要不要买个小礼物送给她呢？可是我真的是挑选了半天都没有找到合适的呢&hellip;</p>
+<hr>
+<p>刚才和小王说了下电费的事情，他同意了，这是人之常情吧，呵呵&hellip;</p>
+<p>小王回来说周六他可能去南京，看来我不需要去了，估计是杜老师感觉周末我没法回家的缘故吧，也可能是我上次去测屏蔽出了个固定衰减器的问题？亦或是吃饭花钱太多？都有可能，不过可以周末回家见爸妈和大小宝贝了，嘿嘿，好高兴&hellip;</p>
+<hr>
+<p>好了，啰嗦了这么多，开始吃饭了&hellip;</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon">
+            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+            <line x1="7" y1="7" x2="7" y2="7"></line>
+          </svg><span class="tag"><a href="https://leishengxiao.github.io/tags/essay/">Essay</a></span>
+        </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        19 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        2020-10-28 08:00 &#43;0800
+      </p>
+    </div>
+
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+
+        <div class="pagination__buttons">
+          
+
+          
+            <span class="button next">
+              <a href="https://leishengxiao.github.io/posts/20201027/">
+                <span class="button__text">第一天自己做饭</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            
+            <span> All rights reserved.</span>
+            
+            <span> <a
+                    href="https://leishengxiao.github.io/posts/index.xml" target="_blank" title="rss"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-rss">
+                        <path d="M4 11a9 9 0 0 1 9 9"></path>
+                        <path d="M4 4a16 16 0 0 1 16 16"></path>
+                        <circle cx="5" cy="19" r="1"></circle>
+                    </svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            
+            
+        </div>
+    </div>
+</footer>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
+</html>
