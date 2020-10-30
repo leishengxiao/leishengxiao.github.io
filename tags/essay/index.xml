@@ -7,10 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>数据结构很重要</title>
+      <link>https://leishengxiao.github.io/posts/20201030/</link>
+      <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201030/</guid>
+      <description>花费了一天的时间，把Amplitude和Phase的数据结构问题解决了个差不多，在解决过程中，又Review了部分Analysis的代码，发现了三四处错误，而且，逻辑有些想起来也不是特别清晰了看来代码是要经常拿出来Review的
+同时，也说明数据结构真的很重要，如果在程序开发伊始就分析透，应该不会像祥子这样返工吧
+吸取教训&amp;hellip;
+ 上午订了回家的票，再过20分钟就该启程返日了，想我亲爱的爸妈和大小宝贝了&amp;hellip;
+ 中午打电话的时候，宝贝女儿正在看书，我提了句可以在阳台晒着太阳看，这样会很舒服，结果女儿说我之前提过在太阳底下看书容易近视，回想起来，老父亲确实曾经这样提过，看来女儿对我说的话还是比较走心的
+就是不知道这周临走前安排的任务完成的咋样了，估计能完成40%？呵呵，那就谢天谢地了
+哪个小朋友不想多玩会儿呢，我也实在不忍心女儿像我一样没有童年，只要她开心就好，剩下的交给时间吧&amp;hellip;
+ ZTE的OTA暗箱终于抵达金陵了，但是得明天才能进厂，因为41所是灰名单，倒霉催的可怜孩子，小王也因此还没订票启程，估计快了说也得明天才能动身吧
+ 最后，希望所有的一切一切都顺顺利利&amp;hellip;</description>
+    </item>
     
     <item>
       <title>AMS发现大问题</title>
