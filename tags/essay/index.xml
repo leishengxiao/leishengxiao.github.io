@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 28 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>AMS发现大问题</title>
+      <link>https://leishengxiao.github.io/posts/20201029/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201029/</guid>
+      <description>经过一天的奋战，Analysis终于快完事了,但是临近终了，终于暴露出了严重的问题，那就是Amplitude和Phase原来是个数组，怪不得Mr.Du之前说要好好考虑这个数据结构呢
+晚上加班把DB的表结构搞好了，所有的Model、DAL和BLL，以及之前相关的Measure的所有方法，都要增加或者改写了，明天得搞定
+ 半年了，MaxOptics的ZTE的OTA暗箱终于要发货了，不容易啊，也希望公司能够多接单多挣钱，大河流水小河满嘛
+ 晚上8点多回到住的地方，发生了一件让人不开心的事，那就是本以为到家就可以喝上热粥，结果，竟然是凉的，难道是我没开开关的缘故？唉，没办法，只能泡了碗燕麦片作罢，丢三落四害死人啊&amp;hellip;
+ 明天就可以回家了，想我亲爱的爸妈了&amp;hellip;</description>
+    </item>
     
     <item>
       <title>AnalysisAddFile完事</title>
