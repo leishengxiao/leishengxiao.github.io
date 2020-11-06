@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://leishengxiao.github.io/series/work-2020/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/work-2020/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>折腾GridView</title>
       <link>https://leishengxiao.github.io/posts/20200805/</link>
