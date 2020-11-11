@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>线性插值</title>
+      <link>https://leishengxiao.github.io/posts/20201110/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201110/</guid>
+      <description>在做RadiationParameters的计算的时候，发现Analysis主界面遗漏了一项很重要的方法就是PlotData，没办法，开补&amp;hellip;
+在补的时候，又发现了两个遗漏的方法，一个是STDANAGain和STDANAMeasure数据的读取和处理，以及一个根据Gain数据线性插值的算法
+这些都不是强项耶，写出来的代码，自己也是不满意
+心态，心态，慢慢来&amp;hellip;
+ 今天上午，宝贝女儿被老师找家长了，原因是老师怀疑她参与了昨天的撕书事件，以及生气发现同学们的违规行为后没有制止和第一时间通知老师，其实后来通过了解，闺女第一时间就已经制止了，而且让值日生张果果去通知老师了，女儿的做法还是不错的
+今晚继续早睡&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Analysis不是那么简单</title>
+      <link>https://leishengxiao.github.io/posts/20201109/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201109/</guid>
+      <description>本以为Analysis也就画几个图，可结果却发现，这里面的东西太多了，很多的数据处理逻辑和算法，而这些是我的弱项
+一天时间把CutPlane的图形做完了，基本逻辑改完了，到了CurveList的ValueChange的时候，发现了越来越多的处理逻辑，比如RadiationParameters的计算，好复杂
+慢慢怼代码吧&amp;hellip;
+ 今天喝上了母亲搭配的八宝粥，真的很香甜又有营养，谢谢老妈！
+今天破天荒的12点睡觉了，值得Mark下&amp;hellip;</description>
+    </item>
+    
     <item>
       <title>断舍离</title>
       <link>https://leishengxiao.github.io/posts/20201108/</link>
