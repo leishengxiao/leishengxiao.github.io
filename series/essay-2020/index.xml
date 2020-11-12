@@ -7,7 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PlotData终于搞定了</title>
+      <link>https://leishengxiao.github.io/posts/20201111/</link>
+      <pubDate>Wed, 11 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201111/</guid>
+      <description>今天是伟大是光棍节，感谢我的她，给我的后半生，换个微信头像Mark下&amp;hellip;
+ 今天也是双十一购物节，口袋拮据的我，给老爸买了个Jeep的小皮帽，希望合适帅气！
+ PlotData写了将近一天半，终于结束了，还有很多困惑的地方，主要还是因为对公式的不理解吧，下次Mr.Du来的时候再请教下
+ 我的她从Bank正式数据里查了下KeLing的资金，说是现在组长一个月都能1.7w了，呵呵了
+这些又能如何呢？付出的时间呢？心情和未来呢？
+姑且算是吃不到葡萄说枣酸吧&amp;hellip;
+ 宝贝女儿数学又没考好，竖式错了好几道，我知道她不喜欢列竖式，这也算是有因皆有果吧
+闺女今天还撒谎了，骗妈妈说作业完成了，结果还有篇日记没写，汗~
+闺女啊，让老父亲说你啥好呢，长点心吧&amp;hellip;
+ 不知不觉明天又周四了，这周怎么也得把CutPlane做完吧，也希望接下来的各个图都能更快速更顺利
+Bless~</description>
+    </item>
+    
     <item>
       <title>线性插值</title>
       <link>https://leishengxiao.github.io/posts/20201110/</link>
