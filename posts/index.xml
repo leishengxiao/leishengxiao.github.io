@@ -6,8 +6,48 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>茅塞顿开</title>
+            <link>https://leishengxiao.github.io/posts/20201113/</link>
+            <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20201113/</guid>
+            <description>今天主要做了AMS的CutPlane的画图，上午把要做的目标功能任务分解了下，图表展示再次选了下型，各种纠结和各种不好，最后还是决定暂时用NI
+下午的时候，Mr.Du来了一趟，把之前的疑问通通问了下，终于明白了为什么要用第一个文件做归一化处理的意义和目的了，也清楚了一些画图的方向
+Mr.Du也是建议可以不用NI的图表控件，我决定折线和极化坐标的，用DevExpress，而球坐标的用C1Chart
+哈哈，就这么愉快的决定了，接下来干就行了，先用CutPlane打个样再说
+ 下午小王同学从金陵回来了，估计他看到我换卧室会大吃一惊的吧，嘿嘿&amp;hellip;
+再过个十几分钟就要开始收拾东西返日了，哈哈，可以看到戴着小皮帽的老爸、包包子的老妈和我亲爱的大小宝贝了
+亲人们，你们想我了吗？我回来啦，快夹道欢迎吧&amp;hellip;
+ 这次回家的主要几个事：
+1.理个发：为了留长发做个准备，但也不能太长
+2.羽绒服：我的她给我买了个轻薄羽绒服，我得带回来
+3.大包子：带上下周的粮食
+4.教闺女：看看闺女近段时间考试的错题，分析下原因
+5.我的她：当然是嘿啾嘿啾了
+5分钟倒计时了，吼吼^_^</description>
+            <content type="html"><![CDATA[<hr>
+<p>今天主要做了AMS的CutPlane的画图，上午把要做的目标功能任务分解了下，图表展示再次选了下型，各种纠结和各种不好，最后还是决定暂时用NI</p>
+<p>下午的时候，Mr.Du来了一趟，把之前的疑问通通问了下，终于明白了为什么要用第一个文件做归一化处理的意义和目的了，也清楚了一些画图的方向</p>
+<p>Mr.Du也是建议可以不用NI的图表控件，我决定折线和极化坐标的，用DevExpress，而球坐标的用C1Chart</p>
+<p>哈哈，就这么愉快的决定了，接下来干就行了，先用CutPlane打个样再说</p>
+<hr>
+<p>下午小王同学从金陵回来了，估计他看到我换卧室会大吃一惊的吧，嘿嘿&hellip;</p>
+<p>再过个十几分钟就要开始收拾东西返日了，哈哈，可以看到戴着小皮帽的老爸、包包子的老妈和我亲爱的大小宝贝了</p>
+<p>亲人们，你们想我了吗？我回来啦，快夹道欢迎吧&hellip;</p>
+<hr>
+<p>这次回家的主要几个事：</p>
+<p>1.理个发：为了留长发做个准备，但也不能太长</p>
+<p>2.羽绒服：我的她给我买了个轻薄羽绒服，我得带回来</p>
+<p>3.大包子：带上下周的粮食</p>
+<p>4.教闺女：看看闺女近段时间考试的错题，分析下原因</p>
+<p>5.我的她：当然是嘿啾嘿啾了</p>
+<p>5分钟倒计时了，吼吼^_^</p>
+]]></content>
+        </item>
         
         <item>
             <title>DirectivityParameters搞定了</title>
