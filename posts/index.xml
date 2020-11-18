@@ -6,8 +6,59 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Mon, 16 Nov 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>CutPlane完美收官</title>
+            <link>https://leishengxiao.github.io/posts/20201118/</link>
+            <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20201118/</guid>
+            <description>上午完成了Cursor的添加部分，下午本来想通过Annotation的Anchor功能做自动的Cursor移动，结果只有v22.2版本才有这个事件，没办法，只能是用Button来做了
+功夫不负有心人，终于搞定了！
+下午的时候通过读DevExpress的Demo程序，发现竟然可以实现Palette和ChartControlDesigner的功能，所以在4点左右又开始了新的征程，终于在7点完美收官了！
+简直是太漂亮了，哇咔咔&amp;hellip;
+ 宝贝女儿今天中午表现挺好的，读了海尼曼绘本
+下午发了期中考试的数学试卷，我那宝贝闺女考了A★，错的题简直是不动脑子
+希望能够尽快找到合适的途径，能够发散闺女的数学思维
+ 做完下了一晚上的雨，天渐渐的凉了啊&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>上午完成了Cursor的添加部分，下午本来想通过Annotation的Anchor功能做自动的Cursor移动，结果只有v22.2版本才有这个事件，没办法，只能是用Button来做了</p>
+<p>功夫不负有心人，终于搞定了！</p>
+<p>下午的时候通过读DevExpress的Demo程序，发现竟然可以实现Palette和ChartControlDesigner的功能，所以在4点左右又开始了新的征程，终于在7点完美收官了！</p>
+<p>简直是太漂亮了，哇咔咔&hellip;</p>
+<hr>
+<p>宝贝女儿今天中午表现挺好的，读了海尼曼绘本</p>
+<p>下午发了期中考试的数学试卷，我那宝贝闺女考了A★，错的题简直是不动脑子</p>
+<p>希望能够尽快找到合适的途径，能够发散闺女的数学思维</p>
+<hr>
+<p>做完下了一晚上的雨，天渐渐的凉了啊&hellip;</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>CutPlane完成了绝大部分</title>
+            <link>https://leishengxiao.github.io/posts/20201117/</link>
+            <pubDate>Tue, 17 Nov 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20201117/</guid>
+            <description>经过一天的努力，ChartControl做的CutPlane终于快做完了，就剩下Cursor的部分了，明天添加下就大功告成了
+通过这段时间的撸代码，发现不要看到东西就觉得不熟、不会，要真正动起手来就快了
+所以不要只是一味的望洋兴叹，干就完了！
+还有一个收获就是：尽量不要轻易去网上查资料，还是要看官方手册来的便捷实惠，同时还能学习各种不同的写法
+ 今天中午，大小宝贝因为读绘本的问题发生了战争，闺女把绘本撕了，还要挟妈妈不去上学了。大宝贝给我打了个电话，我告诉了她初步的处理办法
+唉，这对让人心碎的宝贝啊，一地鸡毛&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>经过一天的努力，ChartControl做的CutPlane终于快做完了，就剩下Cursor的部分了，明天添加下就大功告成了</p>
+<p>通过这段时间的撸代码，发现不要看到东西就觉得不熟、不会，要真正动起手来就快了</p>
+<p>所以不要只是一味的望洋兴叹，干就完了！</p>
+<p>还有一个收获就是：尽量不要轻易去网上查资料，还是要看官方手册来的便捷实惠，同时还能学习各种不同的写法</p>
+<hr>
+<p>今天中午，大小宝贝因为读绘本的问题发生了战争，闺女把绘本撕了，还要挟妈妈不去上学了。大宝贝给我打了个电话，我告诉了她初步的处理办法</p>
+<p>唉，这对让人心碎的宝贝啊，一地鸡毛&hellip;</p>
+]]></content>
+        </item>
         
         <item>
             <title>CharControl</title>
