@@ -7,7 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 18 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contour&amp;Surface完美收官</title>
+      <link>https://leishengxiao.github.io/posts/20201120/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201120/</guid>
+      <description>经过一上午的努力，添加了Contour的NumLevels以及Elvation的MeshLine和ShadeLine的开关与颜色设置
+下午两个小时，完善了C1Chart3D的Txt、Excel与Image的Export
+就这样，Contour和Surface算是完美收官了！
+ 接下来的工作：
+1.强度图：还是用C1Chart3D，只不过要限定二维投影而已，难点是要研究游标功能
+2.极坐标切面：切面就是二维，二维就用DevExpress的PolarLine图了，文档较多，问题不大
+3.极坐标三维：还没最终确定是否用NI，因为疑惑的是极坐标三维和表面图到底有啥区别呢？
+ 昨天宝贝女儿医疗保险交不上的问题，经过上午的电话咨询和老爸下午的柜台办理，终于搞定了，原来真的是名字惹的祸，档案上竟然是雷云，政府的办事真的是太差了！
+小王堂哥订婚，请假一天，我又度过了自己的一天！
+中午做的八宝粥竟然出现了状况，粥全溢出来了，泪奔&amp;hellip;
+搞不懂为啥，周一再观察观察吧，看看是水放少了还是锅出现了问题
+ 中午把昨晚洗的衣服都收起来了，把被子在卧室晒上了，两天半的时间，周日晚的睡眠，怎么也得有太阳的味道了吧？
+4:20了，收拾东西，启程返日！哇咔咔&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Contour完成</title>
+      <link>https://leishengxiao.github.io/posts/20201119/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201119/</guid>
+      <description>今天把Contour图除了数据展示部分，都做完了，相比CutPlane来讲，还是比较简单的
+做到最后，突然发现Contour和Surface竟然可以用一个，只是改变图的一个IsControured属性就可以了，太棒了
+那剩下的主要就是Intensity、Polar、3DSurface了，终于快结束了，马上历时5个月了，该有个交代了
+回想一路走来，搞懂了不少写法，进步很大，但也有很多代码需要重构
+路漫漫其修远兮，吾将上下而求索
+ 今天宝贝闺女中午又和妈妈发生了战争，俩人一个比一个嗓门大，把大宝贝气到怀疑人生，唉，这对冤家啊
+晚上的时候宝贝女儿倒是表现很棒，自己主动弹了钢琴
+希望每天都是个安静的时光，你若安好便是晴天！
+ Cao傍晚的时候突然打电话给我，说是老姬解散公司的事，他自己去了唐山一家钢厂，据说还和董事长见面弹了，应该是负责信息化吧，一个月只能回家一趟，据他说像坐牢一样
+终于走到了这一步了，一年多以前，还是雄心壮志，经历了市场的摧残，三个人渐行渐远，一个在天津，一个在唐山，一个在青岛。想起来，交的学费太多了，没有个一年半载，缓不过劲来
+但是，这些不都是自己的选择吗？人只有经历过才会成长啊！
+至少我目前的心态，再也没有什么来项目快、来钱快的那种奢望了，人还是踏踏实实一步一个脚印儿的往前走的好
+不求收获，但问耕耘！</description>
+    </item>
+    
     <item>
       <title>CutPlane完美收官</title>
       <link>https://leishengxiao.github.io/posts/20201118/</link>
