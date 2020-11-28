@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3DSurface马上要完成了</title>
+      <link>https://leishengxiao.github.io/posts/20201128/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201128/</guid>
+      <description>早上起了个大早，把被套、床单、枕巾通通洗了，清清爽爽！
+上午基本是在确定3DSurface的功能和实现思路，经过整整一个下午的努力，3DSufface终于差不多完成了，还剩下了Cursor的右键菜单以及MapColorEdit的功能了，吼吼~
+ 和闺女约定了要写篇短文《我的爸爸》如下：
+花白的头发，唏嘘的胡渣子，忧郁的眼神，尖尖的嘴唇，个头不高，但浑身充满了力量，他就是我的爸爸，一个幽默、睿智、洒脱、充满正能量的爸爸！
+爸爸退休之前基本没什么爱好，如果硬要说有什么爱好的话，那就是吃花生。但是爸爸退休之后，却培养了很多爱好，比如：玩手机、赶集、放风筝&amp;hellip;这些爱好的养成，能够从侧面反映出爸爸是个热爱生活、享受生活的人。
+一直以来，爸爸都特别喜欢修补东西，家里的所有电器、电路、家具等等有了毛病，爸爸都能信手拈来、手到病除；爸爸还特别擅长找东西，不管是植物、动物、物品，也不论是大的、小的、中不溜的，只要是丢了，爸爸都能神奇般的找到。这些都能说明，爸爸是个心灵手巧、心思缜密、特别有耐心的人。
+爸爸也很爱我们，就像最近我来青岛工作，离家远了不好好吃饭，爸爸特意去超市给我买了电压力锅，当时提着锅走在路上，我由衷的感慨这份沉甸甸的爱。爸爸也在生活中给我们很多睿智的思想，他经常说的一句话是“话是开心果”，有时候一句话，不同的语气和说法，能给对方带来不同的感受。爸爸就是这样一个以身作则、父爱如山、有思想的人。
+岁月总是那么的无情，随着年龄的增长，爸爸身上也增添了许多岁月的痕迹，耳朵不再那么灵了，脾气不再那么的温柔了，呼吸也不如之前顺畅了，但我们永远的爱您！
+祝愿爸爸永远健康、永远快乐！</description>
+    </item>
+    
     <item>
       <title>Intensity完成了</title>
       <link>https://leishengxiao.github.io/posts/20201127/</link>
