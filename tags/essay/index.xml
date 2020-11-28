@@ -7,7 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intensity完成了</title>
+      <link>https://leishengxiao.github.io/posts/20201127/</link>
+      <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201127/</guid>
+      <description>经过不懈的努力，Intensity终于完成了！
+昨天没整懂的Free的Cursor获取Z轴Value的，通过反编译源码终于找到了在Plot里有个GetValue的方法，大喜！
+ 这样的话，AMS就剩了3DSurface和近远场变换没搞定了，加油！
+周末得把3DSurface搞定，把近远场变换LabView的Script剧本查看程序的条件！
+ 因为周二来青，所以这周没有回家，回想起来，已经连续两个月每周都回家了
+老妈好点了吗？大小宝贝想我了吗？</description>
+    </item>
+    
+    <item>
+      <title>Intensity完成了一半</title>
+      <link>https://leishengxiao.github.io/posts/20201126/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201126/</guid>
+      <description>选来选去，决定还是用NI来做Intensity，不为别的，就因为它的Graph细腻、色彩鲜亮
+做到后面的时候，发现一个很恶心的问题，就是添加游标的时候，如果是Free的话，Cursor的Label是显示Z轴Value的，但是没有方法取到
+一度怀疑到换控件为LightningChart，之前在QQ上聊的一个要400大洋，看了下咸鱼要200
+还是先找找方法，忍住了&amp;hellip;
+ 老妈下午洗澡前突然发现胸部有些小红点，有可能是带状疱疹，老爸带她去阳光花园看了下，确实是，需要输液半个月
+好心疼，Bless~
+ 今天换上了大宝贝给买的新的轻薄羽绒服，很暖和，么么哒~</description>
+    </item>
+    
     <item>
       <title>Polar完成了</title>
       <link>https://leishengxiao.github.io/posts/20201125/</link>
