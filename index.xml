@@ -7,7 +7,85 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sat, 28 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>恶心的MathScript</title>
+      <link>https://leishengxiao.github.io/posts/20201203/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201203/</guid>
+      <description>搞定了FFT之后，本以为可以一马平川，结果事与愿违，又遇到了Matlab的向量FFT，而且还找不到资料
+没办法，又开始尝试转换一个思路，既然有MathScipt，那是不是可以直接用C#调用Matlab程序呢？
+没办法，只能把前几天刚刚卸载的Matlab2018a又重新装回来，装了个Matlab2019b的中文破解版
+为了把C盘的空间滕一腾，又把VS的安装包做了些软链接牵出来，同时又用腾讯电脑管家的软件搬家搬了些软件和大文件，又把C盘下的pagefile挪到了E盘，这一折腾，C盘一下空出来小10G，对软件搬家这个功能真的是大赞啊！
+ 又看上了LightningChart的破解，结果有喜有忧，喜的是功能和效果真的是大赞啊，忧的是Crack没什么卵用！
+自己又重新反编译了一遍，无果，放弃了，哪天有时间还是去闲鱼花200大洋搞一个吧！
+ 时隔两个月，再次去了一趟泰安街买点粮食，走在路上出奇的冷
+到了住的地方刚刚过8点，路上和小李通了个语音，聊了聊工作和鼎祥烂尾的那个项目
+吃过饭，又把积攒了一周多的片片全部删干净，洗刷睡觉&amp;hellip;
+ 这鬼天气真的是冷得要命，洗澡的时候一度痉挛，没办法，把Mr.Zhao的电暖气整出来来上一小时的吧
+2200kw，也就是一小时2度电，一块多钱，冷啊，这钱值！</description>
+    </item>
+    
+    <item>
+      <title>开始近远场变换</title>
+      <link>https://leishengxiao.github.io/posts/20201202/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201202/</guid>
+      <description>怀着忐忑的心情，开始了近远场变换，本着试一试的态度，又尝试了下那几个subVI的密码，结果竟然让我试成功了！
+哈哈哈&amp;hellip;
+ 接着就是把MathScript转成C#，结果，导出碰壁啊&amp;hellip;
+先是复数，然后是二维数组的操作，紧接着又是FFT、IFFT&amp;hellip;
+全是数学的东西啊！
+我的天啊！没办法，只能硬着头皮恶补！
+找到了一个MatNet的包，还好还好，可以搞定FFT和IFFT了，又根据原理和网上的些许例子，自己写了2D的FFT和IFFT
+哈哈，还不多！
+看来有必要补一补高数、矩阵和信号处理了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>3DSurface完美收官</title>
+      <link>https://leishengxiao.github.io/posts/20201201/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201201/</guid>
+      <description>眨眼到了12月，AMS的开发也经历了4个月的时间了，说实话，有很大的收获和成长，但也更期待能有个测试的机会
+上午把Light的Property也完成了，至此，3DSurface算是完美收官了，所有的Plot图都已经完成了！
+下午开始准备做近远场变换，先是把LabView又重新装了一遍，主要还是为了MathScript，顺便改成中文
+这一安装，折腾到了近8点，终于搞定了，C盘也差不多爆了！
+晚上7点多，问了下Mr.Du几个subVI的密码，结果他也记不太清了，说了一个，我又再次尝试破解，结果没找到MD5的解码
+好无奈！
+只能先回去吃饭，明天再说了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>ColorMap完成</title>
+      <link>https://leishengxiao.github.io/posts/20201130/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201130/</guid>
+      <description>上午终于把ColorMap搞定了，然后又研究了Cursor，把Cursor的Property的Dialog完成了差不多，基本3DSurface快完美收官了
+ Mr.Ji晚上打了个电话，主要说了下公司遣散的事情，以及人员的工作安排，终于到了树倒猢狲散的时候了，唉&amp;hellip;
+一腚屎！
+ 晚上早早的上床了，快到11点的时候，已经睡得迷迷糊糊了，Mr.Zhao发了个WeChat，这一回消息不得了，发了个语言通话，一聊就是快两个小时，一直到了快一点才结束
+主要还是提到了想让我去上海那边，说实话，我想去又不想去，主要还是先把AMS完善好再说吧
+如果那边能够两周回一次，而且住宿也管，待遇又提高一些的话，说实话，去也未尝不可，毕竟是魔都，还是锻炼人的
+再议，再议&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>周日加班半天</title>
+      <link>https://leishengxiao.github.io/posts/20201129/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201129/</guid>
+      <description>上午睡了个懒觉，十点钟的时候去了办公室开始加班，主要还是做3DSurface的ColorMap
+本想着周日把LabView的MathScript搞搞，结果还是搞开了WinForm
+功夫不负有心人，ColorMap终于差不多了，对一些Mouse事件有了新的认识
+加油！</description>
+    </item>
+    
     <item>
       <title>3DSurface马上要完成了</title>
       <link>https://leishengxiao.github.io/posts/20201128/</link>
