@@ -7,7 +7,80 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Thu, 03 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>开支了</title>
+      <link>https://leishengxiao.github.io/posts/20201209/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201209/</guid>
+      <description>上午8:30刚过，公司就准时开支了，真的很不错&amp;hellip;
+把账单还完，预留出来下个月的还款，两个月基本也就剩了1w左右了，快了快了，还有半年寒冬就要过去了
+ 上午突发奇想，终于把之前MathScript里的一个表达式弄明白了，一下豁然开朗，把MathScript全部补完之后，PNF2FF Plot的主逻辑完成了，而且还加上了PNF2AP File、PNF2FF File的逻辑和数据保存</description>
+    </item>
+    
+    <item>
+      <title>PNF2FF Plot的主逻辑完成了大部分</title>
+      <link>https://leishengxiao.github.io/posts/20201208/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201208/</guid>
+      <description>经过一天的努力，PNF2FF Plot的主逻辑终于完成了大部分了，用Matlab把所有的算法输出数据类型做了个测验，帮助还是很大的
+明天基本就可以进入收尾阶段了
+哈哈&amp;hellip;
+ Mr.Du已经连续三周没有来办公室了，这是怎么了呢？不懂&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>FFT终于搞定了</title>
+      <link>https://leishengxiao.github.io/posts/20201207/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201207/</guid>
+      <description>经过一天的努力和折腾，FFT终于差不多了，好恶心，心里更是没底！有待以后测试和检查&amp;hellip;
+ 换上了iPhone之后，发现夸克竟然不能浏览喜欢的网站了，崩溃！
+尝试了各种方法，都是不行，我大长城防火墙果然牛逼！
+另辟新径吧&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>女儿进步很大</title>
+      <link>https://leishengxiao.github.io/posts/20201206/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201206/</guid>
+      <description>周五晚上检查了女儿近期的课堂笔记和作业书写，发现真的进步特别大，确实如老师所说的，让人看起来如沐春风、赏心悦目
+周六的钢琴课，老师也说有进步，书法课更是了，每次都会得到老师的小礼物，就连画画课，也被老师把课堂作品留了下来给下节课的同学观摩
+闺女，你真棒！
+ 一如往常，老母亲忙活了半天，给我蒸了两锅大包子，老父亲一早去赶集买米，给我整了一大兜子粮食。我的她说我跟逃荒似的，不，我不是在逃荒，我是在修炼！
+ 换上了我的她的iPhone，一点都不习惯，折腾了老半天才刚刚适应&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>前同事小聚</title>
+      <link>https://leishengxiao.github.io/posts/20201205/</link>
+      <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201205/</guid>
+      <description>上午送女儿去学钢琴，我顺便去之前公司办公室拿点东西，正巧姬这周也回来，约定了中午找一个小店，叫上罗和小鹏鹏
+见面聊了很多，小鹏鹏现在3w多，曹一年60，老蔡也去了唐山，一个月3w多，一周休8天，而且可以攒到一起休，还挺不错的
+老罗目前还没确定下来合适的，而我，却偏安在即墨，一个人寂寞吗？不，谁说这不是一场心灵的洗礼和升华呢？
+加油，世界不负苦心人！</description>
+    </item>
+    
+    <item>
+      <title>回家</title>
+      <link>https://leishengxiao.github.io/posts/20201204/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201204/</guid>
+      <description>时隔十天没有回家，带来的包子底有些都已经馊了，终于到了回家的日子了&amp;hellip;
+中午把洗的衣服收了下，AMS这边还是在怼近远场变换的代码，好恶心&amp;hellip;
+很多FFT和矩阵的知识基本都已经想不起来了，好痛苦，有必要重温高数和线代？我看行&amp;hellip;
+发了工资就入手这几本书吧，孩子！
+ 最近宝贝女儿特别特别的听话，和她妈妈的关系很变得很好了，欣慰！</description>
+    </item>
+    
     <item>
       <title>恶心的MathScript</title>
       <link>https://leishengxiao.github.io/posts/20201203/</link>
