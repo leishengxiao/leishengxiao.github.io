@@ -7,7 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 09 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>回家</title>
+      <link>https://leishengxiao.github.io/posts/20201211/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201211/</guid>
+      <description>今天把CNF基本快写完了，就剩了几行MathScipt没有改写，超棒！
+但也遇到了问题，比如fftshift和ifftshift竟然还有带参数的，搞不懂，下周来了，把CNF2FF全部完成之后再回头搞吧
+ 买的高数书到了，还不错，有时间了需要看一看了
+工作中需要用到高数的地方还是不少的
+16:15了，收拾东西回家咯，哇咔咔&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>开始CNF2FF了</title>
+      <link>https://leishengxiao.github.io/posts/20201210/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201210/</guid>
+      <description>PNF完成之后，开始了CNF2FF了，梳理出来了所有的需要写的程序，共计9个
+今天完成了4支，还不错！
+ 因为明天要回家，晚上把衣服都洗了
+傍晚的时候，Mr.Jia打电话说公司要弄什么NPA，让关注邮箱，百度了半天也没查到是什么意思，姑且算作是大公司投资吧
+不错不错，希望水涨船高！</description>
+    </item>
+    
     <item>
       <title>开支了</title>
       <link>https://leishengxiao.github.io/posts/20201209/</link>
