@@ -7,7 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>杀青</title>
+      <link>https://leishengxiao.github.io/posts/20201214/</link>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201214/</guid>
+      <description>就在今天傍晚，努力了几个月的AMS终于基本完成了，今天的收获主要是把Matlab嵌入到了CSharp里
+明天把几个FFT有关的方法，全部用Matlab实现并搬到C#里去
+ 宝贝女儿的手套到了，她很喜欢，好开心^_^
+晚上的时候，大小宝贝爆发了战争，我打电话给大宝贝，又说错了话，竟然说她在家没啥用
+唉，我说完就后悔了，她应该很伤心吧，对不起了大宝贝，么么哒~
+ CSharp的开发基本告一段落吧，想看看CPlusPlus了，进而用用Qt
+嘿嘿，越努力越幸运，加油！</description>
+    </item>
+    
     <item>
       <title>返青</title>
       <link>https://leishengxiao.github.io/posts/20201213/</link>
