@@ -7,23 +7,22 @@
 <meta name="author"
     content="map[name:LeiShengxiao]">
 <meta name="description"
-    content="就在今天傍晚，努力了几个月的AMS终于基本完成了，今天的收获主要是把Matlab嵌入到了CSharp里
-明天把几个FFT有关的方法，全部用Matlab实现并搬到C#里去
- 宝贝女儿的手套到了，她很喜欢，好开心^_^
-晚上的时候，大小宝贝爆发了战争，我打电话给大宝贝，又说错了话，竟然说她在家没啥用
-唉，我说完就后悔了，她应该很伤心吧，对不起了大宝贝，么么哒~
- CSharp的开发基本告一段落吧，想看看CPlusPlus了，进而用用Qt
-嘿嘿，越努力越幸运，加油！" />
+    content="上午主要把FFT相关的5个程序，转成了使用Matlab生成的DLL，下午主要把所有的代码整理和美化了一遍，再次梳理了下遗漏的任务项：
+Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查、Analysi主界面的缩略图、Analysis各个Plot的数据整理
+大概就这么多了，这周不回去了，无论如何也要收尾了
+ 下午的时候，Mr.Du根据Mr.Zhao的要求，把EDA后续要开发的技术文档给了我一份，美其名曰CUDA
+好陌生的东西，也是好新潮的知识
+得加油学习了！" />
 <meta name="keywords"
     content=", Essay" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://leishengxiao.github.io/posts/20201214/" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20201215/" />
 
 
 <title>
     
-    杀青 :: LeiShengxiao&#39;s Blog  — supper noob
+    CUDA :: LeiShengxiao&#39;s Blog  — supper noob
     
 </title>
 
@@ -41,17 +40,16 @@
 
 
 
-<meta itemprop="name" content="杀青">
-<meta itemprop="description" content="就在今天傍晚，努力了几个月的AMS终于基本完成了，今天的收获主要是把Matlab嵌入到了CSharp里
-明天把几个FFT有关的方法，全部用Matlab实现并搬到C#里去
- 宝贝女儿的手套到了，她很喜欢，好开心^_^
-晚上的时候，大小宝贝爆发了战争，我打电话给大宝贝，又说错了话，竟然说她在家没啥用
-唉，我说完就后悔了，她应该很伤心吧，对不起了大宝贝，么么哒~
- CSharp的开发基本告一段落吧，想看看CPlusPlus了，进而用用Qt
-嘿嘿，越努力越幸运，加油！">
-<meta itemprop="datePublished" content="2020-12-14T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-12-14T00:00:00+00:00" />
-<meta itemprop="wordCount" content="7">
+<meta itemprop="name" content="CUDA">
+<meta itemprop="description" content="上午主要把FFT相关的5个程序，转成了使用Matlab生成的DLL，下午主要把所有的代码整理和美化了一遍，再次梳理了下遗漏的任务项：
+Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查、Analysi主界面的缩略图、Analysis各个Plot的数据整理
+大概就这么多了，这周不回去了，无论如何也要收尾了
+ 下午的时候，Mr.Du根据Mr.Zhao的要求，把EDA后续要开发的技术文档给了我一份，美其名曰CUDA
+好陌生的东西，也是好新潮的知识
+得加油学习了！">
+<meta itemprop="datePublished" content="2020-12-15T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-12-15T00:00:00+00:00" />
+<meta itemprop="wordCount" content="6">
 <meta itemprop="image" content="https://leishengxiao.github.io/"/>
 
 
@@ -61,30 +59,28 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://leishengxiao.github.io/"/>
 
-<meta name="twitter:title" content="杀青"/>
-<meta name="twitter:description" content="就在今天傍晚，努力了几个月的AMS终于基本完成了，今天的收获主要是把Matlab嵌入到了CSharp里
-明天把几个FFT有关的方法，全部用Matlab实现并搬到C#里去
- 宝贝女儿的手套到了，她很喜欢，好开心^_^
-晚上的时候，大小宝贝爆发了战争，我打电话给大宝贝，又说错了话，竟然说她在家没啥用
-唉，我说完就后悔了，她应该很伤心吧，对不起了大宝贝，么么哒~
- CSharp的开发基本告一段落吧，想看看CPlusPlus了，进而用用Qt
-嘿嘿，越努力越幸运，加油！"/>
+<meta name="twitter:title" content="CUDA"/>
+<meta name="twitter:description" content="上午主要把FFT相关的5个程序，转成了使用Matlab生成的DLL，下午主要把所有的代码整理和美化了一遍，再次梳理了下遗漏的任务项：
+Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查、Analysi主界面的缩略图、Analysis各个Plot的数据整理
+大概就这么多了，这周不回去了，无论如何也要收尾了
+ 下午的时候，Mr.Du根据Mr.Zhao的要求，把EDA后续要开发的技术文档给了我一份，美其名曰CUDA
+好陌生的东西，也是好新潮的知识
+得加油学习了！"/>
 
 
 
-<meta property="og:title" content="杀青" />
-<meta property="og:description" content="就在今天傍晚，努力了几个月的AMS终于基本完成了，今天的收获主要是把Matlab嵌入到了CSharp里
-明天把几个FFT有关的方法，全部用Matlab实现并搬到C#里去
- 宝贝女儿的手套到了，她很喜欢，好开心^_^
-晚上的时候，大小宝贝爆发了战争，我打电话给大宝贝，又说错了话，竟然说她在家没啥用
-唉，我说完就后悔了，她应该很伤心吧，对不起了大宝贝，么么哒~
- CSharp的开发基本告一段落吧，想看看CPlusPlus了，进而用用Qt
-嘿嘿，越努力越幸运，加油！" />
+<meta property="og:title" content="CUDA" />
+<meta property="og:description" content="上午主要把FFT相关的5个程序，转成了使用Matlab生成的DLL，下午主要把所有的代码整理和美化了一遍，再次梳理了下遗漏的任务项：
+Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查、Analysi主界面的缩略图、Analysis各个Plot的数据整理
+大概就这么多了，这周不回去了，无论如何也要收尾了
+ 下午的时候，Mr.Du根据Mr.Zhao的要求，把EDA后续要开发的技术文档给了我一份，美其名曰CUDA
+好陌生的东西，也是好新潮的知识
+得加油学习了！" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leishengxiao.github.io/posts/20201214/" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20201215/" />
 <meta property="og:image" content="https://leishengxiao.github.io/"/>
-<meta property="article:published_time" content="2020-12-14T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-12-14T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+<meta property="article:published_time" content="2020-12-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-15T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
 
 
 
@@ -94,7 +90,7 @@
 
 
 
-<meta property="article:published_time" content="2020-12-14 00:00:00 &#43;0000 UTC" />
+<meta property="article:published_time" content="2020-12-15 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -178,22 +174,20 @@
 
     <article>
       <h1 class="post-title">
-        <a href="https://leishengxiao.github.io/posts/20201214/">杀青</a>
+        <a href="https://leishengxiao.github.io/posts/20201215/">CUDA</a>
       </h1>
 
       
 
       <div class="post-content">
         <hr>
-<p>就在今天傍晚，努力了几个月的AMS终于基本完成了，今天的收获主要是把Matlab嵌入到了CSharp里</p>
-<p>明天把几个FFT有关的方法，全部用Matlab实现并搬到C#里去</p>
+<p>上午主要把FFT相关的5个程序，转成了使用Matlab生成的DLL，下午主要把所有的代码整理和美化了一遍，再次梳理了下遗漏的任务项：</p>
+<p>Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查、Analysi主界面的缩略图、Analysis各个Plot的数据整理</p>
+<p>大概就这么多了，这周不回去了，无论如何也要收尾了</p>
 <hr>
-<p>宝贝女儿的手套到了，她很喜欢，好开心^_^</p>
-<p>晚上的时候，大小宝贝爆发了战争，我打电话给大宝贝，又说错了话，竟然说她在家没啥用</p>
-<p>唉，我说完就后悔了，她应该很伤心吧，对不起了大宝贝，么么哒~</p>
-<hr>
-<p>CSharp的开发基本告一段落吧，想看看CPlusPlus了，进而用用Qt</p>
-<p>嘿嘿，越努力越幸运，加油！</p>
+<p>下午的时候，Mr.Du根据Mr.Zhao的要求，把EDA后续要开发的技术文档给了我一份，美其名曰CUDA</p>
+<p>好陌生的东西，也是好新潮的知识</p>
+<p>得加油学习了！</p>
 
       </div>
     </article>
@@ -216,7 +210,7 @@
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        7 Words
+        6 Words
       </p>
 
       <p>
@@ -226,7 +220,7 @@
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        2020-12-14 08:00 &#43;0800
+        2020-12-15 08:00 &#43;0800
       </p>
     </div>
 
@@ -239,18 +233,11 @@
 
         <div class="pagination__buttons">
           
-            <span class="button previous">
-              <a href="https://leishengxiao.github.io/posts/20201215/">
-                <span class="button__icon">←</span>
-                <span class="button__text">CUDA</span>
-              </a>
-            </span>
-          
 
           
             <span class="button next">
-              <a href="https://leishengxiao.github.io/posts/20201213/">
-                <span class="button__text">返青</span>
+              <a href="https://leishengxiao.github.io/posts/20201214/">
+                <span class="button__text">杀青</span>
                 <span class="button__icon">→</span>
               </a>
             </span>
