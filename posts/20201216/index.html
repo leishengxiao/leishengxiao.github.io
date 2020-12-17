@@ -7,22 +7,21 @@
 <meta name="author"
     content="map[name:LeiShengxiao]">
 <meta name="description"
-    content="上午主要把FFT相关的5个程序，转成了使用Matlab生成的DLL，下午主要把所有的代码整理和美化了一遍，再次梳理了下遗漏的任务项：
-Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查、Analysi主界面的缩略图、Analysis各个Plot的数据整理
-大概就这么多了，这周不回去了，无论如何也要收尾了
- 下午的时候，Mr.Du根据Mr.Zhao的要求，把EDA后续要开发的技术文档给了我一份，美其名曰CUDA
-好陌生的东西，也是好新潮的知识
-得加油学习了！" />
+    content="今天主要把MainForm里的Tools相关功能都加完了，View的也加完了，剩下的Help加了一个HelpInfo，其他的明天加吧
+开发中，还是对Delegate和Thread不是很深入，有个Timer的跨Form设置Control，因为线程的问题，浪费了将近一个小时，汗~
+ 昨天复习了C&#43;&#43;的一章，今天再复习一章
+Mr.Zhao推荐了一款维生素，Swiss的复合维生素，富含52种，增强抵抗力和耐力，准备吃完现在这瓶入手试试水
+ 学习了&amp;hellip;" />
 <meta name="keywords"
     content=", Essay" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://leishengxiao.github.io/posts/20201215/" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20201216/" />
 
 
 <title>
     
-    CUDA :: LeiShengxiao&#39;s Blog  — supper noob
+    Delegate :: LeiShengxiao&#39;s Blog  — supper noob
     
 </title>
 
@@ -40,16 +39,15 @@ Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查�
 
 
 
-<meta itemprop="name" content="CUDA">
-<meta itemprop="description" content="上午主要把FFT相关的5个程序，转成了使用Matlab生成的DLL，下午主要把所有的代码整理和美化了一遍，再次梳理了下遗漏的任务项：
-Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查、Analysi主界面的缩略图、Analysis各个Plot的数据整理
-大概就这么多了，这周不回去了，无论如何也要收尾了
- 下午的时候，Mr.Du根据Mr.Zhao的要求，把EDA后续要开发的技术文档给了我一份，美其名曰CUDA
-好陌生的东西，也是好新潮的知识
-得加油学习了！">
-<meta itemprop="datePublished" content="2020-12-15T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-12-15T00:00:00+00:00" />
-<meta itemprop="wordCount" content="6">
+<meta itemprop="name" content="Delegate">
+<meta itemprop="description" content="今天主要把MainForm里的Tools相关功能都加完了，View的也加完了，剩下的Help加了一个HelpInfo，其他的明天加吧
+开发中，还是对Delegate和Thread不是很深入，有个Timer的跨Form设置Control，因为线程的问题，浪费了将近一个小时，汗~
+ 昨天复习了C&#43;&#43;的一章，今天再复习一章
+Mr.Zhao推荐了一款维生素，Swiss的复合维生素，富含52种，增强抵抗力和耐力，准备吃完现在这瓶入手试试水
+ 学习了&hellip;">
+<meta itemprop="datePublished" content="2020-12-16T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-12-16T00:00:00+00:00" />
+<meta itemprop="wordCount" content="5">
 <meta itemprop="image" content="https://leishengxiao.github.io/"/>
 
 
@@ -59,28 +57,26 @@ Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查�
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://leishengxiao.github.io/"/>
 
-<meta name="twitter:title" content="CUDA"/>
-<meta name="twitter:description" content="上午主要把FFT相关的5个程序，转成了使用Matlab生成的DLL，下午主要把所有的代码整理和美化了一遍，再次梳理了下遗漏的任务项：
-Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查、Analysi主界面的缩略图、Analysis各个Plot的数据整理
-大概就这么多了，这周不回去了，无论如何也要收尾了
- 下午的时候，Mr.Du根据Mr.Zhao的要求，把EDA后续要开发的技术文档给了我一份，美其名曰CUDA
-好陌生的东西，也是好新潮的知识
-得加油学习了！"/>
+<meta name="twitter:title" content="Delegate"/>
+<meta name="twitter:description" content="今天主要把MainForm里的Tools相关功能都加完了，View的也加完了，剩下的Help加了一个HelpInfo，其他的明天加吧
+开发中，还是对Delegate和Thread不是很深入，有个Timer的跨Form设置Control，因为线程的问题，浪费了将近一个小时，汗~
+ 昨天复习了C&#43;&#43;的一章，今天再复习一章
+Mr.Zhao推荐了一款维生素，Swiss的复合维生素，富含52种，增强抵抗力和耐力，准备吃完现在这瓶入手试试水
+ 学习了&hellip;"/>
 
 
 
-<meta property="og:title" content="CUDA" />
-<meta property="og:description" content="上午主要把FFT相关的5个程序，转成了使用Matlab生成的DLL，下午主要把所有的代码整理和美化了一遍，再次梳理了下遗漏的任务项：
-Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查、Analysi主界面的缩略图、Analysis各个Plot的数据整理
-大概就这么多了，这周不回去了，无论如何也要收尾了
- 下午的时候，Mr.Du根据Mr.Zhao的要求，把EDA后续要开发的技术文档给了我一份，美其名曰CUDA
-好陌生的东西，也是好新潮的知识
-得加油学习了！" />
+<meta property="og:title" content="Delegate" />
+<meta property="og:description" content="今天主要把MainForm里的Tools相关功能都加完了，View的也加完了，剩下的Help加了一个HelpInfo，其他的明天加吧
+开发中，还是对Delegate和Thread不是很深入，有个Timer的跨Form设置Control，因为线程的问题，浪费了将近一个小时，汗~
+ 昨天复习了C&#43;&#43;的一章，今天再复习一章
+Mr.Zhao推荐了一款维生素，Swiss的复合维生素，富含52种，增强抵抗力和耐力，准备吃完现在这瓶入手试试水
+ 学习了&hellip;" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leishengxiao.github.io/posts/20201215/" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20201216/" />
 <meta property="og:image" content="https://leishengxiao.github.io/"/>
-<meta property="article:published_time" content="2020-12-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-12-15T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+<meta property="article:published_time" content="2020-12-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-16T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
 
 
 
@@ -90,7 +86,7 @@ Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查�
 
 
 
-<meta property="article:published_time" content="2020-12-15 00:00:00 &#43;0000 UTC" />
+<meta property="article:published_time" content="2020-12-16 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -174,20 +170,20 @@ Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查�
 
     <article>
       <h1 class="post-title">
-        <a href="https://leishengxiao.github.io/posts/20201215/">CUDA</a>
+        <a href="https://leishengxiao.github.io/posts/20201216/">Delegate</a>
       </h1>
 
       
 
       <div class="post-content">
         <hr>
-<p>上午主要把FFT相关的5个程序，转成了使用Matlab生成的DLL，下午主要把所有的代码整理和美化了一遍，再次梳理了下遗漏的任务项：</p>
-<p>Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查、Analysi主界面的缩略图、Analysis各个Plot的数据整理</p>
-<p>大概就这么多了，这周不回去了，无论如何也要收尾了</p>
+<p>今天主要把MainForm里的Tools相关功能都加完了，View的也加完了，剩下的Help加了一个HelpInfo，其他的明天加吧</p>
+<p>开发中，还是对Delegate和Thread不是很深入，有个Timer的跨Form设置Control，因为线程的问题，浪费了将近一个小时，汗~</p>
 <hr>
-<p>下午的时候，Mr.Du根据Mr.Zhao的要求，把EDA后续要开发的技术文档给了我一份，美其名曰CUDA</p>
-<p>好陌生的东西，也是好新潮的知识</p>
-<p>得加油学习了！</p>
+<p>昨天复习了C++的一章，今天再复习一章</p>
+<p>Mr.Zhao推荐了一款维生素，Swiss的复合维生素，富含52种，增强抵抗力和耐力，准备吃完现在这瓶入手试试水</p>
+<hr>
+<p>学习了&hellip;</p>
 
       </div>
     </article>
@@ -210,7 +206,7 @@ Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查�
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        6 Words
+        5 Words
       </p>
 
       <p>
@@ -220,7 +216,7 @@ Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查�
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        2020-12-15 08:00 &#43;0800
+        2020-12-16 08:00 &#43;0800
       </p>
     </div>
 
@@ -233,18 +229,11 @@ Tools相关功能、Solution右键的Analysis功能、Measure主界面的检查�
 
         <div class="pagination__buttons">
           
-            <span class="button previous">
-              <a href="https://leishengxiao.github.io/posts/20201216/">
-                <span class="button__icon">←</span>
-                <span class="button__text">Delegate</span>
-              </a>
-            </span>
-          
 
           
             <span class="button next">
-              <a href="https://leishengxiao.github.io/posts/20201214/">
-                <span class="button__text">杀青</span>
+              <a href="https://leishengxiao.github.io/posts/20201215/">
+                <span class="button__text">CUDA</span>
                 <span class="button__icon">→</span>
               </a>
             </span>
