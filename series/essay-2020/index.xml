@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2020/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CUDA环境</title>
+      <link>https://leishengxiao.github.io/posts/20201218/</link>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201218/</guid>
+      <description>上午主要把Rename搞完了，下午对比着文档，把CUDA环境弄完了，挺好玩的，没有想象中那么的高深，只是要理解的东西多罢了
+ 做完Mr.Zhao的妈妈过来了，还是说的房子的问题，想租给我们，一个月2200，而且竟然还能等上我们半年，今天上午又过来了，实在是太不好意思了，我答应了
+Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以就是我和小王AA了，还不错
+虽然Mr.Zhao今天还是不是很赞同从孙老师房子搬出去，说是会辜负孙老师，但是省钱啊，住那么大干吗，打扫卫生都费劲，物业费、暖气费都交不起，谢谢Mr.Zhao的好意了，就这么定了！
+ 不知不觉就16:10了，再过十几分钟就要出门了，吼吼^_^</description>
+    </item>
+    
+    <item>
+      <title>98%</title>
+      <link>https://leishengxiao.github.io/posts/20201217/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20201217/</guid>
+      <description>AMS把Help所有相关的，以及Ribbon的快捷方式都已经做完了，另外Solution右键关于Measure和Analysi的按钮，重新调整了下，并且都完善了功能，基本完成了
+剩余的工作：Solution右键的Rename、Measure主界面的WaveForm、Analysis主界面的预览图、各个Plot的数据接口
+ Mr.Du今天折腾了一天，终于把CUDA的环境弄起来了，但是编译出来的程序还是不对，不明觉厉，佩服佩服
+ 今天回来的比较晚，到住的地方都已经九点了，吃饭、洗澡、洗刷、洗衣服完已经十一点半了
+因为下下周是元旦，周四就可以回家了，所以今天决定这周回去，下周不回去了，把衣服都洗了，回家见大小宝贝咯&amp;hellip;
+ 开始学习一小时^_^</description>
+    </item>
+    
     <item>
       <title>Delegate</title>
       <link>https://leishengxiao.github.io/posts/20201216/</link>
