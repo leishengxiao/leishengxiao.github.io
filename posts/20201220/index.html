@@ -7,21 +7,23 @@
 <meta name="author"
     content="map[name:LeiShengxiao]">
 <meta name="description"
-    content="上午主要把Rename搞完了，下午对比着文档，把CUDA环境弄完了，挺好玩的，没有想象中那么的高深，只是要理解的东西多罢了
- 做完Mr.Zhao的妈妈过来了，还是说的房子的问题，想租给我们，一个月2200，而且竟然还能等上我们半年，今天上午又过来了，实在是太不好意思了，我答应了
-Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以就是我和小王AA了，还不错
-虽然Mr.Zhao今天还是不是很赞同从孙老师房子搬出去，说是会辜负孙老师，但是省钱啊，住那么大干吗，打扫卫生都费劲，物业费、暖气费都交不起，谢谢Mr.Zhao的好意了，就这么定了！
- 不知不觉就16:10了，再过十几分钟就要出门了，吼吼^_^" />
+    content="上午是例行的学舞蹈，本来闺女不想去，在我劝说下还是去了，在送女儿回来的路上，我买了爸爸最喜欢吃的花生，虽然大家都说不怎么好吃，但我看来，至少是我对父亲的一份爱
+下午是画画和英语开班，在闺女学画画期间，我和大宝贝交流了关于教育女儿的几个原则问题，我提了几点要求：
+1.定好的事情就得办：不求细化到每个小时和时间段，但是这一天里要做的固定任务至少要完成，哪怕是她因为玩耽误到很晚，也要今日事今日毕，这是原则
+2.不求做题不会或者错，至少要去做，而且是认真的做
+3.如果违背了上面两项基本原则，那就要严厉的惩罚
+ 我突然有种起草我们家家规的冲动了，先写个初稿吧：
+1.做人诚实、守信、有礼貌 2.做事踏实、认真、不毛糙 3.自信、阳光、正能量 4.定了的事情必须执行 5.不以物喜不以己悲 6.不求收获但问耕耘" />
 <meta name="keywords"
     content=", Essay" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://leishengxiao.github.io/posts/20201218/" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20201220/" />
 
 
 <title>
     
-    CUDA环境 :: LeiShengxiao&#39;s Blog  — supper noob
+    背影 :: LeiShengxiao&#39;s Blog  — supper noob
     
 </title>
 
@@ -39,15 +41,17 @@ Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以�
 
 
 
-<meta itemprop="name" content="CUDA环境">
-<meta itemprop="description" content="上午主要把Rename搞完了，下午对比着文档，把CUDA环境弄完了，挺好玩的，没有想象中那么的高深，只是要理解的东西多罢了
- 做完Mr.Zhao的妈妈过来了，还是说的房子的问题，想租给我们，一个月2200，而且竟然还能等上我们半年，今天上午又过来了，实在是太不好意思了，我答应了
-Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以就是我和小王AA了，还不错
-虽然Mr.Zhao今天还是不是很赞同从孙老师房子搬出去，说是会辜负孙老师，但是省钱啊，住那么大干吗，打扫卫生都费劲，物业费、暖气费都交不起，谢谢Mr.Zhao的好意了，就这么定了！
- 不知不觉就16:10了，再过十几分钟就要出门了，吼吼^_^">
-<meta itemprop="datePublished" content="2020-12-18T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-12-18T00:00:00+00:00" />
-<meta itemprop="wordCount" content="5">
+<meta itemprop="name" content="背影">
+<meta itemprop="description" content="上午是例行的学舞蹈，本来闺女不想去，在我劝说下还是去了，在送女儿回来的路上，我买了爸爸最喜欢吃的花生，虽然大家都说不怎么好吃，但我看来，至少是我对父亲的一份爱
+下午是画画和英语开班，在闺女学画画期间，我和大宝贝交流了关于教育女儿的几个原则问题，我提了几点要求：
+1.定好的事情就得办：不求细化到每个小时和时间段，但是这一天里要做的固定任务至少要完成，哪怕是她因为玩耽误到很晚，也要今日事今日毕，这是原则
+2.不求做题不会或者错，至少要去做，而且是认真的做
+3.如果违背了上面两项基本原则，那就要严厉的惩罚
+ 我突然有种起草我们家家规的冲动了，先写个初稿吧：
+1.做人诚实、守信、有礼貌 2.做事踏实、认真、不毛糙 3.自信、阳光、正能量 4.定了的事情必须执行 5.不以物喜不以己悲 6.不求收获但问耕耘">
+<meta itemprop="datePublished" content="2020-12-20T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-12-20T00:00:00+00:00" />
+<meta itemprop="wordCount" content="12">
 <meta itemprop="image" content="https://leishengxiao.github.io/"/>
 
 
@@ -57,26 +61,30 @@ Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以�
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://leishengxiao.github.io/"/>
 
-<meta name="twitter:title" content="CUDA环境"/>
-<meta name="twitter:description" content="上午主要把Rename搞完了，下午对比着文档，把CUDA环境弄完了，挺好玩的，没有想象中那么的高深，只是要理解的东西多罢了
- 做完Mr.Zhao的妈妈过来了，还是说的房子的问题，想租给我们，一个月2200，而且竟然还能等上我们半年，今天上午又过来了，实在是太不好意思了，我答应了
-Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以就是我和小王AA了，还不错
-虽然Mr.Zhao今天还是不是很赞同从孙老师房子搬出去，说是会辜负孙老师，但是省钱啊，住那么大干吗，打扫卫生都费劲，物业费、暖气费都交不起，谢谢Mr.Zhao的好意了，就这么定了！
- 不知不觉就16:10了，再过十几分钟就要出门了，吼吼^_^"/>
+<meta name="twitter:title" content="背影"/>
+<meta name="twitter:description" content="上午是例行的学舞蹈，本来闺女不想去，在我劝说下还是去了，在送女儿回来的路上，我买了爸爸最喜欢吃的花生，虽然大家都说不怎么好吃，但我看来，至少是我对父亲的一份爱
+下午是画画和英语开班，在闺女学画画期间，我和大宝贝交流了关于教育女儿的几个原则问题，我提了几点要求：
+1.定好的事情就得办：不求细化到每个小时和时间段，但是这一天里要做的固定任务至少要完成，哪怕是她因为玩耽误到很晚，也要今日事今日毕，这是原则
+2.不求做题不会或者错，至少要去做，而且是认真的做
+3.如果违背了上面两项基本原则，那就要严厉的惩罚
+ 我突然有种起草我们家家规的冲动了，先写个初稿吧：
+1.做人诚实、守信、有礼貌 2.做事踏实、认真、不毛糙 3.自信、阳光、正能量 4.定了的事情必须执行 5.不以物喜不以己悲 6.不求收获但问耕耘"/>
 
 
 
-<meta property="og:title" content="CUDA环境" />
-<meta property="og:description" content="上午主要把Rename搞完了，下午对比着文档，把CUDA环境弄完了，挺好玩的，没有想象中那么的高深，只是要理解的东西多罢了
- 做完Mr.Zhao的妈妈过来了，还是说的房子的问题，想租给我们，一个月2200，而且竟然还能等上我们半年，今天上午又过来了，实在是太不好意思了，我答应了
-Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以就是我和小王AA了，还不错
-虽然Mr.Zhao今天还是不是很赞同从孙老师房子搬出去，说是会辜负孙老师，但是省钱啊，住那么大干吗，打扫卫生都费劲，物业费、暖气费都交不起，谢谢Mr.Zhao的好意了，就这么定了！
- 不知不觉就16:10了，再过十几分钟就要出门了，吼吼^_^" />
+<meta property="og:title" content="背影" />
+<meta property="og:description" content="上午是例行的学舞蹈，本来闺女不想去，在我劝说下还是去了，在送女儿回来的路上，我买了爸爸最喜欢吃的花生，虽然大家都说不怎么好吃，但我看来，至少是我对父亲的一份爱
+下午是画画和英语开班，在闺女学画画期间，我和大宝贝交流了关于教育女儿的几个原则问题，我提了几点要求：
+1.定好的事情就得办：不求细化到每个小时和时间段，但是这一天里要做的固定任务至少要完成，哪怕是她因为玩耽误到很晚，也要今日事今日毕，这是原则
+2.不求做题不会或者错，至少要去做，而且是认真的做
+3.如果违背了上面两项基本原则，那就要严厉的惩罚
+ 我突然有种起草我们家家规的冲动了，先写个初稿吧：
+1.做人诚实、守信、有礼貌 2.做事踏实、认真、不毛糙 3.自信、阳光、正能量 4.定了的事情必须执行 5.不以物喜不以己悲 6.不求收获但问耕耘" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leishengxiao.github.io/posts/20201218/" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20201220/" />
 <meta property="og:image" content="https://leishengxiao.github.io/"/>
-<meta property="article:published_time" content="2020-12-18T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-12-18T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+<meta property="article:published_time" content="2020-12-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-20T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
 
 
 
@@ -86,7 +94,7 @@ Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以�
 
 
 
-<meta property="article:published_time" content="2020-12-18 00:00:00 &#43;0000 UTC" />
+<meta property="article:published_time" content="2020-12-20 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -170,20 +178,26 @@ Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以�
 
     <article>
       <h1 class="post-title">
-        <a href="https://leishengxiao.github.io/posts/20201218/">CUDA环境</a>
+        <a href="https://leishengxiao.github.io/posts/20201220/">背影</a>
       </h1>
 
       
 
       <div class="post-content">
         <hr>
-<p>上午主要把Rename搞完了，下午对比着文档，把CUDA环境弄完了，挺好玩的，没有想象中那么的高深，只是要理解的东西多罢了</p>
+<p>上午是例行的学舞蹈，本来闺女不想去，在我劝说下还是去了，在送女儿回来的路上，我买了爸爸最喜欢吃的花生，虽然大家都说不怎么好吃，但我看来，至少是我对父亲的一份爱</p>
+<p>下午是画画和英语开班，在闺女学画画期间，我和大宝贝交流了关于教育女儿的几个原则问题，我提了几点要求：</p>
+<p>1.定好的事情就得办：不求细化到每个小时和时间段，但是这一天里要做的固定任务至少要完成，哪怕是她因为玩耽误到很晚，也要今日事今日毕，这是原则</p>
+<p>2.不求做题不会或者错，至少要去做，而且是认真的做</p>
+<p>3.如果违背了上面两项基本原则，那就要严厉的惩罚</p>
 <hr>
-<p>做完Mr.Zhao的妈妈过来了，还是说的房子的问题，想租给我们，一个月2200，而且竟然还能等上我们半年，今天上午又过来了，实在是太不好意思了，我答应了</p>
-<p>Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以就是我和小王AA了，还不错</p>
-<p>虽然Mr.Zhao今天还是不是很赞同从孙老师房子搬出去，说是会辜负孙老师，但是省钱啊，住那么大干吗，打扫卫生都费劲，物业费、暖气费都交不起，谢谢Mr.Zhao的好意了，就这么定了！</p>
-<hr>
-<p>不知不觉就16:10了，再过十几分钟就要出门了，吼吼^_^</p>
+<p>我突然有种起草我们家家规的冲动了，先写个初稿吧：</p>
+<p>1.做人诚实、守信、有礼貌
+2.做事踏实、认真、不毛糙
+3.自信、阳光、正能量
+4.定了的事情必须执行
+5.不以物喜不以己悲
+6.不求收获但问耕耘</p>
 
       </div>
     </article>
@@ -206,7 +220,7 @@ Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以�
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        5 Words
+        12 Words
       </p>
 
       <p>
@@ -216,7 +230,7 @@ Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以�
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        2020-12-18 08:00 &#43;0800
+        2020-12-20 08:00 &#43;0800
       </p>
     </div>
 
@@ -229,18 +243,11 @@ Mr.Zhao今年分摊了一半，已经很挺了，明年不能这样了，所以�
 
         <div class="pagination__buttons">
           
-            <span class="button previous">
-              <a href="https://leishengxiao.github.io/posts/20201219/">
-                <span class="button__icon">←</span>
-                <span class="button__text">定了的事就得办</span>
-              </a>
-            </span>
-          
 
           
             <span class="button next">
-              <a href="https://leishengxiao.github.io/posts/20201217/">
-                <span class="button__text">98%</span>
+              <a href="https://leishengxiao.github.io/posts/20201219/">
+                <span class="button__text">定了的事就得办</span>
                 <span class="button__icon">→</span>
               </a>
             </span>
