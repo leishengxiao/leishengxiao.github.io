@@ -7,21 +7,21 @@
 <meta name="author"
     content="map[name:LeiShengxiao]">
 <meta name="description"
-    content="上午基本在贴票中度过了，合计要报销的竟然有9k块钱了，好多&amp;hellip;
-测算了下租房的费用，房东因为少桌子，让了1个月房租，一共需要23100的租金，如果这个房子能退5个月租金的话，那就是14500，还差了8600，让小王出6000，我再付2600就好了
-正好报销能报8458，减去押金2100，还能剩下不少
-难道真的是本命年已经过去了？
- 下午的时候，Mr.Du通知明天要进学校调试了，估计这个过程会很坎坷，希望一切安好吧，Bless~" />
+    content="今天上午到了之后，就开始调试我的Motion的Connect，先是从Motion的封装dll入手，无果
+后来改为查看PMAC自带的CSharp例程，改了权限和.Net Framework为3.5之后，竟然成功了
+然后就另起了一个Test的项目，先是将自带例程搬过来，起初是不成功，然后通过比较和例程的差异，发现缺少了管理员权限，然后Connect成功了；紧接着尝试直接调用Motion_41.dll，也成功了；最后对比和AMS的差异，将dll静态调用改为静态，竟然也成功了，于是怀疑是.Net Framework的问题，和杜老师讲了下，他的建议是我重新封装Motion_41.dll，我怀着死前搏一搏的心理，结束了这第二天的调试
+ 小王那边还是没有什么进展，而且发现他读文档的能力实在是太差了，虽然所有的问题靠百度，但是竟然不查官网，而且看到外文就放弃了，一直在等、在靠，是不是现在的年轻人都这样了？都得靠喂，没有什么主动性了呢？
+这样真的不好！" />
 <meta name="keywords"
     content=", Essay" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://leishengxiao.github.io/posts/20201228/" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20201230/" />
 
 
 <title>
     
-    明天就要测试AMS了 :: LeiShengxiao&#39;s Blog  — supper noob
+    调试第二天 :: LeiShengxiao&#39;s Blog  — supper noob
     
 </title>
 
@@ -39,15 +39,15 @@
 
 
 
-<meta itemprop="name" content="明天就要测试AMS了">
-<meta itemprop="description" content="上午基本在贴票中度过了，合计要报销的竟然有9k块钱了，好多&hellip;
-测算了下租房的费用，房东因为少桌子，让了1个月房租，一共需要23100的租金，如果这个房子能退5个月租金的话，那就是14500，还差了8600，让小王出6000，我再付2600就好了
-正好报销能报8458，减去押金2100，还能剩下不少
-难道真的是本命年已经过去了？
- 下午的时候，Mr.Du通知明天要进学校调试了，估计这个过程会很坎坷，希望一切安好吧，Bless~">
-<meta itemprop="datePublished" content="2020-12-28T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-12-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="5">
+<meta itemprop="name" content="调试第二天">
+<meta itemprop="description" content="今天上午到了之后，就开始调试我的Motion的Connect，先是从Motion的封装dll入手，无果
+后来改为查看PMAC自带的CSharp例程，改了权限和.Net Framework为3.5之后，竟然成功了
+然后就另起了一个Test的项目，先是将自带例程搬过来，起初是不成功，然后通过比较和例程的差异，发现缺少了管理员权限，然后Connect成功了；紧接着尝试直接调用Motion_41.dll，也成功了；最后对比和AMS的差异，将dll静态调用改为静态，竟然也成功了，于是怀疑是.Net Framework的问题，和杜老师讲了下，他的建议是我重新封装Motion_41.dll，我怀着死前搏一搏的心理，结束了这第二天的调试
+ 小王那边还是没有什么进展，而且发现他读文档的能力实在是太差了，虽然所有的问题靠百度，但是竟然不查官网，而且看到外文就放弃了，一直在等、在靠，是不是现在的年轻人都这样了？都得靠喂，没有什么主动性了呢？
+这样真的不好！">
+<meta itemprop="datePublished" content="2020-12-30T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-12-30T00:00:00+00:00" />
+<meta itemprop="wordCount" content="7">
 <meta itemprop="image" content="https://leishengxiao.github.io/"/>
 
 
@@ -57,26 +57,26 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://leishengxiao.github.io/"/>
 
-<meta name="twitter:title" content="明天就要测试AMS了"/>
-<meta name="twitter:description" content="上午基本在贴票中度过了，合计要报销的竟然有9k块钱了，好多&hellip;
-测算了下租房的费用，房东因为少桌子，让了1个月房租，一共需要23100的租金，如果这个房子能退5个月租金的话，那就是14500，还差了8600，让小王出6000，我再付2600就好了
-正好报销能报8458，减去押金2100，还能剩下不少
-难道真的是本命年已经过去了？
- 下午的时候，Mr.Du通知明天要进学校调试了，估计这个过程会很坎坷，希望一切安好吧，Bless~"/>
+<meta name="twitter:title" content="调试第二天"/>
+<meta name="twitter:description" content="今天上午到了之后，就开始调试我的Motion的Connect，先是从Motion的封装dll入手，无果
+后来改为查看PMAC自带的CSharp例程，改了权限和.Net Framework为3.5之后，竟然成功了
+然后就另起了一个Test的项目，先是将自带例程搬过来，起初是不成功，然后通过比较和例程的差异，发现缺少了管理员权限，然后Connect成功了；紧接着尝试直接调用Motion_41.dll，也成功了；最后对比和AMS的差异，将dll静态调用改为静态，竟然也成功了，于是怀疑是.Net Framework的问题，和杜老师讲了下，他的建议是我重新封装Motion_41.dll，我怀着死前搏一搏的心理，结束了这第二天的调试
+ 小王那边还是没有什么进展，而且发现他读文档的能力实在是太差了，虽然所有的问题靠百度，但是竟然不查官网，而且看到外文就放弃了，一直在等、在靠，是不是现在的年轻人都这样了？都得靠喂，没有什么主动性了呢？
+这样真的不好！"/>
 
 
 
-<meta property="og:title" content="明天就要测试AMS了" />
-<meta property="og:description" content="上午基本在贴票中度过了，合计要报销的竟然有9k块钱了，好多&hellip;
-测算了下租房的费用，房东因为少桌子，让了1个月房租，一共需要23100的租金，如果这个房子能退5个月租金的话，那就是14500，还差了8600，让小王出6000，我再付2600就好了
-正好报销能报8458，减去押金2100，还能剩下不少
-难道真的是本命年已经过去了？
- 下午的时候，Mr.Du通知明天要进学校调试了，估计这个过程会很坎坷，希望一切安好吧，Bless~" />
+<meta property="og:title" content="调试第二天" />
+<meta property="og:description" content="今天上午到了之后，就开始调试我的Motion的Connect，先是从Motion的封装dll入手，无果
+后来改为查看PMAC自带的CSharp例程，改了权限和.Net Framework为3.5之后，竟然成功了
+然后就另起了一个Test的项目，先是将自带例程搬过来，起初是不成功，然后通过比较和例程的差异，发现缺少了管理员权限，然后Connect成功了；紧接着尝试直接调用Motion_41.dll，也成功了；最后对比和AMS的差异，将dll静态调用改为静态，竟然也成功了，于是怀疑是.Net Framework的问题，和杜老师讲了下，他的建议是我重新封装Motion_41.dll，我怀着死前搏一搏的心理，结束了这第二天的调试
+ 小王那边还是没有什么进展，而且发现他读文档的能力实在是太差了，虽然所有的问题靠百度，但是竟然不查官网，而且看到外文就放弃了，一直在等、在靠，是不是现在的年轻人都这样了？都得靠喂，没有什么主动性了呢？
+这样真的不好！" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leishengxiao.github.io/posts/20201228/" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20201230/" />
 <meta property="og:image" content="https://leishengxiao.github.io/"/>
-<meta property="article:published_time" content="2020-12-28T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-12-28T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+<meta property="article:published_time" content="2020-12-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-30T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
 
 
 
@@ -86,7 +86,7 @@
 
 
 
-<meta property="article:published_time" content="2020-12-28 00:00:00 &#43;0000 UTC" />
+<meta property="article:published_time" content="2020-12-30 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -170,19 +170,19 @@
 
     <article>
       <h1 class="post-title">
-        <a href="https://leishengxiao.github.io/posts/20201228/">明天就要测试AMS了</a>
+        <a href="https://leishengxiao.github.io/posts/20201230/">调试第二天</a>
       </h1>
 
       
 
       <div class="post-content">
         <hr>
-<p>上午基本在贴票中度过了，合计要报销的竟然有9k块钱了，好多&hellip;</p>
-<p>测算了下租房的费用，房东因为少桌子，让了1个月房租，一共需要23100的租金，如果这个房子能退5个月租金的话，那就是14500，还差了8600，让小王出6000，我再付2600就好了</p>
-<p>正好报销能报8458，减去押金2100，还能剩下不少</p>
-<p>难道真的是本命年已经过去了？</p>
+<p>今天上午到了之后，就开始调试我的Motion的Connect，先是从Motion的封装dll入手，无果</p>
+<p>后来改为查看PMAC自带的CSharp例程，改了权限和.Net Framework为3.5之后，竟然成功了</p>
+<p>然后就另起了一个Test的项目，先是将自带例程搬过来，起初是不成功，然后通过比较和例程的差异，发现缺少了管理员权限，然后Connect成功了；紧接着尝试直接调用Motion_41.dll，也成功了；最后对比和AMS的差异，将dll静态调用改为静态，竟然也成功了，于是怀疑是.Net Framework的问题，和杜老师讲了下，他的建议是我重新封装Motion_41.dll，我怀着死前搏一搏的心理，结束了这第二天的调试</p>
 <hr>
-<p>下午的时候，Mr.Du通知明天要进学校调试了，估计这个过程会很坎坷，希望一切安好吧，Bless~</p>
+<p>小王那边还是没有什么进展，而且发现他读文档的能力实在是太差了，虽然所有的问题靠百度，但是竟然不查官网，而且看到外文就放弃了，一直在等、在靠，是不是现在的年轻人都这样了？都得靠喂，没有什么主动性了呢？</p>
+<p>这样真的不好！</p>
 
       </div>
     </article>
@@ -205,7 +205,7 @@
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        5 Words
+        7 Words
       </p>
 
       <p>
@@ -215,7 +215,7 @@
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        2020-12-28 08:00 &#43;0800
+        2020-12-30 08:00 &#43;0800
       </p>
     </div>
 
@@ -229,17 +229,17 @@
         <div class="pagination__buttons">
           
             <span class="button previous">
-              <a href="https://leishengxiao.github.io/posts/20201229/">
+              <a href="https://leishengxiao.github.io/posts/20201231/">
                 <span class="button__icon">←</span>
-                <span class="button__text">再次进学校</span>
+                <span class="button__text">调试第三天</span>
               </a>
             </span>
           
 
           
             <span class="button next">
-              <a href="https://leishengxiao.github.io/posts/20201227/">
-                <span class="button__text">囧途</span>
+              <a href="https://leishengxiao.github.io/posts/20201229/">
+                <span class="button__text">再次进学校</span>
                 <span class="button__icon">→</span>
               </a>
             </span>

@@ -6,8 +6,82 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 31 Dec 2020 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>调试第三天</title>
+            <link>https://leishengxiao.github.io/posts/20201231/</link>
+            <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20201231/</guid>
+            <description>早晨一早等Mr.Du的车一起进校，等快到N5楼下的时候，我突然发现因为昨晚洗衣服，竟然把暗室控制室的小钥匙忘带了，狂汗~这种事情怎么能发生在我身上呢？没办法，只能重新掉头回去拿钥匙，来回耽误了半个小时
+怀着昨天重新试一试的态度，又开始了Motion的Connect调试，把昨天写好的测试项目重新打开，突然发现也不行了，后来突发奇想，难道是管理员权限的问题？抱着试一试的态度一看，果然，Connect终于通了！
+接下来就是Motion的Control和VNA的Connect了，调Control的时候，发现X轴是没有问题的，但是Y轴因为正限位，只能反向运动，可是之前设置的输入框只能是正数，于是又该了输入框限制的正则表达式为可正可负、整数最多3位、小数最多2位，哈哈，Control也大功告成了！
+在调Control的时候，还发现个问题就是后台进程不执行，又重新翻出来之前的OTA程序看了下，基本没什么差异，后来发现，竟然是BackgroudWorker的声明方法没有调用，真是晕死了！
+还有个问题就是因为BackgroundWorker执行Complete之后，要更新DataGridView的数据，而是因为是后台线程，结果报错出现了MultiThread，没办法，又将DataGridView的数据刷新改为Delegate，搞定！
+Motion到这个阶段，基本能调试的就这么多了，等机械部分调好之后再测试复杂运动了
+到了VNA部分，还是一如调试第一天一样，基本没什么头绪，测试了下VNA的dll的测试项目，也是没有结果，可能还是对VNA不是很了解的缘故吧&amp;hellip;
+ 因为明天是元旦放假，我下午要赶火车回家，所以我早上跟Mr.Du说了下午就不过来了，所以中午的时候，我们和Mr.Du一起回到了乐水居，吃过饭，收拾完东西、叠好衣服之后，出门、拿了前几天买的iPhone充电线，到了办公室
+看会书之后，终于可以回家了&amp;hellip;
+亲爱的爸爸、妈妈、大小宝贝，你们想我了吗？</description>
+            <content type="html"><![CDATA[<hr>
+<p>早晨一早等Mr.Du的车一起进校，等快到N5楼下的时候，我突然发现因为昨晚洗衣服，竟然把暗室控制室的小钥匙忘带了，狂汗~这种事情怎么能发生在我身上呢？没办法，只能重新掉头回去拿钥匙，来回耽误了半个小时</p>
+<p>怀着昨天重新试一试的态度，又开始了Motion的Connect调试，把昨天写好的测试项目重新打开，突然发现也不行了，后来突发奇想，难道是管理员权限的问题？抱着试一试的态度一看，果然，Connect终于通了！</p>
+<p>接下来就是Motion的Control和VNA的Connect了，调Control的时候，发现X轴是没有问题的，但是Y轴因为正限位，只能反向运动，可是之前设置的输入框只能是正数，于是又该了输入框限制的正则表达式为可正可负、整数最多3位、小数最多2位，哈哈，Control也大功告成了！</p>
+<p>在调Control的时候，还发现个问题就是后台进程不执行，又重新翻出来之前的OTA程序看了下，基本没什么差异，后来发现，竟然是BackgroudWorker的声明方法没有调用，真是晕死了！</p>
+<p>还有个问题就是因为BackgroundWorker执行Complete之后，要更新DataGridView的数据，而是因为是后台线程，结果报错出现了MultiThread，没办法，又将DataGridView的数据刷新改为Delegate，搞定！</p>
+<p>Motion到这个阶段，基本能调试的就这么多了，等机械部分调好之后再测试复杂运动了</p>
+<p>到了VNA部分，还是一如调试第一天一样，基本没什么头绪，测试了下VNA的dll的测试项目，也是没有结果，可能还是对VNA不是很了解的缘故吧&hellip;</p>
+<hr>
+<p>因为明天是元旦放假，我下午要赶火车回家，所以我早上跟Mr.Du说了下午就不过来了，所以中午的时候，我们和Mr.Du一起回到了乐水居，吃过饭，收拾完东西、叠好衣服之后，出门、拿了前几天买的iPhone充电线，到了办公室</p>
+<p>看会书之后，终于可以回家了&hellip;</p>
+<p>亲爱的爸爸、妈妈、大小宝贝，你们想我了吗？</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>调试第二天</title>
+            <link>https://leishengxiao.github.io/posts/20201230/</link>
+            <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20201230/</guid>
+            <description>今天上午到了之后，就开始调试我的Motion的Connect，先是从Motion的封装dll入手，无果
+后来改为查看PMAC自带的CSharp例程，改了权限和.Net Framework为3.5之后，竟然成功了
+然后就另起了一个Test的项目，先是将自带例程搬过来，起初是不成功，然后通过比较和例程的差异，发现缺少了管理员权限，然后Connect成功了；紧接着尝试直接调用Motion_41.dll，也成功了；最后对比和AMS的差异，将dll静态调用改为静态，竟然也成功了，于是怀疑是.Net Framework的问题，和杜老师讲了下，他的建议是我重新封装Motion_41.dll，我怀着死前搏一搏的心理，结束了这第二天的调试
+ 小王那边还是没有什么进展，而且发现他读文档的能力实在是太差了，虽然所有的问题靠百度，但是竟然不查官网，而且看到外文就放弃了，一直在等、在靠，是不是现在的年轻人都这样了？都得靠喂，没有什么主动性了呢？
+这样真的不好！</description>
+            <content type="html"><![CDATA[<hr>
+<p>今天上午到了之后，就开始调试我的Motion的Connect，先是从Motion的封装dll入手，无果</p>
+<p>后来改为查看PMAC自带的CSharp例程，改了权限和.Net Framework为3.5之后，竟然成功了</p>
+<p>然后就另起了一个Test的项目，先是将自带例程搬过来，起初是不成功，然后通过比较和例程的差异，发现缺少了管理员权限，然后Connect成功了；紧接着尝试直接调用Motion_41.dll，也成功了；最后对比和AMS的差异，将dll静态调用改为静态，竟然也成功了，于是怀疑是.Net Framework的问题，和杜老师讲了下，他的建议是我重新封装Motion_41.dll，我怀着死前搏一搏的心理，结束了这第二天的调试</p>
+<hr>
+<p>小王那边还是没有什么进展，而且发现他读文档的能力实在是太差了，虽然所有的问题靠百度，但是竟然不查官网，而且看到外文就放弃了，一直在等、在靠，是不是现在的年轻人都这样了？都得靠喂，没有什么主动性了呢？</p>
+<p>这样真的不好！</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>再次进学校</title>
+            <link>https://leishengxiao.github.io/posts/20201229/</link>
+            <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20201229/</guid>
+            <description>今天一早8点就在西门等着Mr.Du进校了，等到一辆白车驶近，突然发现Mr.Du竟然换车了，不错不错
+8点15左右到了学院Mr.Du的办公室，竟然一个人也没有，这帮学生们简直忒懒了，在Mr.Du办公室坐了会儿，接了壶水之后，就来到N7楼的小暗室，突然Mr.Du发现没有钥匙，狂晕&amp;hellip;
+没办法，Mr.Du回办公室拿钥匙，我们原地待命，等过了十几分钟，Mr.Du通知我们回去，因为钥匙在另一人手里，在Mr.Du的办公室等了一会儿后，终于等到了，于是我们去了N7楼的暗室
+一顿规整之后，开始了我的调试，可是，怎么调，Motion的Connect都连接不上，好郁闷
+就这么结束了第一天的调试，基本没什么收获
+汗~</description>
+            <content type="html"><![CDATA[<hr>
+<p>今天一早8点就在西门等着Mr.Du进校了，等到一辆白车驶近，突然发现Mr.Du竟然换车了，不错不错</p>
+<p>8点15左右到了学院Mr.Du的办公室，竟然一个人也没有，这帮学生们简直忒懒了，在Mr.Du办公室坐了会儿，接了壶水之后，就来到N7楼的小暗室，突然Mr.Du发现没有钥匙，狂晕&hellip;</p>
+<p>没办法，Mr.Du回办公室拿钥匙，我们原地待命，等过了十几分钟，Mr.Du通知我们回去，因为钥匙在另一人手里，在Mr.Du的办公室等了一会儿后，终于等到了，于是我们去了N7楼的暗室</p>
+<p>一顿规整之后，开始了我的调试，可是，怎么调，Motion的Connect都连接不上，好郁闷</p>
+<p>就这么结束了第一天的调试，基本没什么收获</p>
+<p>汗~</p>
+]]></content>
+        </item>
         
         <item>
             <title>明天就要测试AMS了</title>
