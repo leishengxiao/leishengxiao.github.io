@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第4.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210105/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210105/</guid>
+      <description>七点四十才起床洗刷，差点进校调试迟到，汗&amp;hellip;
+上午主要研究的C#中VNA的Connect，尝试了好几种方法，最终使用IntPtr终于搞定了，下午则是将C++中的VNATest的代码，在C#中尝试了一遍，终于全部搞定了
+也就是Mr.Du所说的可以控VNA了！
+晚上Mr.Du请于总和我们一起去了于小渔吃的菜煎饼，味道不错，回到家的时候已经9点半了，稍微玩了会，没有洗漱就直接睡觉了！
+ 下午的时候，给大宝贝买了孕期维生素，花了300多大洋，合一天3.3元，希望大宝贝身体健康，也希望小云霈早点到来！</description>
+    </item>
+    
+    <item>
+      <title>第5.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210106/</link>
+      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210106/</guid>
+      <description>早上又是七点四十才爬起来洗漱，一顿加速之后，终于8点整的时候赶到了底下车库，还不错
+上午主要针对Motion的数据读取进行了调试，发现有不少没用指针的地方，dll方法调用有问题，尝试了几种方法之后，终于在午饭前搞定了，高兴！
+上午还发现当Form Close的时候，Invoke方法如果没判断IsHandleCreate的话，会报错
+下午主要把Motion Control中加上了Positive和Negative的按钮控制，方面Axis一直移动；同时把Motion和Measure的DeviceInit方法都调试过了，没有什么问题了
+至此，基本所有的联动测试之前的工作都已经就绪了，只等机械轴能够运动之后联调测试了，加油！
+ 给大宝贝买的维生素到了，中午过去拿了；宝贝闺女昨天做的爱护绿萝的警示牌得到了老师微信群表扬，我也看到了之后眼前一亮，确实做的很漂亮，大小宝贝真棒！
+下午大宝贝提到了发愁换房子和养孩子，我劝慰她不要总是为着遥远的明天而徒增烦恼，而是心情开心，积极的去面对未来，我也相信云䶮云霈妈妈，我们小雷家一定是最棒的！</description>
+    </item>
+    
+    <item>
+      <title>第3.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210104/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210104/</guid>
+      <description>上午Mr.Du要监考，所以下午才进校调试，中午把衣服都洗了晾上，让Mr.Du白等了5分钟，好不好意思
+下午主要是研究的VNA的Connect，比着PNA的文档折腾了半天，终于能够在C++中Connect了，好高兴&amp;hellip;
+明天于总也过来一起调试一天，希望能一切顺利！
+ 今天也是备孕的第三天，云䶮云霈妈妈加油！</description>
+    </item>
+    
     <item>
       <title>返青</title>
       <link>https://leishengxiao.github.io/posts/20210103/</link>
@@ -61,7 +101,7 @@
     </item>
     
     <item>
-      <title>调试第三天</title>
+      <title>第2.5天调试</title>
       <link>https://leishengxiao.github.io/posts/20201231/</link>
       <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -79,7 +119,7 @@ Motion到这个阶段，基本能调试的就这么多了，等机械部分调�
     </item>
     
     <item>
-      <title>调试第二天</title>
+      <title>第2天调试</title>
       <link>https://leishengxiao.github.io/posts/20201230/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -92,7 +132,7 @@ Motion到这个阶段，基本能调试的就这么多了，等机械部分调�
     </item>
     
     <item>
-      <title>再次进学校</title>
+      <title>第1天调试</title>
       <link>https://leishengxiao.github.io/posts/20201229/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
       
