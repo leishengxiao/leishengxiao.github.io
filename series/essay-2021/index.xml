@@ -7,7 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 05 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>补刀</title>
+      <link>https://leishengxiao.github.io/posts/20210110/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210110/</guid>
+      <description>上午是接送女儿学舞蹈，下午和Mr.Ji的老婆去了趟之前的办公室找一张发票，结果无果，作罢&amp;hellip;
+路上聊起创业是否后悔，后悔什么呢？不经历能懂的这些人情世故么？知道了就是成长，交点学费又能如何
+ 大宝贝告知可能昨天小云霈不愿意来我们家，没办法，下午补个刀吧，一切随缘~
+ 晚上到了住处，洗了衣服、收拾了房间，上床休息的时候已经2点多了，汗~
+堕落！</description>
+    </item>
+    
+    <item>
+      <title>小牛牛，你准备好了吗</title>
+      <link>https://leishengxiao.github.io/posts/20210109/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210109/</guid>
+      <description>因为昨天晚上和闺女聊天到快12点，所以今天起床的时候都已经10点了，惭愧&amp;hellip;
+上午在家陪宝贝女儿写作业，下午也是，晚上的时候，一起看完了我和我的家乡
+晚上和大宝贝做了游戏，小云霈，你准备好了吗？我们全家人欢迎你的到来！</description>
+    </item>
+    
+    <item>
+      <title>第7.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210108/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210108/</guid>
+      <description>不知不觉AMS已经调试了一周了，原本计划中午的时候跟Mr.Du的车回去，结果还是算了吧，联系了下午跟何老师的车出校，改签了车票，一通奔波之后，还不错，赶上了&amp;hellip;
+上午主要是为了Motion和VNA联测做的准备，发现不少之前程序的问题，不断修改测试，中午下午的时候都解决了
+小王主要是做PMAC的位置比较脉冲的设置，搞了一天，还是不行，我接近3点的时候，也看了下，比着文档还是不行，看来只能请Mr.Du来瞧瞧病症了
+ 下火车的时候，原本计划出门打个快车，结果正好遇到了小鹏鹏，而且他老婆接他，我就蹭他的车回到了家
+积蓄了一周的能量，大宝贝说日子不对，好吧，听她的&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第6.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210107/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210107/</guid>
+      <description>竟然想不起AMS改的什么了，罪过罪过&amp;hellip;
+ 晚上给京诚的人讲了MES的方案，他们感觉还是不错的，就是不知道后续的酬劳如何了&amp;hellip;
+无话&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第5.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210106/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210106/</guid>
+      <description>早上又是七点四十才爬起来洗漱，一顿加速之后，终于8点整的时候赶到了底下车库，还不错
+上午主要针对Motion的数据读取进行了调试，发现有不少没用指针的地方，dll方法调用有问题，尝试了几种方法之后，终于在午饭前搞定了，高兴！
+上午还发现当Form Close的时候，Invoke方法如果没判断IsHandleCreate的话，会报错
+下午主要把Motion Control中加上了Positive和Negative的按钮控制，方面Axis一直移动；同时把Motion和Measure的DeviceInit方法都调试过了，没有什么问题了
+至此，基本所有的联动测试之前的工作都已经就绪了，只等机械轴能够运动之后联调测试了，加油！
+ 给大宝贝买的维生素到了，中午过去拿了；宝贝闺女昨天做的爱护绿萝的警示牌得到了老师微信群表扬，我也看到了之后眼前一亮，确实做的很漂亮，大小宝贝真棒！
+下午大宝贝提到了发愁换房子和养孩子，我劝慰她不要总是为着遥远的明天而徒增烦恼，而是心情开心，积极的去面对未来，我也相信云䶮云霈妈妈，我们小雷家一定是最棒的！</description>
+    </item>
+    
     <item>
       <title>第4.5天调试</title>
       <link>https://leishengxiao.github.io/posts/20210105/</link>
@@ -19,21 +82,6 @@
 也就是Mr.Du所说的可以控VNA了！
 晚上Mr.Du请于总和我们一起去了于小渔吃的菜煎饼，味道不错，回到家的时候已经9点半了，稍微玩了会，没有洗漱就直接睡觉了！
  下午的时候，给大宝贝买了孕期维生素，花了300多大洋，合一天3.3元，希望大宝贝身体健康，也希望小云霈早点到来！</description>
-    </item>
-    
-    <item>
-      <title>第5.5天调试</title>
-      <link>https://leishengxiao.github.io/posts/20210106/</link>
-      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://leishengxiao.github.io/posts/20210106/</guid>
-      <description>早上又是七点四十才爬起来洗漱，一顿加速之后，终于8点整的时候赶到了底下车库，还不错
-上午主要针对Motion的数据读取进行了调试，发现有不少没用指针的地方，dll方法调用有问题，尝试了几种方法之后，终于在午饭前搞定了，高兴！
-上午还发现当Form Close的时候，Invoke方法如果没判断IsHandleCreate的话，会报错
-下午主要把Motion Control中加上了Positive和Negative的按钮控制，方面Axis一直移动；同时把Motion和Measure的DeviceInit方法都调试过了，没有什么问题了
-至此，基本所有的联动测试之前的工作都已经就绪了，只等机械轴能够运动之后联调测试了，加油！
- 给大宝贝买的维生素到了，中午过去拿了；宝贝闺女昨天做的爱护绿萝的警示牌得到了老师微信群表扬，我也看到了之后眼前一亮，确实做的很漂亮，大小宝贝真棒！
-下午大宝贝提到了发愁换房子和养孩子，我劝慰她不要总是为着遥远的明天而徒增烦恼，而是心情开心，积极的去面对未来，我也相信云䶮云霈妈妈，我们小雷家一定是最棒的！</description>
     </item>
     
     <item>
