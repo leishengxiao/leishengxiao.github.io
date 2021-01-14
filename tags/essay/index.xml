@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>填坑第一天</title>
+      <link>https://leishengxiao.github.io/posts/20210113/</link>
+      <pubDate>Wed, 13 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210113/</guid>
+      <description>今天针对前期测试的问题，修改了ucSolution的右键菜单权限问题，FormMain增加了OfficeNavigationBar的功能，修改了FormMeasure的Delegate，同时修改了各个MeasureProcess的SaveData的数据结构，总体来讲，还不错！
+ 宝贝女儿今天不是很听话，是不是真的要像大宝贝说的那样送去寄宿学校呢？我觉得不需要，因为我相信闺女一定能改掉坏习惯，积极向上的学习，加油宝贝！
+ 闺女的作文如下： 天外有天 青蛙抬头一看，映入眼帘的是蓝蓝的天空、巍峨的高山、碧绿的小草，微风徐徐吹来，带来阵阵花香，再也不是之前在井底巴掌大的天空、漆黑的井壁、静到害怕的井水，原来世界是这么的丰富多彩！ 小青蛙回想自己之前的认识，觉得自己真是一只“井底之蛙”啊，通过自己的努力走出去之后，是更广阔的天空，真的是天外有天啊！ 我们一定不要以管窥豹的自以为是，要怀着谦虚谨慎的态度看待问题，同时也要通过自身的努力，去更广阔的天空抒写自己的色彩！</description>
+    </item>
+    
+    <item>
+      <title>第9.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210112/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210112/</guid>
+      <description>今天上午Mr.Du一起过去了一趟，主要是调试的触摸屏和控制器的串口通讯，一如昨天也是一通的查文档和尝试，最后还是打电话问了技术，说是控制器的口不是1而是2，崩溃！不过通了就好&amp;hellip;
+通过我半天多的努力和填坑，点频步进扫描终于差不多了，因为明天Mr.Du要出差，所以明天我在办公室改改类似的Bug和之前留下的一些坑
+测试终于短暂告一段落了，今晚早早歇息，明天饱满的精神填坑！</description>
+    </item>
+    
+    <item>
+      <title>第8.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210111/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210111/</guid>
+      <description>昨晚以为Mr.Du今天要出差，问了句是否进校，得到了肯定的答案；昨晚因为洗衣服、打扫卫生，睡着的时候得2点多了，早晨起来好困
+因为周五小王整了一天多的位置比较脉冲，没整出来，为了不影响进度，今天上午请Mr.Du过来帮忙看了下，也是一通的查文档和尝试，最后打电话问了技术，得知出厂的时候把这个功能给禁了，好吧，欲哭无泪的赶脚，只能等了
+Mr.Du说了下邮寄过来之前的工作，小王把触摸屏调完，我开始调试下几种测试场景
+不调试不知道，之前写的没有一丢丢测试的程序Bug还是挺多的，调了半天多，把Config的测试完了，测试的只是初步尝试了下，这项任务还是比较艰巨的，加油！
+ 家里那边因为河北新冠的缘故，查的比较严，老爸老妈的回老家过年的计划算是泡汤了，只能蜗居在日照的出租房过新年了
+期盼！期盼是一家6口人一起过年！</description>
+    </item>
+    
     <item>
       <title>补刀</title>
       <link>https://leishengxiao.github.io/posts/20210110/</link>
