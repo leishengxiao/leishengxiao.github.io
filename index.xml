@@ -7,7 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 13 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>填坑第二天</title>
+      <link>https://leishengxiao.github.io/posts/20210114/</link>
+      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210114/</guid>
+      <description>今天上午主要把FormMeasure的数据展示调整完了，对EDA的项目，学习了下目前的单器件版本的Fronted代码，在本地能够跑通，同时了解了下整个EDA软件的架构；
+下午又尝试在EDA的Toolbar中添加了一个Button并调用了Command引擎，AMS这边把每个Form的Text和Icon调整了一遍，所有的项目全部生成并Push到GitHub上
+IMac控制器今天到了，因为Mr.Du还没有回来，所以我们明天跟何老师的车进校，大概在9:40左右
+ 明天又是周五了，今天定了往返的火车票，好像回去的车票涨钱了，之前都是48，现在57了，汗~估计是火车班次的问题吧
+中午把Mr.Zhao的被褥、枕头和衣服都打包了下，下午寄出去了，好贵，87大洋，没有按照之前约定的用大箱子去邮寄，Mr.Zhao有些不太乐意，但是我感觉我包装的还是很用心很安全的，希望他看到之后会改变现在的想法吧
+ 上午物业过来，贴了个防疫的告示，同时告知要准备防疫用品，在JD下了个单，买了测温仪、免洗酒精凝胶洗手液和一次性手套，花了147大洋
+ 公司报销的钱和年底的奖金还是没有下来，估计在路上吧&amp;hellip;
+再等等^_^</description>
+    </item>
+    
     <item>
       <title>填坑第一天</title>
       <link>https://leishengxiao.github.io/posts/20210113/</link>
