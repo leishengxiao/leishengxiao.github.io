@@ -7,7 +7,85 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Thu, 14 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第13.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210120/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210120/</guid>
+      <description>今天折腾了一天的VNA读数，结果有好有坏，好的是之前的ReadAmplitude和ReadPhase函数终于把数读对了，坏的是Mr.Du昨天说的getData功能能读数，但不正确；另外又折腾了下getPairedData功能，折腾出来了，但是也是数据不正确
+回来的路上和Mr.Du提了下，明天给看下
+等着吃晚饭的时间，看了下JD，突然发现Lamy狩猎者好便宜，折扣完才99，立马下单了，但是是寄到即墨，因为之前答应了宝贝闺女是考试完才给她的
+其他无话&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第12.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210119/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210119/</guid>
+      <description>因为没啥事情可做了，所以又在ucSolution上加了个Data的Node，并把之前的RemoveData的功能做了修改，添加了一个FormMeasureResult的界面，进行数据展示，同时增加了Node双击打开功能、Measure完之后的自动刷新功能，同时把FormMeasure的界面和数据展示都做完了，还是很充实的
+因为Mr.Du有课，所以5点半的时候，Mr.Du来了一趟，把脉冲的上拉电阻和焊台都送过来了，同时告诉了下王怎么做；问了下我这边的情况，我说没啥事做了，加个界面玩，然后我演示了下给Mr.Du看，结果数据不是很正确，这个确实是之前忽略的，因为我认为接口的dll是Mr.Du提供的，应该没有问题才对，好吧，只能明天再研究了
+大宝贝发烧好了，晚上的时候，闺女因为大宝贝说话不算数的问题，大闹了一通，这对活宝闹完之后，去买了新的保温杯，宝贝闺女又快快乐乐的回来了，唉，这对冤家啊&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第11.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210118/</link>
+      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210118/</guid>
+      <description>上午主要把Form主界面的位置信息实时显示、以及4个Type的Measure重新测试了下
+下午和小王又一起看了下EQU功能，还是无果，我给他了一个建议是让PMAC的技术人员远程看下，因为时间晚了，人家下班了，相约明天一早看
+下班之后，Mr.Du和孔相约在咖啡馆讨论结构问题，我跟着听了整个架构以及朦朦胧胧以后要做的工作，又自己扒拉了一遍之前MES的后台程序，大概有点印象了
+Mr.Du发了一个接口的样例，回到家我自己又把它跑通，还不错，大概摸到一点门了
+大宝贝下午发烧的厉害，去妇幼保健院做了个核酸检测和血常规，有点炎症，大夫给开了药
+宝贝闺女今天没有上课后辅导，自己回来了，说是在学校老是打扫卫生干活，没意思，所以作业完成的比较早，还是比较听话的一天</description>
+    </item>
+    
+    <item>
+      <title>在家第二天</title>
+      <link>https://leishengxiao.github.io/posts/20210117/</link>
+      <pubDate>Sun, 17 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210117/</guid>
+      <description>上午起床之后，就匆忙的送闺女去上舞蹈课了，接回来之后，我和闺女一起把阿胶打成粉，以备下周的时候熬制使用
+中午吃完饭，闺女自己洗了个澡，我因为太困了，睡着了，等到快4点的时候，我才起床去接闺女回来并送到英语学校
+回来之后，收拾完东西、吃完饭，已经5点多了
+因为大宝贝不舒服，所以我自己走着去赶公交
+在快到高铁站的时候，老妈打电话说我把电动车钥匙带走了，狂晕&amp;hellip;没办法，只能放到车站保安那里，让老爸第二天去拿了
+好说歹说，那个大爷终于肯让把钥匙留在那里了，出门的时候，正好碰到小鹏鹏，和他聊了一会儿就上车了
+经过1h的高铁+1.5h的地铁，终于回到了我的狗窝
+因为困的有点头疼，睡着的时候得有2点多了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>三场比赛</title>
+      <link>https://leishengxiao.github.io/posts/20210116/</link>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210116/</guid>
+      <description>上午起床的时候已经快9点半了，洗漱并吃过早饭之后，我们开始了三场比赛，第一场比赛是比赛背诵，我当之无愧的是第一名，闺女第二名，而大宝贝最后一名，惩罚是屁股挨10棍子；第二场是语文试卷，因为课文的内容比较多，而我又不是很熟，结果闺女得了第一名，大宝贝第二名，而我则是最后一名；
+因为我输掉了比赛，所以要给第一名送一个10元以内的礼物，我带着闺女去了小不点，闺女买了她心心念的一个美其名曰的减压玩具，结果只花了1块钱，哈哈，笑死我了，闺女出店门的时候还说&amp;quot;早知道这么便宜就买5个了&amp;quot;，哈哈^_^
+中午和闺女一起做了十几道发散思维的数学题，下午做完试卷之后，就基本要到书法课的时间了，用半个小时的时间赶完了书法作业，这其中还有我帮闺女写的得有1/3的样子
+大宝贝今天有点发烧，我们给她找了点冲剂喝
+晚上闺女睡后，和大宝贝讨论了半天的房子问题，也商量定了要卖掉两个小的，买一套180多平的大房子，讨论完接近2点了，困困的睡了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第10.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210115/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210115/</guid>
+      <description>今天9:40左右坐着Miss.He的车进校调试，上午主要把填坑的这些功能都测试了，比如Solution的右键菜单、FormMeasure的数据展示，同时又把所有四种MeasureType都测试了下
+下午的时候，有一丢丢时间看了下PMAC的EQU功能，还是无果
+下午5点的时候出校，经过1.5h的地铁，下公交的时候已经10点了，到家10点半左右
+和闺女又一起看完了直播的非诚勿扰，睡觉的时候已经快12点了，我睡觉的时候已经快2点了，和闺女相约明天进行几场比赛，三个人一起参与</description>
+    </item>
+    
     <item>
       <title>填坑第二天</title>
       <link>https://leishengxiao.github.io/posts/20210114/</link>
