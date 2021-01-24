@@ -7,20 +7,21 @@
 <meta name="author"
     content="map[name:LeiShengxiao]">
 <meta name="description"
-    content="今天折腾了一天的VNA读数，结果有好有坏，好的是之前的ReadAmplitude和ReadPhase函数终于把数读对了，坏的是Mr.Du昨天说的getData功能能读数，但不正确；另外又折腾了下getPairedData功能，折腾出来了，但是也是数据不正确
-回来的路上和Mr.Du提了下，明天给看下
-等着吃晚饭的时间，看了下JD，突然发现Lamy狩猎者好便宜，折扣完才99，立马下单了，但是是寄到即墨，因为之前答应了宝贝闺女是考试完才给她的
-其他无话&amp;hellip;" />
+    content="上午把VNA的读数部分的各种方法都测了下，除了getData和解字符串的方式外，都可以了；把VNA_KS的代码格式化了下
+下午把FormMeasureResult的Export功能补充完整了，主要添加了Txt的导出功能，和之前的Txt文档格式一样了
+6点左右的时候，Mr.Du过来了一趟，看了下我的读数，说还是不太对，因为是列表扫描，但是VNA设备上没有出现列表，应该是设置的指令没有发送成功，查了半天，C&#43;&#43;里是可以了，但是C#里还不行，无果，周一再调了&amp;hellip;
+明天要去青岛做一下核酸检测，方便进校的时候走审批
+回去的路上，和Mr.Du提了下莱天用第三方检测报告通过验收的事情，气的Mr.Du不要不要的，不过确实很不要脸" />
 <meta name="keywords"
     content=", Essay" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://leishengxiao.github.io/posts/20210120/" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20210121/" />
 
 
 <title>
     
-    第13.5天调试 :: LeiShengxiao&#39;s Blog  — supper noob
+    第14.5天调试 :: LeiShengxiao&#39;s Blog  — supper noob
     
 </title>
 
@@ -38,14 +39,15 @@
 
 
 
-<meta itemprop="name" content="第13.5天调试">
-<meta itemprop="description" content="今天折腾了一天的VNA读数，结果有好有坏，好的是之前的ReadAmplitude和ReadPhase函数终于把数读对了，坏的是Mr.Du昨天说的getData功能能读数，但不正确；另外又折腾了下getPairedData功能，折腾出来了，但是也是数据不正确
-回来的路上和Mr.Du提了下，明天给看下
-等着吃晚饭的时间，看了下JD，突然发现Lamy狩猎者好便宜，折扣完才99，立马下单了，但是是寄到即墨，因为之前答应了宝贝闺女是考试完才给她的
-其他无话&hellip;">
-<meta itemprop="datePublished" content="2021-01-20T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-01-20T00:00:00+00:00" />
-<meta itemprop="wordCount" content="4">
+<meta itemprop="name" content="第14.5天调试">
+<meta itemprop="description" content="上午把VNA的读数部分的各种方法都测了下，除了getData和解字符串的方式外，都可以了；把VNA_KS的代码格式化了下
+下午把FormMeasureResult的Export功能补充完整了，主要添加了Txt的导出功能，和之前的Txt文档格式一样了
+6点左右的时候，Mr.Du过来了一趟，看了下我的读数，说还是不太对，因为是列表扫描，但是VNA设备上没有出现列表，应该是设置的指令没有发送成功，查了半天，C&#43;&#43;里是可以了，但是C#里还不行，无果，周一再调了&hellip;
+明天要去青岛做一下核酸检测，方便进校的时候走审批
+回去的路上，和Mr.Du提了下莱天用第三方检测报告通过验收的事情，气的Mr.Du不要不要的，不过确实很不要脸">
+<meta itemprop="datePublished" content="2021-01-21T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-01-21T00:00:00+00:00" />
+<meta itemprop="wordCount" content="5">
 <meta itemprop="image" content="https://leishengxiao.github.io/"/>
 
 
@@ -55,24 +57,26 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://leishengxiao.github.io/"/>
 
-<meta name="twitter:title" content="第13.5天调试"/>
-<meta name="twitter:description" content="今天折腾了一天的VNA读数，结果有好有坏，好的是之前的ReadAmplitude和ReadPhase函数终于把数读对了，坏的是Mr.Du昨天说的getData功能能读数，但不正确；另外又折腾了下getPairedData功能，折腾出来了，但是也是数据不正确
-回来的路上和Mr.Du提了下，明天给看下
-等着吃晚饭的时间，看了下JD，突然发现Lamy狩猎者好便宜，折扣完才99，立马下单了，但是是寄到即墨，因为之前答应了宝贝闺女是考试完才给她的
-其他无话&hellip;"/>
+<meta name="twitter:title" content="第14.5天调试"/>
+<meta name="twitter:description" content="上午把VNA的读数部分的各种方法都测了下，除了getData和解字符串的方式外，都可以了；把VNA_KS的代码格式化了下
+下午把FormMeasureResult的Export功能补充完整了，主要添加了Txt的导出功能，和之前的Txt文档格式一样了
+6点左右的时候，Mr.Du过来了一趟，看了下我的读数，说还是不太对，因为是列表扫描，但是VNA设备上没有出现列表，应该是设置的指令没有发送成功，查了半天，C&#43;&#43;里是可以了，但是C#里还不行，无果，周一再调了&hellip;
+明天要去青岛做一下核酸检测，方便进校的时候走审批
+回去的路上，和Mr.Du提了下莱天用第三方检测报告通过验收的事情，气的Mr.Du不要不要的，不过确实很不要脸"/>
 
 
 
-<meta property="og:title" content="第13.5天调试" />
-<meta property="og:description" content="今天折腾了一天的VNA读数，结果有好有坏，好的是之前的ReadAmplitude和ReadPhase函数终于把数读对了，坏的是Mr.Du昨天说的getData功能能读数，但不正确；另外又折腾了下getPairedData功能，折腾出来了，但是也是数据不正确
-回来的路上和Mr.Du提了下，明天给看下
-等着吃晚饭的时间，看了下JD，突然发现Lamy狩猎者好便宜，折扣完才99，立马下单了，但是是寄到即墨，因为之前答应了宝贝闺女是考试完才给她的
-其他无话&hellip;" />
+<meta property="og:title" content="第14.5天调试" />
+<meta property="og:description" content="上午把VNA的读数部分的各种方法都测了下，除了getData和解字符串的方式外，都可以了；把VNA_KS的代码格式化了下
+下午把FormMeasureResult的Export功能补充完整了，主要添加了Txt的导出功能，和之前的Txt文档格式一样了
+6点左右的时候，Mr.Du过来了一趟，看了下我的读数，说还是不太对，因为是列表扫描，但是VNA设备上没有出现列表，应该是设置的指令没有发送成功，查了半天，C&#43;&#43;里是可以了，但是C#里还不行，无果，周一再调了&hellip;
+明天要去青岛做一下核酸检测，方便进校的时候走审批
+回去的路上，和Mr.Du提了下莱天用第三方检测报告通过验收的事情，气的Mr.Du不要不要的，不过确实很不要脸" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leishengxiao.github.io/posts/20210120/" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20210121/" />
 <meta property="og:image" content="https://leishengxiao.github.io/"/>
-<meta property="article:published_time" content="2021-01-20T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-01-20T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+<meta property="article:published_time" content="2021-01-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-01-21T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
 
 
 
@@ -82,7 +86,7 @@
 
 
 
-<meta property="article:published_time" content="2021-01-20 00:00:00 &#43;0000 UTC" />
+<meta property="article:published_time" content="2021-01-21 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -166,17 +170,18 @@
 
     <article>
       <h1 class="post-title">
-        <a href="https://leishengxiao.github.io/posts/20210120/">第13.5天调试</a>
+        <a href="https://leishengxiao.github.io/posts/20210121/">第14.5天调试</a>
       </h1>
 
       
 
       <div class="post-content">
         <hr>
-<p>今天折腾了一天的VNA读数，结果有好有坏，好的是之前的ReadAmplitude和ReadPhase函数终于把数读对了，坏的是Mr.Du昨天说的getData功能能读数，但不正确；另外又折腾了下getPairedData功能，折腾出来了，但是也是数据不正确</p>
-<p>回来的路上和Mr.Du提了下，明天给看下</p>
-<p>等着吃晚饭的时间，看了下JD，突然发现Lamy狩猎者好便宜，折扣完才99，立马下单了，但是是寄到即墨，因为之前答应了宝贝闺女是考试完才给她的</p>
-<p>其他无话&hellip;</p>
+<p>上午把VNA的读数部分的各种方法都测了下，除了getData和解字符串的方式外，都可以了；把VNA_KS的代码格式化了下</p>
+<p>下午把FormMeasureResult的Export功能补充完整了，主要添加了Txt的导出功能，和之前的Txt文档格式一样了</p>
+<p>6点左右的时候，Mr.Du过来了一趟，看了下我的读数，说还是不太对，因为是列表扫描，但是VNA设备上没有出现列表，应该是设置的指令没有发送成功，查了半天，C++里是可以了，但是C#里还不行，无果，周一再调了&hellip;</p>
+<p>明天要去青岛做一下核酸检测，方便进校的时候走审批</p>
+<p>回去的路上，和Mr.Du提了下莱天用第三方检测报告通过验收的事情，气的Mr.Du不要不要的，不过确实很不要脸</p>
 
       </div>
     </article>
@@ -199,7 +204,7 @@
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        4 Words
+        5 Words
       </p>
 
       <p>
@@ -209,7 +214,7 @@
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        2021-01-20 08:00 &#43;0800
+        2021-01-21 08:00 &#43;0800
       </p>
     </div>
 
@@ -223,17 +228,17 @@
         <div class="pagination__buttons">
           
             <span class="button previous">
-              <a href="https://leishengxiao.github.io/posts/20210121/">
+              <a href="https://leishengxiao.github.io/posts/20210123/">
                 <span class="button__icon">←</span>
-                <span class="button__text">第14.5天调试</span>
+                <span class="button__text">Study</span>
               </a>
             </span>
           
 
           
             <span class="button next">
-              <a href="https://leishengxiao.github.io/posts/20210119/">
-                <span class="button__text">第12.5天调试</span>
+              <a href="https://leishengxiao.github.io/posts/20210120/">
+                <span class="button__text">第13.5天调试</span>
                 <span class="button__icon">→</span>
               </a>
             </span>

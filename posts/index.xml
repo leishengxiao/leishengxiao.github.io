@@ -6,8 +6,62 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Socket.io</title>
+            <link>https://leishengxiao.github.io/posts/20210122/</link>
+            <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210122/</guid>
+            <description>一早8点坐Mr.Du的车去了QD齐鲁医院做核酸检测，下午的时候，去了办公室，学了下Kong做的Job，和Mr.Du讨论了接口部分Config的做法，在拾光咖啡馆待到了8点多，回家吃饭
+晚上把Primer看完了Chapter5，睡觉的时候已经1点了&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>一早8点坐Mr.Du的车去了QD齐鲁医院做核酸检测，下午的时候，去了办公室，学了下Kong做的Job，和Mr.Du讨论了接口部分Config的做法，在拾光咖啡馆待到了8点多，回家吃饭</p>
+<p>晚上把Primer看完了Chapter5，睡觉的时候已经1点了&hellip;</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Study</title>
+            <link>https://leishengxiao.github.io/posts/20210123/</link>
+            <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210123/</guid>
+            <description>一睁眼9点钟了，把所有的床单、被套、枕巾、毛巾、浴巾统统洗上，又换上新的被套之后，看着群里还没有宝贝闺女发成绩的动静，给大宝贝打了一个电话
+10点多的样子，数学群里终于有动静了，闺女获得了数学之星，还可以了
+11点多样子，语文群里也有动静了，闺女获得了金牌少年，其实也就是三好学生
+总体来讲还不错
+中午吃过饭，开始看Chapter6，虽然是48页，但也看到了晚上</description>
+            <content type="html"><![CDATA[<hr>
+<p>一睁眼9点钟了，把所有的床单、被套、枕巾、毛巾、浴巾统统洗上，又换上新的被套之后，看着群里还没有宝贝闺女发成绩的动静，给大宝贝打了一个电话</p>
+<p>10点多的样子，数学群里终于有动静了，闺女获得了数学之星，还可以了</p>
+<p>11点多样子，语文群里也有动静了，闺女获得了金牌少年，其实也就是三好学生</p>
+<p>总体来讲还不错</p>
+<p>中午吃过饭，开始看Chapter6，虽然是48页，但也看到了晚上</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>第14.5天调试</title>
+            <link>https://leishengxiao.github.io/posts/20210121/</link>
+            <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210121/</guid>
+            <description>上午把VNA的读数部分的各种方法都测了下，除了getData和解字符串的方式外，都可以了；把VNA_KS的代码格式化了下
+下午把FormMeasureResult的Export功能补充完整了，主要添加了Txt的导出功能，和之前的Txt文档格式一样了
+6点左右的时候，Mr.Du过来了一趟，看了下我的读数，说还是不太对，因为是列表扫描，但是VNA设备上没有出现列表，应该是设置的指令没有发送成功，查了半天，C++里是可以了，但是C#里还不行，无果，周一再调了&amp;hellip;
+明天要去青岛做一下核酸检测，方便进校的时候走审批
+回去的路上，和Mr.Du提了下莱天用第三方检测报告通过验收的事情，气的Mr.Du不要不要的，不过确实很不要脸</description>
+            <content type="html"><![CDATA[<hr>
+<p>上午把VNA的读数部分的各种方法都测了下，除了getData和解字符串的方式外，都可以了；把VNA_KS的代码格式化了下</p>
+<p>下午把FormMeasureResult的Export功能补充完整了，主要添加了Txt的导出功能，和之前的Txt文档格式一样了</p>
+<p>6点左右的时候，Mr.Du过来了一趟，看了下我的读数，说还是不太对，因为是列表扫描，但是VNA设备上没有出现列表，应该是设置的指令没有发送成功，查了半天，C++里是可以了，但是C#里还不行，无果，周一再调了&hellip;</p>
+<p>明天要去青岛做一下核酸检测，方便进校的时候走审批</p>
+<p>回去的路上，和Mr.Du提了下莱天用第三方检测报告通过验收的事情，气的Mr.Du不要不要的，不过确实很不要脸</p>
+]]></content>
+        </item>
         
         <item>
             <title>第13.5天调试</title>
