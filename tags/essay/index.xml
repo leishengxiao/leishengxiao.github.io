@@ -7,7 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第16.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210126/</link>
+      <pubDate>Tue, 26 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210126/</guid>
+      <description>通过今天的调试，了解了外部触发脉冲对VNA的作用，也理解了几种触发方式对测量的影响，总体来讲，之前的闭门造车总算是在实际中得到了检验
+但是，也存在一些问题，比如说读数据和写数据的冲突问题、点频连续扫描外部脉冲不触发的问题等等，有待明天让Mr.Du再给诊断下
+下午的时候参加了一个电话商务报价，感觉就像买白菜似的讨价还价，好有欺诈性，总体来讲，降了1.5k，还可以了
+最近项目还是比较多的，比如Scanner和一个光学雷达测量项目，信心满满，能量满满，来年必胜！</description>
+    </item>
+    
+    <item>
+      <title>第15.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210125/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210125/</guid>
+      <description>今天一早8点就坐上Mr.Du的车进校了，上午主要针对周四没有搞成功的VNA的扫频设置做了调试，同时又把各个测试类型重新试了下
+下午的时候把PMAC的到位脉冲接上了，可是在测试扫频连续的时候，怎么着都是丢数据，好奇葩，搞来搞去折腾了得有2h的样子，终于发现是因为读数点数不够的问题
+傍晚的时候，Mr.Du过去了，问了下扫频连续的问题，确实是漏了点数，同时问了问同步脉冲的效果，原来没有同步脉冲，VNA的指针是不走的，呵呵^_^
+晚上去了拾光咖啡馆讨论EDA的接口XML格式，刚开始的半小时基本是老师们在思考了，后面的时间我则是打开XML开始边讨论边整理，效果不错，至少把POINT给整完了，后面的内容还没讨论，不知不觉就到了9点了
+原本下班的时候让小王帮我把电饭锅插上电，结果这货晚了半小时插，搞的我到家的时候粥还没熟，这家伙，唉，可恨&amp;hellip;
+没办法，饿的先啃个包子吧，粥等等再喝了&amp;hellip;
+今天是开心的一天，收获满满，还不错！</description>
+    </item>
+    
+    <item>
+      <title>tinyxml2</title>
+      <link>https://leishengxiao.github.io/posts/20210124/</link>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210124/</guid>
+      <description>上午主要在看书中度过了，临近中午的时候，开始捣鼓Config项目，尝试用tinyxml2改写tinyxml，费尽周折，终于在下午5点左右的时候完工了，饿了一天了，热了下饭，吃完饭早早的洗澡睡觉了
+数看到了Chapter7，还可以了，晚上上床的时候正好11点半，看了会YY小说，应该不到12点的时候就已经睡去了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Study</title>
+      <link>https://leishengxiao.github.io/posts/20210123/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210123/</guid>
+      <description>一睁眼9点钟了，把所有的床单、被套、枕巾、毛巾、浴巾统统洗上，又换上新的被套之后，看着群里还没有宝贝闺女发成绩的动静，给大宝贝打了一个电话
+10点多的样子，数学群里终于有动静了，闺女获得了数学之星，还可以了
+11点多样子，语文群里也有动静了，闺女获得了金牌少年，其实也就是三好学生
+总体来讲还不错
+中午吃过饭，开始看Chapter6，虽然是48页，但也看到了晚上</description>
+    </item>
+    
     <item>
       <title>Socket.io</title>
       <link>https://leishengxiao.github.io/posts/20210122/</link>
@@ -16,19 +66,6 @@
       <guid>https://leishengxiao.github.io/posts/20210122/</guid>
       <description>一早8点坐Mr.Du的车去了QD齐鲁医院做核酸检测，下午的时候，去了办公室，学了下Kong做的Job，和Mr.Du讨论了接口部分Config的做法，在拾光咖啡馆待到了8点多，回家吃饭
 晚上把Primer看完了Chapter5，睡觉的时候已经1点了&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Study</title>
-      <link>https://leishengxiao.github.io/posts/20210123/</link>
-      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://leishengxiao.github.io/posts/20210123/</guid>
-      <description>一睁眼9点钟了，把所有的床单、被套、枕巾、毛巾、浴巾统统洗上，又换上新的被套之后，看着群里还没有宝贝闺女发成绩的动静，给大宝贝打了一个电话
-10点多的样子，数学群里终于有动静了，闺女获得了数学之星，还可以了
-11点多样子，语文群里也有动静了，闺女获得了金牌少年，其实也就是三好学生
-总体来讲还不错
-中午吃过饭，开始看Chapter6，虽然是48页，但也看到了晚上</description>
     </item>
     
     <item>
