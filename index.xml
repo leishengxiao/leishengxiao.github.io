@@ -7,7 +7,156 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>加班一天</title>
+      <link>https://leishengxiao.github.io/posts/20210206/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210206/</guid>
+      <description>原本想早晨起床去学校的，可是一睁眼的时候已经9点多了，没办法，稍微收拾了下就去办公室了
+把FormMeasure改成RealTime和事后两种方式，把FormMeasure的各个轴的Interval重新改了下，同时把Export改成右键菜单同时委托给FormMain
+一顿操作之后，大功告成！
+期待明天的测试！
+因为Mr.Du笑话我的鼠标不好用，昨晚在闲鱼买了个99成新的逻辑G502 Hero，卖家说是电商退货的，希望能是正品吧，也算是送给自己的新年礼物，今年买的这俩鼠标都花了近500了，还有个长草许久的机械键盘，唉&amp;hellip;
+烧包^_^</description>
+    </item>
+    
+    <item>
+      <title>第24.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210205/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210205/</guid>
+      <description>上午主要把数据的小数位数问题、Txt导出的优化、保存数据的优化给改完了
+下午又重新捣鼓烦人的定时读数报错问题，试过了各种方法，还是没有解决
+快下班的时候，Mr.Du过来了，一起查了下，发现用LabView是没有问题的，换了Mr.Du自己的笔记本，发现测试程序也是没有问题的，但是Debug就有问题
+折腾了近一个小时，我用生成的exe执行，也是不报错的，真实醉了&amp;hellip;
+今天Mr.Du通知了下放假的时间，我们腊月28下午就可以回家了，正月十一上班
+还不错！</description>
+    </item>
+    
+    <item>
+      <title>第23.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210204/</link>
+      <pubDate>Thu, 04 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210204/</guid>
+      <description>上午主要把定时读数程序报错的问题，采用了屏蔽的方法给解决掉
+中午因为要监控测量过程，所以没有去吃饭，让小王带的煮方便面
+下午重新测试了点频步进、点频连续、扫频步进过程
+因为今天是小年，杜老师来的比较早，看了下测试结果，确认没有问题了之后，发现保存数据和Txt导出过程实在是太慢了，要优化
+就这样，本命年终于过去了，新的牛年到来了，牛起来！！！</description>
+    </item>
+    
+    <item>
+      <title>第22.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210203/</link>
+      <pubDate>Wed, 03 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210203/</guid>
+      <description>早上来了之后，发现转台的吸波材料没贴，于是把吸波材料又重新下料、刷胶，等待晾干
+等待晾干的时间里，把实验环境的线路搭了下，找各种的转接头，终于接对了
+因为不知道测试的流程，我上来就搞了一遍点频步进扫描测试，把扫出来的结果发给了Mr.Du，结果测试流程不对，要先测信号
+可是怎么测呢，后来杜老师发过来图片才稍微理解了下，要先看链路是否正确
+有了信号之后，我又扫了下点频步进，杜老师说是有不连续点，然后给了一个思路是来回扫描两次，看下信号是否能对齐，结果确实对不齐
+快下班的时候，杜老师来了，给指导了下，先检查了链路，应该没什么问题，然后又看了下节奏，发现扫描轴连续快速步进两次之后，稍有停顿再步进一次，于是加了断点查是哪儿的问题，发现在等待扫描轴停止Move的时候，因为我取的是定时读取的数据，但是我把这个定时的间隔改成了1s，所以导致了问题，节奏的问题终于解决了
+然后就查为什么不能对齐的问题，发现是VNA先发Single，扫描轴步进一次，但是当扫描点最后一次的时候，扫描轴又步进了一次，于是改了逻辑，终于对了
+这一天过的，改了太多的Bug了，而且定时刷新程序报错的问题还是没能解决，唉&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第21.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210202/</link>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210202/</guid>
+      <description>上午来的时候，吸波材料都已经干了，接下来就是调试精度了，先是用PMAC去控，结果不正确，原点和限位也不对
+一通打电话和查问题之后，终于好了，然后又用上位机控了下，精度和原点限位也没问题了
+就这样一天过去了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第20.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210201/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210201/</guid>
+      <description>今天大荣的过来了一个机械一个电工，把原点和限位调正确了，但是他们走的早，没有贴吸波材料
+没办法，自己动手，丰衣足食，我找来了吸波材料，比划了一下，大概需要12竖条，找来了胶，刷了起来
+刷的过程发现，小王真的是干啥啥不仔细，被我说了一顿，大部分活都是我干的了，等着晾一晚上明天贴上吧</description>
+    </item>
+    
+    <item>
+      <title>Starbucks</title>
+      <link>https://leishengxiao.github.io/posts/20210131/</link>
+      <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210131/</guid>
+      <description>上午我和女儿起床的时候已经接近十点了，吃过早饭，大宝贝提前到了家，闺女自己学习了语文新课，我则是去了地下市场理发
+回到家，送给爸妈的足浴器到了，我下楼取上来，教给爸妈使用
+匆匆的吃过水饺，我带着宝贝女儿去了Starbucks，我点了一个大杯拿铁，给宝贝女儿点了一个常温的热巧克力外加一份小蛋糕，在我们点餐的时候，正好碰到了闺女的舞蹈老师许老师
+我们在Starbucks度过了2个小时的时光，闺女把这家咖啡馆排了黑咖之后，作为第二选择，我则是偏向这一家，因为价格上差不多，但是离家还是比较近的，环境也是比黑咖大，唯一不好的一点就是人比较多，有些吵
+期待后面有更精彩的咖啡馆等着我们~</description>
+    </item>
+    
+    <item>
+      <title>Coffee</title>
+      <link>https://leishengxiao.github.io/posts/20210130/</link>
+      <pubDate>Sat, 30 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210130/</guid>
+      <description>大宝贝今天要加班，上午我带着宝贝女儿去了书城看书，顺便点了一杯拿铁，给闺女点了一杯奶茶，我们从十点左右一直看到了十二点半
+吃过午饭，和闺女学习了语文新课之后，我带着宝贝女儿坐公交去了之前去过一次的比较喜欢的黑咖骑士咖啡馆，我点了一杯招牌咖啡，闺女点了一杯奶茶，我们一直看书到了6点左右，坐公交回了家
+晚上吃过晚饭，又大宝贝教闺女一单元的奥赛书，然后我们一起看了一部菊次郎的夏天，三个人看的津津有味，不时的发出酣畅淋漓的大笑&amp;hellip;
+原来幸福就是这么简单，在咖啡馆的时光，是我想带给宝贝女儿的一份宁静，希望她喜欢这样的一个氛围，能够有自己的喜好
+同时我们也是相约逛遍日照周边所有的咖啡屋，最终找到一个属于我们自己的秘密基地，虽然暂时是黑咖，但是后面还有好多选择，不是吗？</description>
+    </item>
+    
+    <item>
+      <title>第19.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210129/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210129/</guid>
+      <description>今天把LabView中Mr.Du的Rescan逻辑重新拿出来仔细参详，终于想通了其中的奥妙，一顿改代码之后，Rescan逻辑终于Perfect了！可喜可贺！
+又将FormMeasure的实时数据展示做了修改，把Axis的Range自动设置的Bug做了修复，同时在查看Result Data的时候，发现Axis的Position计算的也是有问题，也是一顿修改之后，Bug填完了
+在Solution的Measure Start之后，发现Button的权限设置的还是不正确，又做了修复
+这样的话，测试部分基本完美了，还剩余的就是：
+Measure的Config中的数据展示和自动计算以及校验部分；Pause按钮的逻辑、Stop按钮的逻辑了
+自认为Measure除了上述之外没有什么要修改了，待大荣再次调整完原点和限位之后，再次实际测试看数据吧
+希望一切顺利，这样可以早早的放假回家陪宝贝闺女了！
+ 今天又是周五了，本来还在纠结如果大荣周六过去的话，我是否要回家，后来思来想去，还是回家一趟吧，毕竟是接硬件，有小王陪着就可以了，我目前能改的大Bug基本都消灭了
+因为Miss.He下午不在学校，这样我只能走着去赶地铁了，原本以为拿着入校审批就可以的，没想到到了学校门口，是需要刷卡才能出校的，让门卫替我刷了下之后，我踏上了回家的路程&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第18.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210128/</link>
+      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210128/</guid>
+      <description>今天大荣的人过来了，主要调的原点和限位，后来发现原点好像需要的开关常闭和常开正好反了，没办法，只能现购买之后再来一趟了
+AMS这边，我主要搞的Rescan的逻辑，之前比着Mr.Du的逻辑写的，现在怎么看怎么不对，没办法，只能比着VNA的文档找到了一种新的方法，也就是用Group的功能去计数连续扫描的点数，Axis到位后判断VNA的状态是否为Hold，如果是Hold，则肯定没有丢脉冲，如果仍然为Single状态，则肯定是丢脉冲了
+经过努力，终于Point Frequency的连续扫描的Rescan逻辑可以了，Sweep Frequency的连续扫描只是改完了逻辑，没有测试
+在回去的路上，和Mr.Du又重新讨论了下，这种方法不是不可以，但是只是针对DCOM的方式，如果是另一种方式，则怎么发指令都是无响应的
+看来还是要回归原本的逻辑了，明天再详细思考吧~</description>
+    </item>
+    
+    <item>
+      <title>第17.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210127/</link>
+      <pubDate>Wed, 27 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210127/</guid>
+      <description>今天上午Mr.Du过去了趟，看了下昨天为什么没有脉冲触发信号的问题，原来是线的问题，到底是老司机啊，各种电路都搞得懂，而我却基本已经忘光了
+今天主要把点频连续和扫频连续都调通了，把数据也都核对了一遍，同时又把所有的逻辑程序重新优化了下，自认为没什么问题了
+明天大荣的人过来调机械原点和限位，我主要把重扫机制给测下，胜利在望了！
+ 今天把衣服都洗了洗，整整一桶啊，明天Kong就会魔都了，再把他糟蹋的床单什么的统统清洗下
+下午的时候，大宝贝说之前老爸的脚后跟疼的问题还存在，看来周末回去的时候带老爸去看看；晚上的时候，在JD给老爸老妈买了个电动泡脚桶，不管怎样，老年人泡脚总是对身体是有好处的
+不知不觉明天就周四了，时隔两周，终于可以回家了</description>
+    </item>
+    
     <item>
       <title>第16.5天调试</title>
       <link>https://leishengxiao.github.io/posts/20210126/</link>
