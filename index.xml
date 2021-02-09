@@ -7,7 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sat, 06 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>暗室抢险</title>
+      <link>https://leishengxiao.github.io/posts/20210208/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210208/</guid>
+      <description>早上8点15从乐水居出发去学校，到了学校，下楼的时候，发现一楼楼道里有水，心想完了，哪儿来的水呢？赶快打开暗室一看，我艹，暗室也进水了，仔细一听，竟然还有水声，到底哪儿来的水呢？赶紧给Mr.Du打电话，后来Mr.Du说是暖气，在暗室封闭的铁板后面，泪奔&amp;hellip;
+先是网上找暖气管道的阀门，找到了三楼，爬上去关了阀，下楼的时候Mr.Du已经来了，能明显感觉到他的心态已经崩了&amp;hellip;
+先是找了保安，保安联系物业，然后电话联系的物业，又联系的施工方让他们派人来割开铁板，又联系了Boss.Zhao告知情况
+后来找的工具，把水清理掉，接近花了2个小时吧，清理出来整整3大桶水&amp;hellip;
+在外面查看情况的是否，发现暖气上方有个窗户，爬着梯子拧了半天螺丝没拧下来，后来让物业的人拧开一看，我艹，暖气片裂开了，还在呼呼的漏水&amp;hellip;
+Mr.Du去乐水居拿吸尘器吸水，这时候施工方的人到了，他们先是查看了情况，问是不是割开铁板，物业的人结果好像不对付，跑了&amp;hellip;
+后来Mr.Du回来之后，又把物业的人找来，商量对策，确定要先把水给关掉之后，下午1点过来施工
+下午1点的时候，物业的人过来了，先是把暖气片给拆掉，然后到二楼割开管子，把进水管给封住
+水终于止住了！！！
+接下来的工作就是清理水了，我们先是爬到窗户里去吸，可是水基本已经都到铁板底下了，没办法，只能一个人在里面踩，一个人在窗户道里吸。大概吸了半小时左右吧，能有两三杯子水，再踩再吸也基本不出水了，就这样作罢
+把工具都清理干净，卫生打扫干净之后，静待回家了
+Mr.Du过来之后，垂头丧气的，过了一会，我们就回家了
+因为明天就放假了，所以我订了明天下午的高铁票，吃了中午饭再走
+放假咯，哈哈&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>第25.5天调试</title>
+      <link>https://leishengxiao.github.io/posts/20210207/</link>
+      <pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210207/</guid>
+      <description>今天早上去到实验室之后，发现FormMeasure突然不能用了，好悲催&amp;hellip;原本计划着试试Release版本是不是实时读数还报错不报错的
+没办法，折腾了接近一上午，中午也没吃饭，终于先搞定扫描再说吧
+结果扫描结果也不是很理想，而且扫描的数据也没有保存完
+因为今天Mr.Du去医院做胃镜，4:45就回来了，去到了办公室继续调试FormMeasure，调试的终于差不多了
+到了晚上的时候，又因为Connect的问题，添加了FluentSplashScreen的功能
+凌晨三点的时候才睡去&amp;hellip;
+期待明天的测试能够顺利^_^</description>
+    </item>
+    
     <item>
       <title>加班一天</title>
       <link>https://leishengxiao.github.io/posts/20210206/</link>
