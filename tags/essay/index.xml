@@ -7,7 +7,193 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Mon, 08 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>XPACK</title>
+      <link>https://leishengxiao.github.io/posts/20210223/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210223/</guid>
+      <description>上午按照昨天Mr.Du说的，把FormMeasure的WaveForm改成了实时数据显示，一直折腾到了下午一点多，然后开始统一测了6个测试类型，除了中间报错内存拒绝访问之外，都还不错
+晚上和Mr.Du去加班，原定计划是写接口类，结果去了之后开始按照C++的格式写XML的序列号和反序列化
+下载了XPACK，按照源文件测试，XML不行Json却可以，于是乎先整了Json的序列化，成功了，可是多态的反序列化不行，到了10点就回来了
+巧合的是和昨天一样，到家不到十分钟，Json的序列化和反序列化都成功了，好邪门
+然后又尝试了接近半小时左右的XML的序列化和反序列化，也都成功了
+好让人高兴的消息啊！
+虽然今天睡得比较早，但也1点多接近2点了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>开工第一天</title>
+      <link>https://leishengxiao.github.io/posts/20210222/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210222/</guid>
+      <description>今天是开工第一天，到学校的时候已经接近十点了，先是收拾吸波材料，整利索之后，我开始连接软件
+还不错，VNA连接挺顺利的，就是PMAC因为加了电脑密码，所以COM软件一直报错，查到最后才知道是改了电脑密码的缘故
+然后简单测试了一遍点频连续和点频步进，还不错的样子
+晚上和Mr.Du一起去了学校加班整EDA的Interface，先是讨论修改Interface的XML格式，搞到最后，开始尝试用C#做XML的序列化和反序列化，一直到了11点左右，我还差一丢丢没有成功
+回到住处，接着搞，不到十分钟就搞定了
+然后是洗澡睡觉，不过睡觉的时候已经接近3点了，困困的&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>大年初十</title>
+      <link>https://leishengxiao.github.io/posts/20210221/</link>
+      <pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210221/</guid>
+      <description>今天是大年初十，是我春节假期的最后一天，中午我给他们做的拔丝苹果、炖了一个鱼
+下午的时候，闺女要去她姨家住到开学，所以要带着电脑去，而我则忙里忙活的把电脑资料拷了烤，一直到了4点钟，他们打车走了
+我则是非常着急的拷完资料之后，装软件，收拾要带的粮食之后，踏上了返青的路程
+一如往常，在高铁站遇到了小鹏鹏，和他聊了几句，话里行间透露着他的优越，唉，花无百日红，人无千日好，好自为之吧&amp;hellip;
+到了住处之后，又稍微装了一些软件，睡觉的时候已经接近2点了&amp;hellip;
+祈祷明天的软件连接和测试顺利&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>大年初九</title>
+      <link>https://leishengxiao.github.io/posts/20210220/</link>
+      <pubDate>Sat, 20 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210220/</guid>
+      <description>今天是大年初九，原本今天也是我和闺女在家的，但是桐桐今天没有训练，所以来我们家学习了
+中午我给闺女用昨天的鸡汤下的面条，三个人喝了整整一锅
+下午桐桐过来之后，一直学习到了5点，我开始做饭，打的西红柿紫菜蛋花汤，炒了一个菠菜，最后又把所有剩下的水饺都下了
+就这么结束了开工前的倒数第二天假期</description>
+    </item>
+    
+    <item>
+      <title>大年初八</title>
+      <link>https://leishengxiao.github.io/posts/20210219/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210219/</guid>
+      <description>今天是大年初八，因为桐桐要去学校训练，所以上午不去他家教他了，下午他训练完之后来我们家学习
+我和闺女在家学习，中午我把一个烧鸡撕碎之后炖了汤，然后做的红烧肉
+一天无话&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>大年初七</title>
+      <link>https://leishengxiao.github.io/posts/20210218/</link>
+      <pubDate>Thu, 18 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210218/</guid>
+      <description>今天是大年初七，大宝贝起床去上班了，我和闺女起床喝奶吃鸡蛋之后，收拾东西打车去了她姨家教桐桐
+学习一天无话&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>大年初五</title>
+      <link>https://leishengxiao.github.io/posts/20210216/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210216/</guid>
+      <description>今天是大年初五，早晨起床，迷迷糊糊的非常难受，吐了又吐&amp;hellip;
+因为老爸老妈明天要回家，所以一早大宝贝和老爸一起去买海鲜，然后大宝贝直接去了她姨家
+我吐了又吐好久之后，稍微好受一点了，打车去了她姨家教桐桐
+一直到了快晚上，我们三个一起回了家
+闺女要给爷爷奶奶剥松子，我则是剥完了松子剥瓜子，剥完了瓜子剥花生，凑了满满的一盒，闺女写上了让爷爷奶奶想她的时候就吃一颗
+早上我起床迷迷糊糊的时候，Mr.Ji打电话要一起聊一聊，其实他是要换一份工作到福建，新厂，想让我过去帮他，我并没有完全拒绝，而是说要看有没有二胎的情况，因为目前来说压力不大</description>
+    </item>
+    
+    <item>
+      <title>大年初六</title>
+      <link>https://leishengxiao.github.io/posts/20210217/</link>
+      <pubDate>Tue, 16 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210217/</guid>
+      <description>今天是大年初六，老爸老妈要回老家住一段时间，昨天闺女她姨夫要开车去送，到了7点半左右的时候，一起坐车送到了车站，我则是进站把老爸老妈送上了车
+我和闺女她姨夫又一起吃过了早饭、去了趟书店买了些书，然后回家了
+闺女这时还赖床不起呢，叫起来之后，我们一起在家学习了一整天</description>
+    </item>
+    
+    <item>
+      <title>大年初四</title>
+      <link>https://leishengxiao.github.io/posts/20210215/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210215/</guid>
+      <description>今天是大年初四，早上快10点的时候去了闺女她姨家教桐桐，上午的时候，Mr.Ji临时拉了一个群，说是晚上一起吃饭
+我在她姨家待到了5点多，闺女要自己在她姨家睡，而我则是去喝酒
+谁成想，我喝多了，而且糗大了&amp;hellip;
+也记不起从什么时间开始了，断片了，什么都记不起了&amp;hellip;
+狂汗~</description>
+    </item>
+    
+    <item>
+      <title>大年初三</title>
+      <link>https://leishengxiao.github.io/posts/20210214/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210214/</guid>
+      <description>今天是大年初三，早上9点左右起床出门去闺女她姨家教桐桐，刚坐上公交车不久，她姨打电话说回老家串亲戚去了，可是我们也没有回去，而是按照我的建议，去了黑咖骑士咖啡馆喝咖啡学习
+我点了一杯美式，大宝贝一杯招牌黑咖，闺女一杯奶茶，就这样我们一直学到了下午三四点钟，饿的实在是受不了了，出门找吃的
+街上开门的饭店确实不多，最后很无奈的去了大润发四楼吃了点，我吃了一份炒饼，闺女吃了半份炒河粉，大宝贝吃了一个卷煎饼
+到了晚上的时候，实在是油腻的我不行不行的，只喝了一碗汤
+回去的路上，Mr.Ji打电话说是初四初五的一起吃个饭，我说可以&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>大年初二</title>
+      <link>https://leishengxiao.github.io/posts/20210213/</link>
+      <pubDate>Sat, 13 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210213/</guid>
+      <description>今天是大年初二，要回闺女她姥姥姥爷家，今年没有坐公交，而是蹭了闺女她姨夫的车一起回，中午我喝了得有三四两白酒吧
+下午去了闺女她四姥爷家打保皇，是打钱的，但是不多，而我则运气不错，一直摸的牌都还可以
+晚上的时候，又一起坐车返回了日照
+按照计划，后面我要教桐桐数学了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>大年初一</title>
+      <link>https://leishengxiao.github.io/posts/20210212/</link>
+      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210212/</guid>
+      <description>今天是大年初一，我早晨8点左右起床给老爸老妈磕头拜年，闺女起床的时候已经10点左右了
+上午的时候，陆续有人跟老爸老妈视频拜年
+新的一年，祈盼全家人平平安安、健健康康、快快乐乐！</description>
+    </item>
+    
+    <item>
+      <title>年三十</title>
+      <link>https://leishengxiao.github.io/posts/20210211/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210211/</guid>
+      <description>早上起床已经9点了，老妈开始剁肉准备包水饺的材料，按照计划，上午是打扫卫生，闺女收拾自己的房间，大宝贝收拾卫生间，而我则负责客厅
+谁知我心血来潮，心想既然要重装电脑，为什么不和闺女的电脑换换呢，毕竟除了CPU配置都略高于我的，于是我开始重装起了电脑。宝贝闺女来命令我收拾房间的时候，我不满她对大人发号施令，吼了起来，于是2020年的最后一场战争就这么爆发了
+最后的结果就是我道歉认错，开始了炖肉和做炒鸡
+ 下午，我和女儿一起贴了春联，然后一起包了水饺
+晚上，闺女对2020年全家人做了统一的表彰和颁奖仪式，然后我俩和老爸一起守着电视看春晚
+我和闺女一直看到了凌晨12点多，就这么守岁结束了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>在家第一天</title>
+      <link>https://leishengxiao.github.io/posts/20210210/</link>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210210/</guid>
+      <description>今天是春节假期的第一天，年二十九，我主要在家和闺女学习，大宝贝则是坚持上班</description>
+    </item>
+    
+    <item>
+      <title>有钱没钱，回家过年</title>
+      <link>https://leishengxiao.github.io/posts/20210209/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210209/</guid>
+      <description>今天不用进校，Mr.Du昨天说可以自由安排。早晨起的并不是特别早，8点20到了办公室，先是贴了贴票，有些票需要凑，接着和小王聊了半天，到了快中午的时候，打了几局CS
+上午快11点的时候，过节费和工资一起到账了，还完了卡债，预留了每个月固定的支出，剩下的都打给了大宝贝，截止目前才刚刚18而已，-_-||
+中午吃过午饭，基本就是收拾东西准备回家了。把所有的垃圾都清理干净，所有要带回家的东西准备利落，唯一美中不足的就是没有打扫房间和洗床单，年后再说吧
+下午2点左右，和小王一起赶往高铁站回家，到了高铁站取票，发现和小王竟然是同一车厢，而且还是前后排，真是太巧合了&amp;hellip;
+下车坐公交，非常高兴和荣幸的是老爸和大小宝贝一起来接我，真是太感动了</description>
+    </item>
+    
     <item>
       <title>暗室抢险</title>
       <link>https://leishengxiao.github.io/posts/20210208/</link>
