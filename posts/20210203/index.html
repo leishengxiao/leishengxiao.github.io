@@ -50,16 +50,10 @@
 有了信号之后，我又扫了下点频步进，杜老师说是有不连续点，然后给了一个思路是来回扫描两次，看下信号是否能对齐，结果确实对不齐
 快下班的时候，杜老师来了，给指导了下，先检查了链路，应该没什么问题，然后又看了下节奏，发现扫描轴连续快速步进两次之后，稍有停顿再步进一次，于是加了断点查是哪儿的问题，发现在等待扫描轴停止Move的时候，因为我取的是定时读取的数据，但是我把这个定时的间隔改成了1s，所以导致了问题，节奏的问题终于解决了
 然后就查为什么不能对齐的问题，发现是VNA先发Single，扫描轴步进一次，但是当扫描点最后一次的时候，扫描轴又步进了一次，于是改了逻辑，终于对了
-这一天过的，改了太多的Bug了，而且定时刷新程序报错的问题还是没能解决，唉&hellip;">
-<meta itemprop="datePublished" content="2021-02-03T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2021-02-03T00:00:00+00:00" />
-<meta itemprop="wordCount" content="8">
-<meta itemprop="image" content="https://leishengxiao.github.io/"/>
-
-
-
+这一天过的，改了太多的Bug了，而且定时刷新程序报错的问题还是没能解决，唉&hellip;"><meta itemprop="datePublished" content="2021-02-03T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-02-03T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="8"><meta itemprop="image" content="https://leishengxiao.github.io/"/>
 <meta itemprop="keywords" content="Essay," />
-
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://leishengxiao.github.io/"/>
 
@@ -85,10 +79,10 @@
 然后就查为什么不能对齐的问题，发现是VNA先发Single，扫描轴步进一次，但是当扫描点最后一次的时候，扫描轴又步进了一次，于是改了逻辑，终于对了
 这一天过的，改了太多的Bug了，而且定时刷新程序报错的问题还是没能解决，唉&hellip;" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leishengxiao.github.io/posts/20210203/" />
-<meta property="og:image" content="https://leishengxiao.github.io/"/>
-<meta property="article:published_time" content="2021-02-03T00:00:00+00:00" />
-<meta property="article:modified_time" content="2021-02-03T00:00:00+00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20210203/" /><meta property="og:image" content="https://leishengxiao.github.io/"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-02-03T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-02-03T00:00:00&#43;00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+<meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210208/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210207/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210206/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210205/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210204/" />
 
 
 
@@ -304,7 +298,7 @@
 
 
 
-<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+<script type="text/javascript" src="/bundle.min.a0f363fdf81cdc5cfacc447a79c33189eb000d090336cd04aac8ee256f423b3133b836c281944c19c75e38d0b0b449f01ce5807e37798b7ac94ac1db51983fc4.js" integrity="sha512-oPNj/fgc3Fz6zER6ecMxiesADQkDNs0EqsjuJW9COzEzuDbCgZRMGcdeONCwtEnwHOWAfjd5i3rJSsHbUZg/xA=="></script>
 
 
 
