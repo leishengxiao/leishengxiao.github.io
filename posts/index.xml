@@ -6,8 +6,169 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>上海出差第三天</title>
+            <link>https://leishengxiao.github.io/posts/20210303/</link>
+            <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210303/</guid>
+            <description>还是和昨天一样，8点下楼吃过早饭，因为不确定退不退房，没有擅自做主
+快吃完的时候，Doctor.Sun下楼了，上午要给华天讲链路仿真的部分，还要和老孔讨论EME的接口，下午Mr.Du自己去南京，我和Doctor.Sun一起返青
+就这样，在他们吃饭的过程中，确定了返青的航班、订票
+ 上午听了下EME的东西，似是很熟悉但又都会议不起
+中午在KFC吃了个套餐，下午我和Doctor.Sun一起讨论确定了EME的接口，然后我就开始噼里啪啦的写了起来，4点多样子的时候，我全部都写完了，好开心，把所有的3个exe文件及Json和XML的文档打包发给了小莫
+到了5点的时候，和Doctor.Sun一起下楼吃饭，我们去了小杨生煎，我吃了个套餐，然后打车去了机场
+因为时间比较富裕，在机场和Doctor.Sun聊了许多关于公司的事情，才知道Mr.Du有点太可惜了，人生中错过了三次很好的机会，第一次是在黄岛买房，第二次是H公司百万年薪的机会，第三次是离职后公司上市的原始股
+人生真的就是那么的不可倒逆，也真心的希望Mr.Du能够早日到教授的职称，公司给他的承诺也能早日兑现
+也Bless自己吧~</description>
+            <content type="html"><![CDATA[<hr>
+<p>还是和昨天一样，8点下楼吃过早饭，因为不确定退不退房，没有擅自做主</p>
+<p>快吃完的时候，Doctor.Sun下楼了，上午要给华天讲链路仿真的部分，还要和老孔讨论EME的接口，下午Mr.Du自己去南京，我和Doctor.Sun一起返青</p>
+<p>就这样，在他们吃饭的过程中，确定了返青的航班、订票</p>
+<hr>
+<p>上午听了下EME的东西，似是很熟悉但又都会议不起</p>
+<p>中午在KFC吃了个套餐，下午我和Doctor.Sun一起讨论确定了EME的接口，然后我就开始噼里啪啦的写了起来，4点多样子的时候，我全部都写完了，好开心，把所有的3个exe文件及Json和XML的文档打包发给了小莫</p>
+<p>到了5点的时候，和Doctor.Sun一起下楼吃饭，我们去了小杨生煎，我吃了个套餐，然后打车去了机场</p>
+<p>因为时间比较富裕，在机场和Doctor.Sun聊了许多关于公司的事情，才知道Mr.Du有点太可惜了，人生中错过了三次很好的机会，第一次是在黄岛买房，第二次是H公司百万年薪的机会，第三次是离职后公司上市的原始股</p>
+<p>人生真的就是那么的不可倒逆，也真心的希望Mr.Du能够早日到教授的职称，公司给他的承诺也能早日兑现</p>
+<p>也Bless自己吧~</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>上海出差第二天</title>
+            <link>https://leishengxiao.github.io/posts/20210302/</link>
+            <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210302/</guid>
+            <description>早晨8点下楼吃过早餐，9点左右到了办公室，在等会议室开门的时候，H工作的人过来了
+上午没有交流软件健壮性的计划，而是讨论商务部分，和Doctor.Sun又一起讨论了下ModeSolver的接口，定下来之后，把小莫叫过去大概说了下
+这样，我就一直改我的FDTD和ModeSolver的Interface，下午的时候才讨论的软件健壮性，基本都是软件架构和自动化测试的事情
+晚上一起吃的平生最贵的面条子，蟹黄面，吃完之后走路去外滩逛了一大圈，回来之后10点的样子，我下楼抽了支烟，继续改我的接口，快1点的时候，终于全部都写完了，好开心
+下楼抽烟，上楼之后洗澡、睡觉，很有成就的一天&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>早晨8点下楼吃过早餐，9点左右到了办公室，在等会议室开门的时候，H工作的人过来了</p>
+<p>上午没有交流软件健壮性的计划，而是讨论商务部分，和Doctor.Sun又一起讨论了下ModeSolver的接口，定下来之后，把小莫叫过去大概说了下</p>
+<p>这样，我就一直改我的FDTD和ModeSolver的Interface，下午的时候才讨论的软件健壮性，基本都是软件架构和自动化测试的事情</p>
+<p>晚上一起吃的平生最贵的面条子，蟹黄面，吃完之后走路去外滩逛了一大圈，回来之后10点的样子，我下楼抽了支烟，继续改我的接口，快1点的时候，终于全部都写完了，好开心</p>
+<p>下楼抽烟，上楼之后洗澡、睡觉，很有成就的一天&hellip;</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>上海出差</title>
+            <link>https://leishengxiao.github.io/posts/20210301/</link>
+            <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210301/</guid>
+            <description>上午8点的时候，跟着Mr.Du进校了，小王用我打包的程序测试了下流程和功能，我则是继续改我的Interface
+下午的时候，在办公室继续修改Interface，改的差不多了，快4点的时候，出门坐车去机场
+ 晚上入住在了之前去的那家全季，Mr.Zhao请吃的贯贯吉，我吃了不少，回去洗了洗澡，看了会儿电视就睡了</description>
+            <content type="html"><![CDATA[<hr>
+<p>上午8点的时候，跟着Mr.Du进校了，小王用我打包的程序测试了下流程和功能，我则是继续改我的Interface</p>
+<p>下午的时候，在办公室继续修改Interface，改的差不多了，快4点的时候，出门坐车去机场</p>
+<hr>
+<p>晚上入住在了之前去的那家全季，Mr.Zhao请吃的贯贯吉，我吃了不少，回去洗了洗澡，看了会儿电视就睡了</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>闺女假期最后一天</title>
+            <link>https://leishengxiao.github.io/posts/20210228/</link>
+            <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210228/</guid>
+            <description>今天来说还是比较忙碌的，中午给闺女做了一个冬瓜汤，她们都非常喜欢喝
+上午闺女补了补之前遗留的作业，收拾了下开学准备的东西，下午，我主要把和闺女换的电脑重装了一下，所有的资料拷出来、重装、闺女上网课用的软件安装完
+收拾东西的时候，发现闺女的日记本落在了她姨那，我装电脑的同时，大宝贝骑车过去拿了下，快5点的时候，我匆匆吃过饭，就这么踏上了返青的路程&amp;hellip;
+ 一如往常，在高铁站遇到了小鹏鹏，话里行间透露着他的优越，要买个二手车啦、嘲笑我看的Kindle啦等等，说实话，有那么一点忘恩负义，怎么需想想是谁给你推荐的工作呢，难道真的是你自己确实牛逼拉萨么？年轻人，你这条路真的不好走的，趁着年轻，还是好好努力学习吧&amp;hellip;
+ 上午的时候，Mr.Ji也给我打了个电话，问我去不去福建，一个月2.5~3w吧，我听了听价格，不是很想去，一方面太远，另一方面价格太低了，他应该也能听出来吧，呵呵了&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>今天来说还是比较忙碌的，中午给闺女做了一个冬瓜汤，她们都非常喜欢喝</p>
+<p>上午闺女补了补之前遗留的作业，收拾了下开学准备的东西，下午，我主要把和闺女换的电脑重装了一下，所有的资料拷出来、重装、闺女上网课用的软件安装完</p>
+<p>收拾东西的时候，发现闺女的日记本落在了她姨那，我装电脑的同时，大宝贝骑车过去拿了下，快5点的时候，我匆匆吃过饭，就这么踏上了返青的路程&hellip;</p>
+<hr>
+<p>一如往常，在高铁站遇到了小鹏鹏，话里行间透露着他的优越，要买个二手车啦、嘲笑我看的Kindle啦等等，说实话，有那么一点忘恩负义，怎么需想想是谁给你推荐的工作呢，难道真的是你自己确实牛逼拉萨么？年轻人，你这条路真的不好走的，趁着年轻，还是好好努力学习吧&hellip;</p>
+<hr>
+<p>上午的时候，Mr.Ji也给我打了个电话，问我去不去福建，一个月2.5~3w吧，我听了听价格，不是很想去，一方面太远，另一方面价格太低了，他应该也能听出来吧，呵呵了&hellip;</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>闺女假期倒数第二天</title>
+            <link>https://leishengxiao.github.io/posts/20210227/</link>
+            <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210227/</guid>
+            <description>早上起床的时候，已经接近9点了，吃过早饭，就陪宝贝女儿学习
+其他无话&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>早上起床的时候，已经接近9点了，吃过早饭，就陪宝贝女儿学习</p>
+<p>其他无话&hellip;</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>进校半天</title>
+            <link>https://leishengxiao.github.io/posts/20210226/</link>
+            <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210226/</guid>
+            <description>今天是正月十五，上午的时候，和Mr.Du一起进校了，我基本主要在改EDA的Interface部分
+因为过元宵节，下午没有进校，我主要把软件做了一个打包，打包之后，又把Interface的接口类写了下
+下午四点多，踏上了返青的路程
+ 今天还有一个非常好的消息，就是华润的房子终于卖出去了，价格1.66w/㎡，因为占着小学学位，这个价格还可以了
+所有的手续，都是大宝贝一手操作完成的，真的辛苦她了！
+ 今天Mr.Gao也联系了我，告诉我H5要成立一个新组，18个人，问我回去不回去当组长，其实我是不想回去的，但又没有直接拒绝，只是说周末的时候商量商量考虑考虑
+难为Mr.Gao一直想着我，让我回去了，可是出来浪荡了2年了，回去的路又在哪里呢&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>今天是正月十五，上午的时候，和Mr.Du一起进校了，我基本主要在改EDA的Interface部分</p>
+<p>因为过元宵节，下午没有进校，我主要把软件做了一个打包，打包之后，又把Interface的接口类写了下</p>
+<p>下午四点多，踏上了返青的路程</p>
+<hr>
+<p>今天还有一个非常好的消息，就是华润的房子终于卖出去了，价格1.66w/㎡，因为占着小学学位，这个价格还可以了</p>
+<p>所有的手续，都是大宝贝一手操作完成的，真的辛苦她了！</p>
+<hr>
+<p>今天Mr.Gao也联系了我，告诉我H5要成立一个新组，18个人，问我回去不回去当组长，其实我是不想回去的，但又没有直接拒绝，只是说周末的时候商量商量考虑考虑</p>
+<p>难为Mr.Gao一直想着我，让我回去了，可是出来浪荡了2年了，回去的路又在哪里呢&hellip;</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>接口类</title>
+            <link>https://leishengxiao.github.io/posts/20210225/</link>
+            <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210225/</guid>
+            <description>今天进校调试了一天，又反复测了下各个测试场景，同时又试了下连续扫描扫频方式的极限，15mm的Step，100mm/s的Speed，最多扫100个频率
+把昨天修改的扫频方式的添加Bug试了下，没有问题了，AMS系统基本就这么告一段落了
+ 晚上的时候，和Mr.Du一起去了办公室加班，把Interface的各个类写了下，中间的一些问题找Mr.Du确认了下，写了大部分吧，基本快写完了&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>今天进校调试了一天，又反复测了下各个测试场景，同时又试了下连续扫描扫频方式的极限，15mm的Step，100mm/s的Speed，最多扫100个频率</p>
+<p>把昨天修改的扫频方式的添加Bug试了下，没有问题了，AMS系统基本就这么告一段落了</p>
+<hr>
+<p>晚上的时候，和Mr.Du一起去了办公室加班，把Interface的各个类写了下，中间的一些问题找Mr.Du确认了下，写了大部分吧，基本快写完了&hellip;</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>办公室</title>
+            <link>https://leishengxiao.github.io/posts/20210224/</link>
+            <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210224/</guid>
+            <description>今天没有进校调试，去了办公室，下载了一些电影，修改了一下程序，又尝试XPACK解析XML，还是报错，暂时放弃了
+中午的时候，有个人相中了华润的房子，要去看看，大宝贝晚上领着过去看了看，暂时未定买不买
+今天晚上Mr.Du有事，没有进校加班改接口</description>
+            <content type="html"><![CDATA[<hr>
+<p>今天没有进校调试，去了办公室，下载了一些电影，修改了一下程序，又尝试XPACK解析XML，还是报错，暂时放弃了</p>
+<p>中午的时候，有个人相中了华润的房子，要去看看，大宝贝晚上领着过去看了看，暂时未定买不买</p>
+<p>今天晚上Mr.Du有事，没有进校加班改接口</p>
+]]></content>
+        </item>
         
         <item>
             <title>XPACK</title>
