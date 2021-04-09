@@ -6,8 +6,91 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>这一周</title>
+            <link>https://leishengxiao.github.io/posts/20210409/</link>
+            <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210409/</guid>
+            <description>这一周整服务器就折腾了近3天，先是等机器了一天，然后装WinServer2019废掉了半天，然后是折腾各种驱动来适应多GPU卡，最后又重装回了单卡的状态
+AMS修正了三个Bug，调试了两个中午，搞不懂的是我的机器都是正常的，到了小王那就这样那样的问题，难道真的是机器的问题？
+FDTD方面，就写了一个简单的TimeMonitor的分配和释放内存，学习了半天多的Lumerical的操作
+又是到了周五了，上午去了学校，下午来了办公室，把上次去上海出差的票据贴了贴，没有吃午饭，等着走的时候再稍微吃点吧
+定了6点多的车票，下午4点左右走吧，吃个盖浇饭之后就赶高铁了
+明天大宝贝要加班，我要在家带娃一天了&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>这一周整服务器就折腾了近3天，先是等机器了一天，然后装WinServer2019废掉了半天，然后是折腾各种驱动来适应多GPU卡，最后又重装回了单卡的状态</p>
+<p>AMS修正了三个Bug，调试了两个中午，搞不懂的是我的机器都是正常的，到了小王那就这样那样的问题，难道真的是机器的问题？</p>
+<p>FDTD方面，就写了一个简单的TimeMonitor的分配和释放内存，学习了半天多的Lumerical的操作</p>
+<p>又是到了周五了，上午去了学校，下午来了办公室，把上次去上海出差的票据贴了贴，没有吃午饭，等着走的时候再稍微吃点吧</p>
+<p>定了6点多的车票，下午4点左右走吧，吃个盖浇饭之后就赶高铁了</p>
+<p>明天大宝贝要加班，我要在家带娃一天了&hellip;</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>再次开篇</title>
+            <link>https://leishengxiao.github.io/posts/20210402/</link>
+            <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210402/</guid>
+            <description>从上次记录Blog以来，近一个月没有做更新，今天临近放假，终于可以静下心来记录一篇了
+这一个月基本都转入了EDA这边的开发，先后做了Interface部分的XML文档的确定、自动解析接口的实现以及部分FDTD的变量初始化和文件读写操作
+在程序编制期间，也出了好几个让人脸红的Bug，坑了Mr.Du好几次；之前调好的AMS也出现了时不时的内存冲突的错误。
+在这段时间期间，还卖掉了华润的小房子，买了一个地王豪庭的大房子，谈了价、交了首付、提交了贷款材料；因为着急出售华润的小房子，所以，价格卖低了三四万块钱吧，又因为新买的二手房房主是新疆的，原定的3月26日完成贷款签字的时间也拖后了，改到了4月7号，交完首付这段时间的利息也是赔进去了；还有种声音是地王豪庭那边的房子又便宜了，接近5万块钱，这样手导手赔了近10w块钱
+好了，先暂时写到这里吧&amp;hellip;
+Mark下碎碎念的几个物品吧：
+ ikbc的键盘 thinkplus的65w电源适配器 闺女的斯凯奇的熊猫鞋  先就到这里吧，over</description>
+            <content type="html"><![CDATA[<hr>
+<p>从上次记录Blog以来，近一个月没有做更新，今天临近放假，终于可以静下心来记录一篇了</p>
+<p>这一个月基本都转入了EDA这边的开发，先后做了Interface部分的XML文档的确定、自动解析接口的实现以及部分FDTD的变量初始化和文件读写操作</p>
+<p>在程序编制期间，也出了好几个让人脸红的Bug，坑了Mr.Du好几次；之前调好的AMS也出现了时不时的内存冲突的错误。</p>
+<p>在这段时间期间，还卖掉了华润的小房子，买了一个地王豪庭的大房子，谈了价、交了首付、提交了贷款材料；因为着急出售华润的小房子，所以，价格卖低了三四万块钱吧，又因为新买的二手房房主是新疆的，原定的3月26日完成贷款签字的时间也拖后了，改到了4月7号，交完首付这段时间的利息也是赔进去了；还有种声音是地王豪庭那边的房子又便宜了，接近5万块钱，这样手导手赔了近10w块钱</p>
+<p>好了，先暂时写到这里吧&hellip;</p>
+<p>Mark下碎碎念的几个物品吧：</p>
+<ul>
+<li>ikbc的键盘</li>
+<li>thinkplus的65w电源适配器</li>
+<li>闺女的斯凯奇的熊猫鞋</li>
+</ul>
+<p>先就到这里吧，over</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>MPI</title>
+            <link>https://leishengxiao.github.io/posts/20210304/</link>
+            <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210304/</guid>
+            <description>今天去了办公室，看了下Interface的代码之后，又看了下arpack-ng的东西，因为是Fortran，所以又安装了下Intel的Fortran环境
+搭建好费劲，废了好大周折，安装了3遍才彻底搞定
+arpack编译没有问题之后，又试了下C++的MPI，挺好的，是个不错的环境</description>
+            <content type="html"><![CDATA[<hr>
+<p>今天去了办公室，看了下Interface的代码之后，又看了下arpack-ng的东西，因为是Fortran，所以又安装了下Intel的Fortran环境</p>
+<p>搭建好费劲，废了好大周折，安装了3遍才彻底搞定</p>
+<p>arpack编译没有问题之后，又试了下C++的MPI，挺好的，是个不错的环境</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>MPI</title>
+            <link>https://leishengxiao.github.io/posts/20210305/</link>
+            <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210305/</guid>
+            <description>今天去了办公室，看了下Interface的代码之后，又看了下arpack-ng的东西，因为是Fortran，所以又安装了下Intel的Fortran环境
+搭建好费劲，废了好大周折，安装了3遍才彻底搞定
+arpack编译没有问题之后，又试了下C++的MPI，挺好的，是个不错的环境</description>
+            <content type="html"><![CDATA[<hr>
+<p>今天去了办公室，看了下Interface的代码之后，又看了下arpack-ng的东西，因为是Fortran，所以又安装了下Intel的Fortran环境</p>
+<p>搭建好费劲，废了好大周折，安装了3遍才彻底搞定</p>
+<p>arpack编译没有问题之后，又试了下C++的MPI，挺好的，是个不错的环境</p>
+]]></content>
+        </item>
         
         <item>
             <title>上海出差第三天</title>
