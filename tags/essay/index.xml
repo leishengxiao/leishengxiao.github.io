@@ -7,7 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Fri, 09 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>近阶段总结</title>
+      <link>https://leishengxiao.github.io/posts/20210508/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210508/</guid>
+      <description>##开场白 不如意事常八九，回首年后这段时间，经历大于收获，或许真的如老爸所说，这两年运气不佳？
+##说说工作
+通过XPACK，搞定了orca的Interface，也尝试写了一丢丢FDTD，但是Bug总是破坏力不小，搞的Mr.Du有些狼狈；也尝试编译一些底层数学库，3月份没甚头绪，4月份突飞猛进；去上海出差了一二十天，最大的收获是部署了套前端，熟悉了软件操作流程
+##说说家庭
+从2月底卖房，3月份买房到4月底交房，总体来讲还算顺利，所有的事情都是很快的定了下来
+本以为之前的装修不需要太折腾，结果事与愿违，确定交房之前花了一个周六的时间定下来家具，当天卖家具的人去到房子那，建议把客厅的电视墙上的玻璃以及所有的壁纸都换掉，听信了人家，两个二货就开始联系硅藻泥，折腾了近一周，确定刮腻子刷乳胶漆
+五一第一天去定下来漆，从58找来了刷墙的人，顺口问了下厨房的橱柜更换的问题，确定下来要改橱柜之后，花了两天的时间把所有的电视墙上的玻璃全部砸掉、把所有的壁纸全部揭掉，累的半死&amp;hellip;
+换了了一个自来水总阀、三个洗脸盆下水，刷了卫生间和厨房&amp;hellip;
+老爸又亲自过去拖了拖地，基本收拾利索了
+在此期间，因为大宝贝要连续加班两周，闺女可怜兮兮的没人管，我跟老爸老妈大吵了一架，罪过罪过&amp;hellip;在五一之前的两天，老爸老妈风尘仆仆的从老家赶来帮我们照顾孩子，感恩~
+#说说自己
+这周的时候，老姬打电话告诉鼎祥起诉了之前创业的公司，我们要积极应诉，而我，傻逼兮兮的作为法人代表，也要稍微受到牵连；最终的结果，应该就是赔钱吧；老曹发了下合同赔偿条款，最高赔付已支付金额的50%，唉，不知道咋说了&amp;hellip;估计跟大宝贝说了之后，又是一顿腥风血雨吧，Bless~
+2021是自己的2021，越努力越幸运~</description>
+    </item>
+    
     <item>
       <title>这一周</title>
       <link>https://leishengxiao.github.io/posts/20210409/</link>
@@ -43,17 +64,6 @@ Mark下碎碎念的几个物品吧：
       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://leishengxiao.github.io/posts/20210304/</guid>
-      <description>今天去了办公室，看了下Interface的代码之后，又看了下arpack-ng的东西，因为是Fortran，所以又安装了下Intel的Fortran环境
-搭建好费劲，废了好大周折，安装了3遍才彻底搞定
-arpack编译没有问题之后，又试了下C++的MPI，挺好的，是个不错的环境</description>
-    </item>
-    
-    <item>
-      <title>MPI</title>
-      <link>https://leishengxiao.github.io/posts/20210305/</link>
-      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://leishengxiao.github.io/posts/20210305/</guid>
       <description>今天去了办公室，看了下Interface的代码之后，又看了下arpack-ng的东西，因为是Fortran，所以又安装了下Intel的Fortran环境
 搭建好费劲，废了好大周折，安装了3遍才彻底搞定
 arpack编译没有问题之后，又试了下C++的MPI，挺好的，是个不错的环境</description>
