@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Mon, 17 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IntelOneAPI</title>
+      <link>https://leishengxiao.github.io/posts/20210520/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210520/</guid>
+      <description>昨天晚上装上了MPPS，试了下直波导和弯波导的FDTD，还用Lumerical试了下直波导，挺不错的，orca相比之下，太幼稚了&amp;hellip;
+今天大宝贝突然发来信息，说现在的工作太累了，还找了克岭问能否回的去，唉，怎么可能呢，大家都是成年人，想啥呢，只能是自己给自己交学费吧
+今天上午把IntelOneAPI在Linux下做了个安装，本地Windows有个Distribute Python死活装不上，还在努力中&amp;hellip;
+明天Mr.Du一天的面试和会，我们不用进校了，心理小喜悦&amp;hellip;</description>
+    </item>
+    
     <item>
       <title>重归平静</title>
       <link>https://leishengxiao.github.io/posts/20210517/</link>
