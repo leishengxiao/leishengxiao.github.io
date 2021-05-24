@@ -6,8 +6,26 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Thu, 20 May 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 24 May 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>乐水居办公室一天</title>
+            <link>https://leishengxiao.github.io/posts/20210524/</link>
+            <pubDate>Mon, 24 May 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210524/</guid>
+            <description>因为Mr.Du一早有两节课，所以没有进校，但是又因为校园卡的问题，7:30am到了地下停车库给了Mr.Du，起的还算比较早
+上午问了下小王，得知广东的扫描架控制器又烧了，这是第二次烧了，估计是哪儿的接地或者接线有问题吧
+今天开始看看FDTD的教材，看看后面是不是可以自己改Solver，也希望微波测试这边可以独立接手起来
+轻松又不轻松的一天&amp;hellip;</description>
+            <content type="html"><![CDATA[<hr>
+<p>因为Mr.Du一早有两节课，所以没有进校，但是又因为校园卡的问题，7:30am到了地下停车库给了Mr.Du，起的还算比较早</p>
+<p>上午问了下小王，得知广东的扫描架控制器又烧了，这是第二次烧了，估计是哪儿的接地或者接线有问题吧</p>
+<p>今天开始看看FDTD的教材，看看后面是不是可以自己改Solver，也希望微波测试这边可以独立接手起来</p>
+<p>轻松又不轻松的一天&hellip;</p>
+]]></content>
+        </item>
         
         <item>
             <title>IntelOneAPI</title>
