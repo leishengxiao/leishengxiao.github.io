@@ -6,8 +6,39 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>新的方向</title>
+            <link>https://leishengxiao.github.io/posts/20210528/</link>
+            <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210528/</guid>
+            <description>今天主要把straightWaveguide和bendWaveguide的Negative方向的Simulation做了下，挺好玩的
+上午Mr.Du说后面会再招几个C++的人，负责和前端对接以及并行计算这块，我呢，也可以做下FDTD或者FDE的算法，我个人还是倾向并行计算多一些吧，毕竟Solver部分还是要学习理论的
+ 今天要回家了，看看慈祥的爹娘和亲爱的大小宝贝，以及心心念的小云霈，么么哒~
+ 还是Mark下之前给闺女写的打油诗吧：
+春雷醒万物吉云赐祥福龙䶮踏绛气凤鸣思远翥是不是再给小云霈写一首呢？
+算了，写不出，附上一首《沁园春》吧：一雨霈然，六合全清，空无点埃。喜秋容新沐，为谁媚妩，凉蟾留照，正尔徘徊。蜡屐清游，渔蓑淡话，富贵于予何有哉。双溪上，总旧盟鸥鹭，来往无猜。烟霞竹石松梅。更无数幽花陆续开。渐黄鸡啄黍，肥堪一著，浮蛆拍瓮，美可三杯。儿解应门，翁方索句，俗客来时莫放来。青山好，尽从今日日，闼不妨排。 下周一Mr.Du要上课，下课还要出差去北京，看来周一和周二要在乐水居度过了&amp;hellip;</description>
+            <content type="html"><![CDATA[<p>今天主要把straightWaveguide和bendWaveguide的Negative方向的Simulation做了下，挺好玩的</p>
+<p>上午Mr.Du说后面会再招几个C++的人，负责和前端对接以及并行计算这块，我呢，也可以做下FDTD或者FDE的算法，我个人还是倾向并行计算多一些吧，毕竟Solver部分还是要学习理论的</p>
+<hr>
+<p>今天要回家了，看看慈祥的爹娘和亲爱的大小宝贝，以及心心念的小云霈，么么哒~</p>
+<hr>
+<p>还是Mark下之前给闺女写的打油诗吧：</p>
+<pre><code>春雷醒万物
+吉云赐祥福
+龙䶮踏绛气
+凤鸣思远翥
+</code></pre><p>是不是再给小云霈写一首呢？</p>
+<pre><code>算了，写不出，附上一首《沁园春》吧：
+一雨霈然，六合全清，空无点埃。喜秋容新沐，为谁媚妩，凉蟾留照，正尔徘徊。蜡屐清游，渔蓑淡话，富贵于予何有哉。双溪上，总旧盟鸥鹭，来往无猜。
+烟霞竹石松梅。更无数幽花陆续开。渐黄鸡啄黍，肥堪一著，浮蛆拍瓮，美可三杯。儿解应门，翁方索句，俗客来时莫放来。青山好，尽从今日日，闼不妨排。
+</code></pre><hr>
+<p>下周一Mr.Du要上课，下课还要出差去北京，看来周一和周二要在乐水居度过了&hellip;</p>
+]]></content>
+        </item>
         
         <item>
             <title>bendWaveguide</title>
