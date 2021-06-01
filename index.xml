@@ -7,7 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>刷题第一天</title>
+      <link>https://leishengxiao.github.io/posts/20210601/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210601/</guid>
+      <description>今天跟着崇磊进校了，Mr.Du昨天去了北京，今天项目答辩，明天要去上海，华为的要去尽调。因为没有卡，中午没有吃，下午早早的5点多跟着小周的车出校了，吃了三个驴肉火烧和一碗蛋花汤，付款的时候突然发现手机忘带了，晕死！
+天无绝人之路，幸好店里有WiFi，用笔记本连上之后，先是给小周发了个语音通话，问她手机是否落在了车上，结果没接，没办法，只好给大宝贝发了个视频，让她看到付款码之后，截图下来帮我付款，科技就是改变生活，付款成功了！接着小周发语言过来，说手机没在车上，又加了传宁的微信，让他帮忙确认手机是否在办公室，结果真的在，让他晚上出校的时候帮忙捎出来。真实晕鸡！
+ 上午把学校的服务器代码更新完，然后把一台服务器又重装完系统，基本快到12点了。折腾了得1个小时的VSCode集成Cmder，然后开始刷LeetCode题，按照攻略，先是刷的数组，真的非常棒，可以感觉出来自己的理解和思路确实有欠缺，考虑问题竟然可以那样，真棒！还是要坚持刷，每天都要刷&amp;hellip;
+ 今天是六一儿童节，宝贝闺女上午是学校的联欢会，下午放假了一下午，祝福云䶮节日快乐，更要祝云霈小朋友节日快乐，这是你的第一个儿童节吧，恭喜你有了自己的节日，加油宝贝们！
+ 昨天买的算法书今天下午到了，《我的第一本算法书》确实印刷挺好的，以后可以作为火车旅程的伴侣了，刷完这本再刷《算法珠玑》，希望能打开思路，有所提升！
+ 下午的时候，崇磊过去聊了会儿，推荐了个很好的3D库叫OpenCASCADE，虽然是个很老的库了，但是是属于开源的，真的不错，作为明天的主要研究方向来搞一搞，主要是实现在Web中嵌入OpenCASCADE，希望顺利成功！</description>
+    </item>
+    
     <item>
       <title>常立志</title>
       <link>https://leishengxiao.github.io/posts/20210531/</link>
