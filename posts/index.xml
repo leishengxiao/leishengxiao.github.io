@@ -6,8 +6,30 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>I255-V网卡是坑货</title>
+            <link>https://leishengxiao.github.io/posts/20210602/</link>
+            <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210602/</guid>
+            <description>其实本来今天不想进校的，因为老师们都不在，而且又没有校园卡吃饭，后来想到昨天装的服务器的网卡还是不行，就去了。9点左右的时候坐小周的车进校，开始捣鼓网卡驱动，重装了操作系统，试了天空之家的万能驱动，折腾到了快中午，终于找到了一个方法搞定了，结果因为使劲太大，把交换机接出来的小Hub的电源给弄掉了，原来的Orca的服务器也连不上了，结果登录一看，重新连接之后IP地址变了，虚拟机网络也不行了，没办法，重新获取之后好了。好嘛，后遗症来了，因为Mr.Du的网线也接在Hub上，他远程桌面的IP也变了，又重新登录之后查看IP才好，shy&amp;hellip;
+ 下午2点开始，是和HW的视频培训，关于项目质量过程管控的，确实，HW的质量管理做的不错。Mr.Lu让我负责远程录屏，我用了个破解软件录的，结果到了6点快结束保存出来之后，发现没有声音，狂汗&amp;hellip;
+ 因为没有校园卡吃饭，中午就吃了个老妈给带的甜瓜，到了6点半的时候，原想着步行出校去吃饭，可走到了校门口看到保安，又退缩了，害怕被逮住问起，害了Mr.Du，没办法，又给传宁发微信让他出来送我出校的。
+和昨天一样，吃了三个驴肉火烧和一碗蛋花汤，真如崇磊说的，人间美味！
+ 昨晚睡得晚，今天有点乏，原定的LeetCode也没有刷，明天补上吧&amp;hellip;</description>
+            <content type="html"><![CDATA[<p>其实本来今天不想进校的，因为老师们都不在，而且又没有校园卡吃饭，后来想到昨天装的服务器的网卡还是不行，就去了。9点左右的时候坐小周的车进校，开始捣鼓网卡驱动，重装了操作系统，试了天空之家的万能驱动，折腾到了快中午，终于找到了一个方法搞定了，结果因为使劲太大，把交换机接出来的小Hub的电源给弄掉了，原来的Orca的服务器也连不上了，结果登录一看，重新连接之后IP地址变了，虚拟机网络也不行了，没办法，重新获取之后好了。好嘛，后遗症来了，因为Mr.Du的网线也接在Hub上，他远程桌面的IP也变了，又重新登录之后查看IP才好，shy&hellip;</p>
+<hr>
+<p>下午2点开始，是和HW的视频培训，关于项目质量过程管控的，确实，HW的质量管理做的不错。Mr.Lu让我负责远程录屏，我用了个破解软件录的，结果到了6点快结束保存出来之后，发现没有声音，狂汗&hellip;</p>
+<hr>
+<p>因为没有校园卡吃饭，中午就吃了个老妈给带的甜瓜，到了6点半的时候，原想着步行出校去吃饭，可走到了校门口看到保安，又退缩了，害怕被逮住问起，害了Mr.Du，没办法，又给传宁发微信让他出来送我出校的。</p>
+<p>和昨天一样，吃了三个驴肉火烧和一碗蛋花汤，真如崇磊说的，人间美味！</p>
+<hr>
+<p>昨晚睡得晚，今天有点乏，原定的LeetCode也没有刷，明天补上吧&hellip;</p>
+]]></content>
+        </item>
         
         <item>
             <title>刷题第一天</title>
