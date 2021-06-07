@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sun, 06 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PyQt5&#43;Odoo的一天</title>
+      <link>https://leishengxiao.github.io/posts/20210607/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210607/</guid>
+      <description>因为Mr.Du周一有课，所以今天没有进校，在乐水居待了一天
+上午主要把PyQt5几个典型的例子撸了一遍，说实话挺好的，也没记住多少，但是知道就好；下午偶然看到了开源的ERP系统Odoo，于是愉快的撸了起来，撸到了晚上7点左右，因为报错，放弃了，有时间再撸吧
+ 看兼职平台，确实有不少自己可以做的，但是因为更新简历的问题，放弃了，主要还是害怕有影响吧，呵呵，等有机会再说吧&amp;hellip;
+ 晚上回来的比较早，8点多就回来了，把房间的卫生打扫了一下，之前的几件衣服洗了洗，今天是要早睡的节奏哦，嘿嘿</description>
+    </item>
+    
     <item>
       <title>陪闺女辅导班的一天</title>
       <link>https://leishengxiao.github.io/posts/20210606/</link>
