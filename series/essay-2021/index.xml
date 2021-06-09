@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 08 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python第二天</title>
+      <link>https://leishengxiao.github.io/posts/20210609/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210609/</guid>
+      <description>昨天晚上看TensorFlow的时候，偶然知道了Google的Colaboratory，试着设置和运行了下，真的不错，目前还支持GPU和TPU加速，而且预先安装好了Python、numpy、pandas、TensorFlow、matplotlib等等包，可以直接测试自己的模型
+今天又尝试了下使用CodeServer在Colaboratory里使用VSCode写代码，真的不错
+偶然又看到了Kaggle，又一个免费的云端AI学习环境，也如Colaboratory一样，预先安装好了各个环境，可以上传各种DataSet直接训练
+以上是今天的碎片时间，希望今天就这么多吧&amp;hellip;
+ 隔壁店面装修二层的还在继续，看着工程进度，这周是够呛能消停了，所以今天带来了耳机，边听音乐边看书吧
+ 昨天爸妈提到了新房子次卧无窗味大的事情，建议装个空调。怎么说呢，无论是改钢化玻璃为窗还是室内走管装空调，这两种方法都不是很完善，相较而言，我还是倾向改窗，至于空调，感觉靠海边那么近，夏天不一定用得上
+如果改窗的话，可以在小窗户钢化玻璃内贴上防爆膜，然后在晚上的时候砸掉，避免白天有露台伤人或者砸到路边的车，然后再装上断桥铝的窗户，不知道小窦弄不弄的了
+到时看情况再研究吧&amp;hellip;
+ 今天还没有给大小宝贝打电话，不知道今天云霈乖不乖呢？</description>
+    </item>
+    
     <item>
       <title>重拾Python</title>
       <link>https://leishengxiao.github.io/posts/20210608/</link>
