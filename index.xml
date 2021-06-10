@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Wed, 09 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FDTD更新及测试</title>
+      <link>https://leishengxiao.github.io/posts/20210610/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210610/</guid>
+      <description>今天还是没有进校，上午一半的时间在瞎折腾，先是折腾完了PyCharm、VSCode和VisualStudio的背景图片展示之后，又折腾了Cascadia、Fira Mono、Fira Code、Source Code Pro、Victor Mono、Monoid、Mononoki、Ubuntu Mono、Code New Roman、Hack、DejaVu Sans Mono这一坨坨字体，放一张效果图吧，主要是对比英文字母和数字区分的，方便程序里辨识
+最后因为要写测试报告和Blog，而GitHub的图床总是不稳定，又折腾了Gitee的图床和配置
+ 另一半的时间，更新了Orca的代码为dev分支，所有的模型又重新SImulation了一遍，把结果发给Mr.Du看了下，其中bendWaveguide的结果不太对，又重新搞了一遍
+ 下午要看看书了，折腾了太久杂七杂八的东西了，继续&amp;hellip;</description>
+    </item>
+    
     <item>
       <title>Python第二天</title>
       <link>https://leishengxiao.github.io/posts/20210609/</link>

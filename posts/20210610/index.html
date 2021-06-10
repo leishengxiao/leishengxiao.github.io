@@ -7,20 +7,20 @@
 <meta name="author"
     content="map[name:LeiShengxiao]">
 <meta name="description"
-    content="今天9:40左右坐着Miss.He的车进校调试，上午主要把填坑的这些功能都测试了，比如Solution的右键菜单、FormMeasure的数据展示，同时又把所有四种MeasureType都测试了下
-下午的时候，有一丢丢时间看了下PMAC的EQU功能，还是无果
-下午5点的时候出校，经过1.5h的地铁，下公交的时候已经10点了，到家10点半左右
-和闺女又一起看完了直播的非诚勿扰，睡觉的时候已经快12点了，我睡觉的时候已经快2点了，和闺女相约明天进行几场比赛，三个人一起参与" />
+    content="今天还是没有进校，上午一半的时间在瞎折腾，先是折腾完了PyCharm、VSCode和VisualStudio的背景图片展示之后，又折腾了Cascadia、Fira Mono、Fira Code、Source Code Pro、Victor Mono、Monoid、Mononoki、Ubuntu Mono、Code New Roman、Hack、DejaVu Sans Mono这一坨坨字体，放一张效果图吧，主要是对比英文字母和数字区分的，方便程序里辨识
+最后因为要写测试报告和Blog，而GitHub的图床总是不稳定，又折腾了Gitee的图床和配置
+ 另一半的时间，更新了Orca的代码为dev分支，所有的模型又重新SImulation了一遍，把结果发给Mr.Du看了下，其中bendWaveguide的结果不太对，又重新搞了一遍
+ 下午要看看书了，折腾了太久杂七杂八的东西了，继续&amp;hellip;" />
 <meta name="keywords"
     content=", Essay" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="" />
-<link rel="canonical" href="https://leishengxiao.github.io/posts/20210115/" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20210610/" />
 
 
 <title>
     
-    第10.5天调试 :: LeiShengxiao&#39;s Blog  — supper noob
+    FDTD更新及测试 :: LeiShengxiao&#39;s Blog  — supper noob
     
 </title>
 
@@ -38,35 +38,35 @@
 
 
 
-<meta itemprop="name" content="第10.5天调试">
-<meta itemprop="description" content="今天9:40左右坐着Miss.He的车进校调试，上午主要把填坑的这些功能都测试了，比如Solution的右键菜单、FormMeasure的数据展示，同时又把所有四种MeasureType都测试了下
-下午的时候，有一丢丢时间看了下PMAC的EQU功能，还是无果
-下午5点的时候出校，经过1.5h的地铁，下公交的时候已经10点了，到家10点半左右
-和闺女又一起看完了直播的非诚勿扰，睡觉的时候已经快12点了，我睡觉的时候已经快2点了，和闺女相约明天进行几场比赛，三个人一起参与"><meta itemprop="datePublished" content="2021-01-15T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2021-01-15T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="4"><meta itemprop="image" content="https://leishengxiao.github.io/"/>
+<meta itemprop="name" content="FDTD更新及测试">
+<meta itemprop="description" content="今天还是没有进校，上午一半的时间在瞎折腾，先是折腾完了PyCharm、VSCode和VisualStudio的背景图片展示之后，又折腾了Cascadia、Fira Mono、Fira Code、Source Code Pro、Victor Mono、Monoid、Mononoki、Ubuntu Mono、Code New Roman、Hack、DejaVu Sans Mono这一坨坨字体，放一张效果图吧，主要是对比英文字母和数字区分的，方便程序里辨识
+最后因为要写测试报告和Blog，而GitHub的图床总是不稳定，又折腾了Gitee的图床和配置
+ 另一半的时间，更新了Orca的代码为dev分支，所有的模型又重新SImulation了一遍，把结果发给Mr.Du看了下，其中bendWaveguide的结果不太对，又重新搞了一遍
+ 下午要看看书了，折腾了太久杂七杂八的东西了，继续&hellip;"><meta itemprop="datePublished" content="2021-06-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-06-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="14"><meta itemprop="image" content="https://leishengxiao.github.io/"/>
 <meta itemprop="keywords" content="Essay," />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://leishengxiao.github.io/"/>
 
-<meta name="twitter:title" content="第10.5天调试"/>
-<meta name="twitter:description" content="今天9:40左右坐着Miss.He的车进校调试，上午主要把填坑的这些功能都测试了，比如Solution的右键菜单、FormMeasure的数据展示，同时又把所有四种MeasureType都测试了下
-下午的时候，有一丢丢时间看了下PMAC的EQU功能，还是无果
-下午5点的时候出校，经过1.5h的地铁，下公交的时候已经10点了，到家10点半左右
-和闺女又一起看完了直播的非诚勿扰，睡觉的时候已经快12点了，我睡觉的时候已经快2点了，和闺女相约明天进行几场比赛，三个人一起参与"/>
+<meta name="twitter:title" content="FDTD更新及测试"/>
+<meta name="twitter:description" content="今天还是没有进校，上午一半的时间在瞎折腾，先是折腾完了PyCharm、VSCode和VisualStudio的背景图片展示之后，又折腾了Cascadia、Fira Mono、Fira Code、Source Code Pro、Victor Mono、Monoid、Mononoki、Ubuntu Mono、Code New Roman、Hack、DejaVu Sans Mono这一坨坨字体，放一张效果图吧，主要是对比英文字母和数字区分的，方便程序里辨识
+最后因为要写测试报告和Blog，而GitHub的图床总是不稳定，又折腾了Gitee的图床和配置
+ 另一半的时间，更新了Orca的代码为dev分支，所有的模型又重新SImulation了一遍，把结果发给Mr.Du看了下，其中bendWaveguide的结果不太对，又重新搞了一遍
+ 下午要看看书了，折腾了太久杂七杂八的东西了，继续&hellip;"/>
 
 
 
-<meta property="og:title" content="第10.5天调试" />
-<meta property="og:description" content="今天9:40左右坐着Miss.He的车进校调试，上午主要把填坑的这些功能都测试了，比如Solution的右键菜单、FormMeasure的数据展示，同时又把所有四种MeasureType都测试了下
-下午的时候，有一丢丢时间看了下PMAC的EQU功能，还是无果
-下午5点的时候出校，经过1.5h的地铁，下公交的时候已经10点了，到家10点半左右
-和闺女又一起看完了直播的非诚勿扰，睡觉的时候已经快12点了，我睡觉的时候已经快2点了，和闺女相约明天进行几场比赛，三个人一起参与" />
+<meta property="og:title" content="FDTD更新及测试" />
+<meta property="og:description" content="今天还是没有进校，上午一半的时间在瞎折腾，先是折腾完了PyCharm、VSCode和VisualStudio的背景图片展示之后，又折腾了Cascadia、Fira Mono、Fira Code、Source Code Pro、Victor Mono、Monoid、Mononoki、Ubuntu Mono、Code New Roman、Hack、DejaVu Sans Mono这一坨坨字体，放一张效果图吧，主要是对比英文字母和数字区分的，方便程序里辨识
+最后因为要写测试报告和Blog，而GitHub的图床总是不稳定，又折腾了Gitee的图床和配置
+ 另一半的时间，更新了Orca的代码为dev分支，所有的模型又重新SImulation了一遍，把结果发给Mr.Du看了下，其中bendWaveguide的结果不太对，又重新搞了一遍
+ 下午要看看书了，折腾了太久杂七杂八的东西了，继续&hellip;" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://leishengxiao.github.io/posts/20210115/" /><meta property="og:image" content="https://leishengxiao.github.io/"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-01-15T00:00:00&#43;00:00" />
-<meta property="article:modified_time" content="2021-01-15T00:00:00&#43;00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
-<meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210610/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210609/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210608/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210607/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210606/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210605/" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20210610/" /><meta property="og:image" content="https://leishengxiao.github.io/"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-06-10T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-06-10T00:00:00&#43;00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+<meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210609/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210608/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210607/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210606/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210605/" />
 
 
 
@@ -76,7 +76,7 @@
 
 
 
-<meta property="article:published_time" content="2021-01-15 00:00:00 &#43;0000 UTC" />
+<meta property="article:published_time" content="2021-06-10 00:00:00 &#43;0000 UTC" />
 
 
 
@@ -160,17 +160,19 @@
 
     <article>
       <h1 class="post-title">
-        <a href="https://leishengxiao.github.io/posts/20210115/">第10.5天调试</a>
+        <a href="https://leishengxiao.github.io/posts/20210610/">FDTD更新及测试</a>
       </h1>
 
       
 
       <div class="post-content">
-        <hr>
-<p>今天9:40左右坐着Miss.He的车进校调试，上午主要把填坑的这些功能都测试了，比如Solution的右键菜单、FormMeasure的数据展示，同时又把所有四种MeasureType都测试了下</p>
-<p>下午的时候，有一丢丢时间看了下PMAC的EQU功能，还是无果</p>
-<p>下午5点的时候出校，经过1.5h的地铁，下公交的时候已经10点了，到家10点半左右</p>
-<p>和闺女又一起看完了直播的非诚勿扰，睡觉的时候已经快12点了，我睡觉的时候已经快2点了，和闺女相约明天进行几场比赛，三个人一起参与</p>
+        <p>今天还是没有进校，上午一半的时间在瞎折腾，先是折腾完了PyCharm、VSCode和VisualStudio的背景图片展示之后，又折腾了Cascadia、Fira Mono、Fira Code、Source Code Pro、Victor Mono、Monoid、Mononoki、Ubuntu Mono、Code New Roman、Hack、DejaVu Sans Mono这一坨坨字体，放一张效果图吧，主要是对比英文字母和数字区分的，方便程序里辨识</p>
+<p><img src="https://raw.githubusercontent.com/leishengxiao/PicGo/main/img/20210610134707.png" alt="image-20210610134701367"></p>
+<p>最后因为要写测试报告和Blog，而GitHub的图床总是不稳定，又折腾了Gitee的图床和配置</p>
+<hr>
+<p>另一半的时间，更新了Orca的代码为dev分支，所有的模型又重新SImulation了一遍，把结果发给Mr.Du看了下，其中bendWaveguide的结果不太对，又重新搞了一遍</p>
+<hr>
+<p>下午要看看书了，折腾了太久杂七杂八的东西了，继续&hellip;</p>
 
       </div>
     </article>
@@ -193,7 +195,7 @@
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        4 Words
+        14 Words
       </p>
 
       <p>
@@ -203,7 +205,7 @@
           <line x1="8" y1="2" x2="8" y2="6"></line>
           <line x1="3" y1="10" x2="21" y2="10"></line>
         </svg>
-        2021-01-15 08:00 &#43;0800
+        2021-06-10 08:00 &#43;0800
       </p>
     </div>
 
@@ -216,18 +218,11 @@
 
         <div class="pagination__buttons">
           
-            <span class="button previous">
-              <a href="https://leishengxiao.github.io/posts/20210116/">
-                <span class="button__icon">←</span>
-                <span class="button__text">三场比赛</span>
-              </a>
-            </span>
-          
 
           
             <span class="button next">
-              <a href="https://leishengxiao.github.io/posts/20210114/">
-                <span class="button__text">填坑第二天</span>
+              <a href="https://leishengxiao.github.io/posts/20210609/">
+                <span class="button__text">Python第二天</span>
                 <span class="button__icon">→</span>
               </a>
             </span>
