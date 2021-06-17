@@ -7,7 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 15 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>激活系统差点崩盘</title>
+      <link>https://leishengxiao.github.io/posts/20210617/</link>
+      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210617/</guid>
+      <description>上午的时候打开有源的一些Solver文档，发现Office提示非正版软件，于是乎，从SDU上下载了正版软件并激活，提示失败；于是又重新激活了Win10操作系统，突然，蓝屏了，心中一声我艹，一身冷汗&amp;hellip;
+没办法，重启，竟然正常进入系统了，一场虚惊&amp;hellip;
+ 今天已经周四了，明天就要回RiZhao了，可以见到亲爱的大小宝贝和小云霈了，吼吼^_^</description>
+    </item>
+    
+    <item>
+      <title>Lumerical</title>
+      <link>https://leishengxiao.github.io/posts/20210616/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210616/</guid>
+      <description>昨天困的要命，10点多就睡着了，早上7点半左右起床洗漱，8点多坐着Mr.Lu的车到了公司
+上午按照Lumerical的教程，写了个MarkDown，主要是脚本建模的过程，挺不错的，明天的时候要尝试着建一下
+ 下午给Mr.Du算了几个Simulation模型，大米又要折腾一个Ring的Simulation，又尝试着搞了下，感觉他们的想法好奇葩，像是在胡作，哈哈&amp;hellip;
+ 今天还整了下VisualStudio的扩展，瞬间变得漂亮多了，嘿嘿&amp;hellip;
+ 今天Win11的泄露版出来了，看着一些推文，感觉界面的变化挺大的，等着6月24日官方版出来之后，要在那台HuaWei本子上折腾下</description>
+    </item>
+    
     <item>
       <title>UI接口</title>
       <link>https://leishengxiao.github.io/posts/20210615/</link>
