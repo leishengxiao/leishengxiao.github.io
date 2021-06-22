@@ -7,7 +7,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Thu, 17 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/tags/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MMI成功了 &amp;&amp; EQU功能也好了</title>
+      <link>https://leishengxiao.github.io/posts/20210622/</link>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210622/</guid>
+      <description>到了办公室之后，崇磊告知昨晚的MMI模型不对，SiO2设置的不对，看了下Orca的模型，果然不对，原来Orca和Lumerical有些地方的中心坐标设置是不一样的，调整了下box的坐标，模型是对了；崇磊又给了新的eme的Solver，支持YNormal和ZNormal的Monitor，于是加上之后开跑，跑的结果终于对了，打开Test Result的文档，赶快记录下来
+ 一早的时候，41所的杨试了下昨天的dll，还是没有脉冲，于是让小王远程过去，我告知他找问题的思路之后，开始联调起来，最后发现同测试条件下的脉冲宽度竟然是0，丫的，打开代码一看，是在格式化command字符串的时候，把一个int按照%f进行格式化了，于是乎又重新修改编译了dll之后，终于测过了，好开心^_^
+ 中午的时候开始跑Cells Per Wavelength为50的SSC模型，初步计算了下，估计得跑个15小时左右，希望一切顺利吧&amp;hellip;
+见证奇迹的时刻到了！</description>
+    </item>
+    
+    <item>
+      <title>继续MMI</title>
+      <link>https://leishengxiao.github.io/posts/20210621/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210621/</guid>
+      <description>早上的时候，到的比较早，不到9点钟就到办公室了，开始连SDU的服务器做MMI的Simulation，开始怎么都连不上，以为是断电了，在群里问了下Mr.Du，发现没有断电，果然能连上了，像抽风一样的EasyConnect
+ 开始还是怎么跑都不对，狂汗&amp;hellip;最后晚上临走前，把Cells Per Wavelength放到了11，终于跑完了，结果给了崇磊就回家了
+ 华南理工的架子，今天所里在调试EQU功能，开始怎么都没有脉冲，后来用PWin32的脚本跑，是有脉冲的，对比看了下变量设置，发现脉冲宽度设置的是20/1.6，而脚本里的是1000，临下班前编译了一版脉冲宽度是1000的，希望是对的吧&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>PSR</title>
+      <link>https://leishengxiao.github.io/posts/20210620/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210620/</guid>
+      <description>一早到了之后，已经接近11点了，看了下SDU服务器上跑的50参数的SSC结果，然后开始建PSR的模型，怎么跑都不对；后来崇磊给了一个MMI的模型，在Lumerical仿完之后，开始在Orca上建
+开始怎么跑都不对，而且中间一度连续几次跑不完就挂掉，-_-||
+折腾啊折腾&amp;hellip;
+ 下午走的比较早，大概6点钟的样子，崇磊请客吃了顿烧烤，走的时候没有打车，一路步行了10里地，到了张江路汉庭的时候才开始骑车回家，腿好酸
+ 今天睡的比较早，大概12点钟的样子</description>
+    </item>
+    
+    <item>
+      <title>周六加班</title>
+      <link>https://leishengxiao.github.io/posts/20210619/</link>
+      <pubDate>Sat, 19 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210619/</guid>
+      <description>早上还是一如既往的7:40醒来之后洗漱，8:10左右出门，到公司8:40左右了
+先是看了下昨天要弄的解几个Mode，感觉不是特别对之后，放弃了；然后用Lumerical跑了下PSR和SSC，在Orca上建了下SSC，开跑&amp;hellip;
+后来崇磊发现SSC和Cells Per Wavelength有关，于是乎走的时候，在SDU服务器上开跑50参数的Simulation
+ 因为明白回去的早，所以今天只能是我自己趟路回家了，好在之前拍了一张大门的照片，于是乎一路骑行到了三灶路1450弄，可是怎么也找不到地方了，路上还跑了6罐啤酒，在找的时候掉了一罐，捡起来继续找，中间问了下路人，告知地方是对的，但是还要看具体的号码，最后终于找到了，哇哦，好开森..
+ 因为小杜回老家了，所以洗过澡之后，看了几个电影，睡觉的时候已经两点多了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>被留了下来</title>
+      <link>https://leishengxiao.github.io/posts/20210618/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210618/</guid>
+      <description>原计划中午吃过午饭就要回家的，可是早上Mr.Zhao通知还有其他的事情，所以要到下周才能回去了
+今天跑了下FDE，结果Result都是偏的，然后顺手看了下FDTD，结果也都不对了；在本地找到了一个6月10号的FDTD，结果是正确的，还有一个6月17日的bendWaveguide，也是正确的，这样可以判断出，是6月17日下午14时以后的代码修改引出的问题
+紧接着做了代码回滚，结果都正常了
+ 上午把高铁票退掉了，浪费了将近50大洋&amp;hellip;
+想念我的大小宝贝和小云霈了&amp;hellip;</description>
+    </item>
+    
     <item>
       <title>激活系统差点崩盘</title>
       <link>https://leishengxiao.github.io/posts/20210617/</link>
