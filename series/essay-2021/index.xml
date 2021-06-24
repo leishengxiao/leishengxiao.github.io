@@ -26,6 +26,16 @@
     </item>
     
     <item>
+      <title>Win11 Pro is coming...</title>
+      <link>https://leishengxiao.github.io/posts/20210625/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210625/</guid>
+      <description>1. 创建虚拟机 1.1 创建新的虚拟机 1.2 选择自定义 1.3 选择Workstation 16.x 1.4 选择稍后安装操作系统 1.5 选择Microsoft Windows及Windows 10 x64 1.6 输入虚拟机名称Win11并选择文件路径E:\Develop\Machine\Win11 1.7 选择固件类型为UEFI 1.8 选择处理器配置 1.9 选择虚拟机内存 1.10 选择网络类型为NAT 1.11 选择IO控制器类型 1.12 选择磁盘类型为NVMe 1.13 选择磁盘 1.14 选择磁盘大小 1.15 指定磁盘文件 1.16 单击完成 2. 编辑虚拟机 2.1 选择使用ISO镜像 2.2 选择镜像位置 2.3 点击确定 3. 安装系统 3.0 修改未BIOS启动 启动出现EFI错误,修改未BIOS启动
+3.1 输入Language to install、Time and current format、Keyboard or input method 3.2 点击Install now 3.4 输入激活码 3.5 勾选协议 3.6 选择Custom: Install Windows only(advanced) 3.</description>
+    </item>
+    
+    <item>
       <title>upstream prematurely closed connection</title>
       <link>https://leishengxiao.github.io/posts/20210623/</link>
       <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
