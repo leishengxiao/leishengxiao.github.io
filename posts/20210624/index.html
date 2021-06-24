@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="map[name:LeiShengxiao]">
+<meta name="description"
+    content="一早来了之后,先是请教了小杜昨天500 Internal Error的错误,没有得到实质性的启示,只是说有可能是api程序的问题,接着请教了小莫,也只是告知有可能是timeout的原因,需要修改nginx的参数
+再次打开nginx的文档,尝试进行参数调整,无果
+一度绝望下,眼睛盯着虚机内存变化的时候,发现gunicorn的内存一直在增长,但是到了一定时候之后,突然又降了下来,于是又修改了backend的gunicore里关于timeout的参数为3000,再次尝试,问题依旧
+后来突然想到,是不是虚机分配的内存已经不足以支撑backend的进程了呢,于是乎,尝试将VMWare的内存提高到32G、64G和100G,最终在内存耗费到70G和连续运行了近20min之后,接口文件终于生成了,查看了下dx的数据,大概在10nm的样子
+于是很开森的把FDTD跑了起来
+ 解了下Mode,neff值还是在1.9116,又用matlab读了下FDE的mesh,大小是0.4002*0.18,和原始大小0.4*0.18还是有差距
+又用matlab读了下FDTD的mesh,1121*316*1147=406308692,得循环4亿多次,我的天呐,慢慢等吧&amp;hellip;
+ 早上的时候看了下前天定的周五回家的高铁后补票,还是没有订上,再三考虑下,决定改成了08:40AM的高铁,贵了大概一二十块钱吧,中午的时候就能到家见到到小宝贝和小云霈了
+老爹的腿最近一直疼,周末要带老父亲去看看了&amp;hellip;" />
+<meta name="keywords"
+    content=", Essay" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://leishengxiao.github.io/posts/20210624/" />
+
+
+<title>
+    
+    gunicorn问题解决 :: LeiShengxiao&#39;s Blog  — supper noob
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.154a87e0ff720e102948892a8eb80881aa81a4faf37376f3093be219f6296c3d.css">
+
+
+
+
+
+
+<meta itemprop="name" content="gunicorn问题解决">
+<meta itemprop="description" content="一早来了之后,先是请教了小杜昨天500 Internal Error的错误,没有得到实质性的启示,只是说有可能是api程序的问题,接着请教了小莫,也只是告知有可能是timeout的原因,需要修改nginx的参数
+再次打开nginx的文档,尝试进行参数调整,无果
+一度绝望下,眼睛盯着虚机内存变化的时候,发现gunicorn的内存一直在增长,但是到了一定时候之后,突然又降了下来,于是又修改了backend的gunicore里关于timeout的参数为3000,再次尝试,问题依旧
+后来突然想到,是不是虚机分配的内存已经不足以支撑backend的进程了呢,于是乎,尝试将VMWare的内存提高到32G、64G和100G,最终在内存耗费到70G和连续运行了近20min之后,接口文件终于生成了,查看了下dx的数据,大概在10nm的样子
+于是很开森的把FDTD跑了起来
+ 解了下Mode,neff值还是在1.9116,又用matlab读了下FDE的mesh,大小是0.4002*0.18,和原始大小0.4*0.18还是有差距
+又用matlab读了下FDTD的mesh,1121*316*1147=406308692,得循环4亿多次,我的天呐,慢慢等吧&hellip;
+ 早上的时候看了下前天定的周五回家的高铁后补票,还是没有订上,再三考虑下,决定改成了08:40AM的高铁,贵了大概一二十块钱吧,中午的时候就能到家见到到小宝贝和小云霈了
+老爹的腿最近一直疼,周末要带老父亲去看看了&hellip;"><meta itemprop="datePublished" content="2021-06-24T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-06-24T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="11"><meta itemprop="image" content="https://leishengxiao.github.io/"/>
+<meta itemprop="keywords" content="Essay," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://leishengxiao.github.io/"/>
+
+<meta name="twitter:title" content="gunicorn问题解决"/>
+<meta name="twitter:description" content="一早来了之后,先是请教了小杜昨天500 Internal Error的错误,没有得到实质性的启示,只是说有可能是api程序的问题,接着请教了小莫,也只是告知有可能是timeout的原因,需要修改nginx的参数
+再次打开nginx的文档,尝试进行参数调整,无果
+一度绝望下,眼睛盯着虚机内存变化的时候,发现gunicorn的内存一直在增长,但是到了一定时候之后,突然又降了下来,于是又修改了backend的gunicore里关于timeout的参数为3000,再次尝试,问题依旧
+后来突然想到,是不是虚机分配的内存已经不足以支撑backend的进程了呢,于是乎,尝试将VMWare的内存提高到32G、64G和100G,最终在内存耗费到70G和连续运行了近20min之后,接口文件终于生成了,查看了下dx的数据,大概在10nm的样子
+于是很开森的把FDTD跑了起来
+ 解了下Mode,neff值还是在1.9116,又用matlab读了下FDE的mesh,大小是0.4002*0.18,和原始大小0.4*0.18还是有差距
+又用matlab读了下FDTD的mesh,1121*316*1147=406308692,得循环4亿多次,我的天呐,慢慢等吧&hellip;
+ 早上的时候看了下前天定的周五回家的高铁后补票,还是没有订上,再三考虑下,决定改成了08:40AM的高铁,贵了大概一二十块钱吧,中午的时候就能到家见到到小宝贝和小云霈了
+老爹的腿最近一直疼,周末要带老父亲去看看了&hellip;"/>
+
+
+
+<meta property="og:title" content="gunicorn问题解决" />
+<meta property="og:description" content="一早来了之后,先是请教了小杜昨天500 Internal Error的错误,没有得到实质性的启示,只是说有可能是api程序的问题,接着请教了小莫,也只是告知有可能是timeout的原因,需要修改nginx的参数
+再次打开nginx的文档,尝试进行参数调整,无果
+一度绝望下,眼睛盯着虚机内存变化的时候,发现gunicorn的内存一直在增长,但是到了一定时候之后,突然又降了下来,于是又修改了backend的gunicore里关于timeout的参数为3000,再次尝试,问题依旧
+后来突然想到,是不是虚机分配的内存已经不足以支撑backend的进程了呢,于是乎,尝试将VMWare的内存提高到32G、64G和100G,最终在内存耗费到70G和连续运行了近20min之后,接口文件终于生成了,查看了下dx的数据,大概在10nm的样子
+于是很开森的把FDTD跑了起来
+ 解了下Mode,neff值还是在1.9116,又用matlab读了下FDE的mesh,大小是0.4002*0.18,和原始大小0.4*0.18还是有差距
+又用matlab读了下FDTD的mesh,1121*316*1147=406308692,得循环4亿多次,我的天呐,慢慢等吧&hellip;
+ 早上的时候看了下前天定的周五回家的高铁后补票,还是没有订上,再三考虑下,决定改成了08:40AM的高铁,贵了大概一二十块钱吧,中午的时候就能到家见到到小宝贝和小云霈了
+老爹的腿最近一直疼,周末要带老父亲去看看了&hellip;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://leishengxiao.github.io/posts/20210624/" /><meta property="og:image" content="https://leishengxiao.github.io/"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-06-24T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-06-24T00:00:00&#43;00:00" /><meta property="og:site_name" content="LeiShengxiao&#39;s Blog" />
+<meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210623/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210622/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210621/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210620/" /><meta property="og:see_also" content="https://leishengxiao.github.io/posts/20210619/" />
+
+
+
+
+
+<meta property="article:section" content="Essay" />
+
+
+
+<meta property="article:published_time" content="2021-06-24 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6bc62acc05941583aeae8f35d4038b42";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://leishengxiao.github.io/about">About</a></li><li><a href="https://leishengxiao.github.io/posts">Blog</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        One minute
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://leishengxiao.github.io/posts/20210624/">gunicorn问题解决</a>
+      </h1>
+
+      
+
+      <div class="post-content">
+        <p>一早来了之后,先是请教了小杜昨天<code>500 Internal Error</code>的错误,没有得到实质性的启示,只是说有可能是<code>api</code>程序的问题,接着请教了小莫,也只是告知有可能是<code>timeout</code>的原因,需要修改<code>nginx</code>的参数</p>
+<p>再次打开<code>nginx</code>的文档,尝试进行参数调整,无果</p>
+<p>一度绝望下,眼睛盯着虚机内存变化的时候,发现<code>gunicorn</code>的内存一直在增长,但是到了一定时候之后,突然又降了下来,于是又修改了<code>backend</code>的<code>gunicore</code>里关于<code>timeout</code>的参数为<code>3000</code>,再次尝试,问题依旧</p>
+<p>后来突然想到,是不是虚机分配的内存已经不足以支撑<code>backend</code>的进程了呢,于是乎,尝试将<code>VMWare</code>的内存提高到<code>32G</code>、<code>64G</code>和<code>100G</code>,最终在内存耗费到<code>70G</code>和连续运行了近<code>20min</code>之后,接口文件终于生成了,查看了下<code>dx</code>的数据,大概在<code>10nm</code>的样子</p>
+<p>于是很开森的把FDTD跑了起来</p>
+<hr>
+<p>解了下<code>Mode</code>,<code>neff</code>值还是在<code>1.9116</code>,又用<code>matlab</code>读了下<code>FDE</code>的<code>mesh</code>,大小是<code>0.4002*0.18</code>,和原始大小<code>0.4*0.18</code>还是有差距</p>
+<p>又用<code>matlab</code>读了下<code>FDTD</code>的<code>mesh</code>,<code>1121*316*1147=406308692</code>,得循环<code>4亿</code>多次,我的天呐,慢慢等吧&hellip;</p>
+<hr>
+<p>早上的时候看了下前天定的周五回家的高铁后补票,还是没有订上,再三考虑下,决定改成了<code>08:40AM</code>的高铁,贵了大概一二十块钱吧,中午的时候就能到家见到到小宝贝和小云霈了</p>
+<p>老爹的腿最近一直疼,周末要带老父亲去看看了&hellip;</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon">
+            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+            <line x1="7" y1="7" x2="7" y2="7"></line>
+          </svg><span class="tag"><a href="https://leishengxiao.github.io/tags/essay/">Essay</a></span>
+        </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        11 Words
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        2021-06-24 08:00 &#43;0800
+      </p>
+    </div>
+
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Read other posts</span>
+          <hr />
+        </div>
+
+        <div class="pagination__buttons">
+          
+
+          
+            <span class="button next">
+              <a href="https://leishengxiao.github.io/posts/20210623/">
+                <span class="button__text">upstream prematurely closed connection</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
+
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2021</span>
+            
+            
+            <span> All rights reserved.</span>
+            
+            <span> <a
+                    href="https://leishengxiao.github.io/posts/index.xml" target="_blank" title="rss"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-rss">
+                        <path d="M4 11a9 9 0 0 1 9 9"></path>
+                        <path d="M4 4a16 16 0 0 1 16 16"></path>
+                        <circle cx="5" cy="19" r="1"></circle>
+                    </svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            
+            
+        </div>
+    </div>
+</footer>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.a0f363fdf81cdc5cfacc447a79c33189eb000d090336cd04aac8ee256f423b3133b836c281944c19c75e38d0b0b449f01ce5807e37798b7ac94ac1db51983fc4.js" integrity="sha512-oPNj/fgc3Fz6zER6ecMxiesADQkDNs0EqsjuJW9COzEzuDbCgZRMGcdeONCwtEnwHOWAfjd5i3rJSsHbUZg/xA=="></script>
+
+
+
+    </body>
+</html>

@@ -7,7 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 22 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gunicorn问题解决</title>
+      <link>https://leishengxiao.github.io/posts/20210624/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210624/</guid>
+      <description>一早来了之后,先是请教了小杜昨天500 Internal Error的错误,没有得到实质性的启示,只是说有可能是api程序的问题,接着请教了小莫,也只是告知有可能是timeout的原因,需要修改nginx的参数
+再次打开nginx的文档,尝试进行参数调整,无果
+一度绝望下,眼睛盯着虚机内存变化的时候,发现gunicorn的内存一直在增长,但是到了一定时候之后,突然又降了下来,于是又修改了backend的gunicore里关于timeout的参数为3000,再次尝试,问题依旧
+后来突然想到,是不是虚机分配的内存已经不足以支撑backend的进程了呢,于是乎,尝试将VMWare的内存提高到32G、64G和100G,最终在内存耗费到70G和连续运行了近20min之后,接口文件终于生成了,查看了下dx的数据,大概在10nm的样子
+于是很开森的把FDTD跑了起来
+ 解了下Mode,neff值还是在1.9116,又用matlab读了下FDE的mesh,大小是0.4002*0.18,和原始大小0.4*0.18还是有差距
+又用matlab读了下FDTD的mesh,1121*316*1147=406308692,得循环4亿多次,我的天呐,慢慢等吧&amp;hellip;
+ 早上的时候看了下前天定的周五回家的高铁后补票,还是没有订上,再三考虑下,决定改成了08:40AM的高铁,贵了大概一二十块钱吧,中午的时候就能到家见到到小宝贝和小云霈了
+老爹的腿最近一直疼,周末要带老父亲去看看了&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>upstream prematurely closed connection</title>
+      <link>https://leishengxiao.github.io/posts/20210623/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210623/</guid>
+      <description>上午根据Cells Per Wavelength值是[10, 14, 17]分别做了FDTD Simulation,当跑值是30的时候,突然前端页面报错api.js:24 POST http://101.76.209.50/api/task_init/ 500 (Internal Server Error),这时查看Nginx的error log,显示:
+2021/06/24 08:47:41 [error] 792512#792512: *307 upstream prematurely closed connection while reading response header from upstream, client: 58.194.165.121, server: , request: &amp;#34;POST /api/task_init/ HTTP/1.1&amp;#34;, upstream: &amp;#34;http://127.0.0.1:8765/api/task_init/&amp;#34;, host: &amp;#34;101.76.209.50&amp;#34;, referrer: &amp;#34;http://101.76.209.50/&amp;#34; 查阅了Nginx,比照参数设置调整了timeout的几个参数,重启服务之后还是不行,好无奈&amp;hellip;
+到了晚上的时候,还是没折腾出来,没办法,只能是明天请教别人再来搞了&amp;hellip;
+ 吃完饭的时候,Mr.Du发现了一个餐卡充值的Bug,我们三个好兴奋的去薅了200块钱的羊毛,明天就可以爽歪歪的薅社会主义羊毛了,哈哈^_^</description>
+    </item>
+    
     <item>
       <title>MMI成功了 &amp;&amp; EQU功能也好了</title>
       <link>https://leishengxiao.github.io/posts/20210622/</link>
