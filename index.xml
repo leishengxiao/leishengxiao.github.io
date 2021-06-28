@@ -7,7 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Sun, 27 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Study Mark</title>
+      <link>https://leishengxiao.github.io/posts/20210628/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210628/</guid>
+      <description>WYSIWYG: What you see is what you get
+Python中唯一用到分号的地方: 作为语句分隔符
+Python的赋值语句总是创建对象的引用, 而不是赋值对象; 变量更像是指针, 而不是数据存储区域
+a = b = c = &#39;spam&#39;, 只有一个对象,由3个变量共享
+名称没有类型, 但对象有类型
+Python中的布尔运算符是单词,不是&amp;amp;&amp;amp;、||、!
+函数: 最大化代码重用和最小化代码冗余、过程的分解</description>
+    </item>
+    
     <item>
       <title>陪闺女复习</title>
       <link>https://leishengxiao.github.io/posts/20210627/</link>
