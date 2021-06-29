@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Study Mark Ⅱ</title>
+      <link>https://leishengxiao.github.io/posts/20210629/</link>
+      <pubDate>Tue, 29 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210629/</guid>
+      <description>Ⅰ WYSIWYG: What you see is what you get
+Python中唯一用到分号的地方: 作为语句分隔符
+Python的赋值语句总是创建对象的引用, 而不是赋值对象; 变量更像是指针, 而不是数据存储区域
+a = b = c = &#39;spam&#39;, 只有一个对象,由3个变量共享
+名称没有类型, 但对象有类型
+Python中的布尔运算符是单词,不是&amp;amp;&amp;amp;、||、!
+函数: 最大化代码重用和最小化代码冗余、过程的分解
+LEGB规则: 首先是局部作用域(L), 其次是向外一层的def或lambda的局部作用域(E), 之后是全局作用域(G), 最后是内置作用域(B)
+程序设计: 最少化全局变量、最小化跨文件的修改
+Ⅱ 工厂函数: factory function; 闭包: closure
+当执行一条nonlocal语句时,nonlocal名称必须已经在一个外层def作用域中被赋值过
+不可变参数本质上传入了值, 可变对象本质上传入了指针
+参数匹配模式: 位置次序, 关键字参数, 默认值参数, 可变长参数, 可变长参数解包, keyword-only参数
+一个*代表基于位置的参数, 两个*代表关键字参数
+lambda是一个表达式, 而不是语句; lambda的主体是一个单独的表达式, 而不是一个代码块
+Python混合支持多种编程范式: 过程式(使用基础语句)、面向对象(使用类)、函数式
+&amp;lsquo;KISS&amp;rsquo;: Keep It Simple and Stupid, 简单原则
+生成器函数: 一个使用了yield表达式的def语句是一个生成器函数
+生成器表达式: 一个包括在圆括号中的列表推导表达式被称为一个生成器表达式</description>
+    </item>
+    
     <item>
       <title>Python Study Mark</title>
       <link>https://leishengxiao.github.io/posts/20210628/</link>
@@ -20,7 +47,9 @@ Python的赋值语句总是创建对象的引用, 而不是赋值对象; 变量�
 a = b = c = &#39;spam&#39;, 只有一个对象,由3个变量共享
 名称没有类型, 但对象有类型
 Python中的布尔运算符是单词,不是&amp;amp;&amp;amp;、||、!
-函数: 最大化代码重用和最小化代码冗余、过程的分解</description>
+函数: 最大化代码重用和最小化代码冗余、过程的分解
+LEGB规则: 首先是局部作用域(L), 其次是向外一层的def或lambda的局部作用域(E), 之后是全局作用域(G), 最后是内置作用域(B)
+程序设计: 最少化全局变量、最小化跨文件的修改</description>
     </item>
     
     <item>
