@@ -6,8 +6,35 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>编程珠玑 Ⅰ</title>
+            <link>https://leishengxiao.github.io/posts/20210630/</link>
+            <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210630/</guid>
+            <description>Chapter 1 对小问题的仔细分析有事可以得到明显的实际益处
+设计者确定其设计已经达到了完美的标准不是不能再增加任何东西, 而是不能再减少任何东西
+Chapter 2 先进算法工具 -&amp;gt; 减少开发时间, 执行速度更快
+看起来很困难的问题也可以有一个简单的、意想不到的答案
+ 看着看着编程珠玑, 就不如Python那么好玩了, 于是乎又刷了一天的LeetCode, 还不错, 挺好玩的&amp;hellip;
+公司昨天要进行团建, 昨天陆总让我过去, 报销往返路费, 今天Mr.Du又打电话说让一起过去, 我还是不过去了, 今天订了周四晚上7点多的火车票, 可以去接闺女发试卷了, 吼吼^_^
+ 今天宝贝闺女上午和同学一起去了书城看书, 下午大宝贝订了两张电影票, 闺女和杜宛宸一起去看的, 回来的时候俩人一起走回来的, 我闺女竟然认识路, 了不得&amp;hellip;</description>
+            <content type="html"><![CDATA[<h3 id="chapter-1">Chapter 1</h3>
+<p>对小问题的仔细分析有事可以得到明显的实际益处</p>
+<p>设计者确定其设计已经达到了完美的标准不是不能再增加任何东西, 而是不能再减少任何东西</p>
+<h3 id="chapter-2">Chapter 2</h3>
+<p>先进算法工具 -&gt; 减少开发时间, 执行速度更快</p>
+<p>看起来很困难的问题也可以有一个简单的、意想不到的答案</p>
+<hr>
+<p>看着看着<code>编程珠玑</code>, 就不如Python那么好玩了, 于是乎又刷了一天的<code>LeetCode</code>, 还不错, 挺好玩的&hellip;</p>
+<p>公司昨天要进行团建, 昨天陆总让我过去, 报销往返路费, 今天Mr.Du又打电话说让一起过去, 我还是不过去了, 今天订了周四晚上7点多的火车票, 可以去接闺女发试卷了, 吼吼^_^</p>
+<hr>
+<p>今天宝贝闺女上午和同学一起去了书城看书, 下午大宝贝订了两张电影票, 闺女和杜宛宸一起去看的, 回来的时候俩人一起走回来的, 我闺女竟然认识路, 了不得&hellip;</p>
+]]></content>
+        </item>
         
         <item>
             <title>Python Study Mark Ⅱ</title>
@@ -57,6 +84,16 @@ Python混合支持多种编程范式: 过程式(使用基础语句)、面向对�
 <p>生成器表达式: 一个包括在圆括号中的列表推导表达式被称为一个生成器表达式</p>
 <p><code>EIBTI</code>: Explicit is better than implicit, 明确胜于隐晦</p>
 <p>模块会在第一次<code>import</code>或<code>from</code>时被载入并执行, 并且只在第一次时如此</p>
+<hr>
+<p>最近这两天看<code>Python学习手册</code>还是很不偷懒的, 经过两天的集中学习, 终于把上册看完了, 收获还是有的, 但还是要经过后续的多加实践使用</p>
+<p>下册应该在家里吧, 周末的时候要回去找一找了&hellip;</p>
+<hr>
+<p>宝贝女儿上午结束了二年级下学期的期末考试, 下午就开启了暑假模式, 一直到周五去学校发成绩</p>
+<p>大宝贝最近这两天中午都是在日照银行食堂吃的, 花钱多少不说, 至少不需要老妈每天为她绞尽脑汁的准备吃的而烦恼了, 挺好的</p>
+<p>马上就6月底了, 估计搬家得到8月了吧, 因为7月是个单数, 也好, 至少多散散味, 现在家里的家具味道太重了. 话说回来, 为什么每次怀宝宝的时候家里都是在装修呢? 看来是为了迎接小生命吧&hellip;</p>
+<hr>
+<p>这周看样子又不需要进校了吧, 因为马上周三了Mr.Du还没通知, 看来真如崇磊说的, 自律最重要, 不然就废了, 还好我是个自律的人, 哈哈&hellip;</p>
+<p>周末要做的事情还是不少的, 要带大宝贝去检查, 还要准备宝贝闺女的暑假学习安排&hellip;</p>
 ]]></content>
         </item>
         

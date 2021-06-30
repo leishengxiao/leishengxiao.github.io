@@ -7,7 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Tue, 29 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>编程珠玑 Ⅰ</title>
+      <link>https://leishengxiao.github.io/posts/20210630/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210630/</guid>
+      <description>Chapter 1 对小问题的仔细分析有事可以得到明显的实际益处
+设计者确定其设计已经达到了完美的标准不是不能再增加任何东西, 而是不能再减少任何东西
+Chapter 2 先进算法工具 -&amp;gt; 减少开发时间, 执行速度更快
+看起来很困难的问题也可以有一个简单的、意想不到的答案
+ 看着看着编程珠玑, 就不如Python那么好玩了, 于是乎又刷了一天的LeetCode, 还不错, 挺好玩的&amp;hellip;
+公司昨天要进行团建, 昨天陆总让我过去, 报销往返路费, 今天Mr.Du又打电话说让一起过去, 我还是不过去了, 今天订了周四晚上7点多的火车票, 可以去接闺女发试卷了, 吼吼^_^
+ 今天宝贝闺女上午和同学一起去了书城看书, 下午大宝贝订了两张电影票, 闺女和杜宛宸一起去看的, 回来的时候俩人一起走回来的, 我闺女竟然认识路, 了不得&amp;hellip;</description>
+    </item>
+    
     <item>
       <title>Python Study Mark Ⅱ</title>
       <link>https://leishengxiao.github.io/posts/20210629/</link>
