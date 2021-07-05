@@ -6,8 +6,66 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Sun, 04 Jul 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Python下</title>
+            <link>https://leishengxiao.github.io/posts/20210705/</link>
+            <pubDate>Mon, 05 Jul 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210705/</guid>
+            <description>Python明星库:
+Web框架: `Django` 深度学习: `TensorFlow` 自然语言: `NLTK` 图像处理: `PIL` 爬虫库: `requests` 图形界面: `PyQt` 可视化: `Matplotlib` 科学计算: `Numpy` 数据分析: `Pandas` 类分类:
+父类: `superclass` or 基类: `base class` 子类: `subclass` or 派生类: `derived class` 类对象提供默认行为:
+- `class`语句创建类对象并将其赋值给一个名称 - `class`语句内的赋值语句会创建类的属性 - 类属性提供了对象的状态和行为 类的实例的重点概要:
+- 像函数那样调用类对象会创建新的实例对象 - 每个实例对象集成了类的属性并获得了自己的命名空间 - 在方法内对`self`属性做赋值运算会产生每个实例自己的属性 属性继承机制的核心观点:
+- 父类列在`class`语句头部的括号中 - 类从其父类中继承属性 - 实例会继承所有可访问类的属性 - 每个`object.attribute`引用都会启动一个新的独立的搜索 - 逻辑的修改是通过创建子类, 而不是修改父类 运算符重载: 让用类编写的对象, 可截获并响应用在内置类型上的运算; 这其实只是一种自动分发机制: 表达式和其他内置运算被路由到了类内部的实现. 而模块可以实现函数调用, 但却不能实现表达式的行为
+重载运算符主要概念的概要:
+- 以双下划线命名的方法(`__X__`)是特殊钩子 - 当实例出现在内置运算种时, 这类方法会自动被调用 - 类可以重载绝大多数内置类型运算 - 默认的运算符重载方法既不存在, 也不需要 - 新式类有一些默认的运算符重载方法, 但是不属于常见运算 - 运算符将类与`Python`的对象模型结合到一起  今天老赵老师来办公室了, 一句&amp;quot;这么大了&amp;quot;着实伤到了我&amp;hellip;</description>
+            <content type="html"><![CDATA[<p><code>Python</code>明星库:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">Web框架: <span style="color:#e6db74">`Django`</span>
+深度学习: <span style="color:#e6db74">`TensorFlow`</span>
+自然语言: <span style="color:#e6db74">`NLTK`</span>
+图像处理: <span style="color:#e6db74">`PIL`</span>
+爬虫库: <span style="color:#e6db74">`requests`</span>
+图形界面: <span style="color:#e6db74">`PyQt`</span>
+可视化: <span style="color:#e6db74">`Matplotlib`</span>
+科学计算: <span style="color:#e6db74">`Numpy`</span>
+数据分析: <span style="color:#e6db74">`Pandas`</span>
+</code></pre></div><p>类分类:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">父类: <span style="color:#e6db74">`superclass`</span> or 基类: <span style="color:#e6db74">`base class`</span>
+子类: <span style="color:#e6db74">`subclass`</span> or 派生类: <span style="color:#e6db74">`derived class`</span>
+</code></pre></div><p>类对象提供默认行为:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`class`</span>语句创建类对象并将其赋值给一个名称
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`class`</span>语句内的赋值语句会创建类的属性
+<span style="color:#66d9ef">-</span> 类属性提供了对象的状态和行为
+</code></pre></div><p>类的实例的重点概要:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">-</span> 像函数那样调用类对象会创建新的实例对象
+<span style="color:#66d9ef">-</span> 每个实例对象集成了类的属性并获得了自己的命名空间
+<span style="color:#66d9ef">-</span> 在方法内对`self`属性做赋值运算会产生每个实例自己的属性
+</code></pre></div><p>属性继承机制的核心观点:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">-</span> 父类列在`class`语句头部的括号中
+<span style="color:#66d9ef">-</span> 类从其父类中继承属性
+<span style="color:#66d9ef">-</span> 实例会继承所有可访问类的属性
+<span style="color:#66d9ef">-</span> 每个`object.attribute`引用都会启动一个新的独立的搜索
+<span style="color:#66d9ef">-</span> 逻辑的修改是通过创建子类, 而不是修改父类
+</code></pre></div><p>运算符重载: 让用类编写的对象, 可截获并响应用在内置类型上的运算; 这其实只是一种自动分发机制: 表达式和其他内置运算被路由到了类内部的实现. 而模块可以实现函数调用, 但却不能实现表达式的行为</p>
+<p>重载运算符主要概念的概要:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"> <span style="color:#66d9ef">-</span> 以双下划线命名的方法(`__X__`)是特殊钩子
+ <span style="color:#66d9ef">-</span> 当实例出现在内置运算种时, 这类方法会自动被调用
+ <span style="color:#66d9ef">-</span> 类可以重载绝大多数内置类型运算
+ <span style="color:#66d9ef">-</span> 默认的运算符重载方法既不存在, 也不需要
+ <span style="color:#66d9ef">-</span> 新式类有一些默认的运算符重载方法, 但是不属于常见运算
+ <span style="color:#66d9ef">-</span> 运算符将类与`Python`的对象模型结合到一起
+</code></pre></div><hr>
+<p>今天老赵老师来办公室了, 一句&quot;这么大了&quot;着实伤到了我&hellip;</p>
+<p>好受伤,睡觉&hellip;</p>
+<hr>
+<p>闺女今天真的很听话, 上午和下午都和爷爷一起去了书城预习新课, 爸爸不能每天陪你, 好愧疚&hellip;</p>
+<p>下午的时候, 在58同城找了个开玻璃幕墙窗户的, 要<code>1500</code>左右, 等等看吧, 实在不行, 就找这个人来弄了&hellip;</p>
+]]></content>
+        </item>
         
         <item>
             <title>返青</title>
