@@ -7,7 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> All rights reserved.</copyright>
-    <lastBuildDate>Mon, 05 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://leishengxiao.github.io/series/essay-2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python类的设计</title>
+      <link>https://leishengxiao.github.io/posts/20210707/</link>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210707/</guid>
+      <description>宝贝闺女今天开始了舞蹈暑期课, 早上打电话的时候, 大宝贝问起了何时搬家, 大概查了下黄历, 初步确定是六月十六吧, 日期还不错, 期待&amp;hellip;
+昨天通过Tor Browser看了一些东西, 确实是暗网啊, 惊叹!
+ 偶然的机会, 又打开比特币行情看了下, 如果19年10月左右的时候我买ETH的话, 那么到现在已经增幅了10倍左右了, 真的不得了, 但也机会稍显即逝&amp;hellip; 作罢, 也看了下一些散户和山寨币, 确实风险太高了. 看来机会永远都是给比较早的和有准备的人
+ </description>
+    </item>
+    
+    <item>
+      <title>Python类编码细节</title>
+      <link>https://leishengxiao.github.io/posts/20210706/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://leishengxiao.github.io/posts/20210706/</guid>
+      <description>经历了昨晚的&amp;quot;这么大&amp;quot;之后, 心情影响还是有的, 可能人家真的只是看到我的长相和年龄偏差有点大随口一说吧, 不管怎样, 毕竟说的是事实
+昨晚看到的一句话很好: 首先是个儿子, 其次是个丈夫, 其次是个父亲, 最后才是你的职业
+ 今天老爸去赶集, 所以闺女找了7楼俩人去书城学习, 闺女突然一下变得好乖, 么么哒^_^
+ PEP8命名规范:
+- 模块: 简短的全小写名称 - 类: 首字母大写 - 异常: 属于类, 参照类命名规范, 后缀使用Eoor - 全局变量: 同函数命名规范 - 函数/变量: 小写, 单词之间用下划线分隔提高可读性 - 函数/方法参数: 使用`self`作为实例方法第一个参数, 使用`cls`作为方法的第一个参数 - 方法/实例变量: 同函数命名规范, 对非公共方法和实例变量使用一个前导下划线 - 常数: 所有字母大写, 下划线分隔单词 </description>
+    </item>
+    
     <item>
       <title>Python下</title>
       <link>https://leishengxiao.github.io/posts/20210705/</link>
