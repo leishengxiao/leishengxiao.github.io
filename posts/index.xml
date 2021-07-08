@@ -18,13 +18,35 @@
             <description>宝贝闺女今天开始了舞蹈暑期课, 早上打电话的时候, 大宝贝问起了何时搬家, 大概查了下黄历, 初步确定是六月十六吧, 日期还不错, 期待&amp;hellip;
 昨天通过Tor Browser看了一些东西, 确实是暗网啊, 惊叹!
  偶然的机会, 又打开比特币行情看了下, 如果19年10月左右的时候我买ETH的话, 那么到现在已经增幅了10倍左右了, 真的不得了, 但也机会稍显即逝&amp;hellip; 作罢, 也看了下一些散户和山寨币, 确实风险太高了. 看来机会永远都是给比较早的和有准备的人
- </description>
+ Python:
+未绑定方法一般需要传入显式的实例对象
+三种类级别方法: 实例、静态、类
+ Python之禅:
+- `Beautiful is better than ugly.`---------------------------------------------------美比丑好 - `Explicit is better than implicit.`------------------------------------------------明比涩强 - `Simple is better than complex.`---------------------------------------------------简胜于繁 - `Complex is better than complicated.`----------------------------------------------繁强于难 - `Flat is better than nested.`------------------------------------------------------平言莫饶 - `Sparse is better than dense.`-----------------------------------------------------宜疏莫密 - `Readability counts.`------------------------------------------------------行文如水,易懂为王 - `Special cases aren&amp;#39;t special enough to break the rules.</description>
             <content type="html"><![CDATA[<p>宝贝闺女今天开始了舞蹈暑期课, 早上打电话的时候, 大宝贝问起了何时搬家, 大概查了下黄历, 初步确定是六月十六吧, 日期还不错, 期待&hellip;</p>
 <p>昨天通过<code>Tor Browser</code>看了一些东西, 确实是暗网啊, 惊叹!</p>
 <hr>
 <p>偶然的机会, 又打开比特币行情看了下, 如果19年10月左右的时候我买<code>ETH</code>的话, 那么到现在已经增幅了10倍左右了, 真的不得了, 但也机会稍显即逝&hellip; 作罢, 也看了下一些散户和山寨币, 确实风险太高了. 看来机会永远都是给比较早的和有准备的人</p>
 <hr>
-]]></content>
+<p><code>Python</code>:</p>
+<p>未绑定方法一般需要传入显式的实例对象</p>
+<p>三种类级别方法: <code>实例</code>、<code>静态</code>、<code>类</code></p>
+<hr>
+<p><code>Python</code>之禅:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Beautiful is better than ugly.`</span>---------------------------------------------------美比丑好
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Explicit is better than implicit.`</span>------------------------------------------------明比涩强
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Simple is better than complex.`</span>---------------------------------------------------简胜于繁
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Complex is better than complicated.`</span>----------------------------------------------繁强于难
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Flat is better than nested.`</span>------------------------------------------------------平言莫饶
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Sparse is better than dense.`</span>-----------------------------------------------------宜疏莫密
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Readability counts.`</span>------------------------------------------------------行文如水,易懂为王
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Special cases aren&#39;t special enough to break the rules.Although practicality beats purity.`</span>-------------------------------------------------------------实虽胜纯,勿提特例,皆循此规
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Errors should never pass silently.Unless explicitly silenced.`</span>----识错必究,若需留证,亦要言明
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`In the face of ambiguity,refuse the temptation to guess.There should be one and preferably only one obvious way to do it.Although that way may not be obvious at first unless you&#39;re Dutch.`</span>-----------------------不明其理,追根问底.必有一法,可解谜题.如非Guido,求之故难
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Now is better than never.Although never is often better than right now.`</span>--立足当下,行必有方
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`If the implementation is hard to explain,it&#39;s a bad idea.If the implementation is easy to explain,it may be a good idea.`</span>------------------------------行难言喻,所思欠妥.行易言表,所思可嘉
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`Namespaces are one honking great idea,let&#39;s do more of those!`</span>------------名正易识,善莫大焉
+</code></pre></div>]]></content>
         </item>
         
         <item>
