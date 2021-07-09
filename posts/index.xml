@@ -6,8 +6,46 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright> All rights reserved.</copyright>
-        <lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://leishengxiao.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Python类的高级主题</title>
+            <link>https://leishengxiao.github.io/posts/20210708/</link>
+            <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+            
+            <guid>https://leishengxiao.github.io/posts/20210708/</guid>
+            <description>新式类的变化:
+- 针对内置属性的获取: 跳过实例 - 类和类型合并: 类即类型,类型即类 - `object`自动根类: 所有新式类(包括类型)继承自`object` - 继承搜索顺序: MRO与钻石模式 - 继承算法 - 新的高级工具: 新式类有一组新的类工具, 包括`slot`,`property`,描述符,`super`和`__getattribute__` 钻石继承改变:
+- 经典类: `DFLR`,`Depth First,Left to Right`,深度优先,从左至右 - 新式类: `MRO`,`Method Resolution Order`,方法解析顺序 Slot最好只用在罕见的、有大量实例出现的、内存密集型应用的情况下
+只要一个类树中任何一个类没有定义slot,就会创建一个明明空间字典,从而阻止内存优化的优势
+ 干净文艺的句子:
+- 山川是不倦收的文章, 日月为你掌灯伴读 - 天地不过是飘摇的逆旅, 昼夜不过是光阴的门户 - 繁华落尽, 我心中仍有花落的声音. 一朵, 一朵, 在无人的山间轻轻飘落 - 半天朱霞, 粲然如焚, 映着草地也有三分红意了 - 唯有你的光辉, 能像漫过山岭的薄雾 - 四月的天空如果不肯裂帛, 五月的袷衣如何起头? - 我将自己摊成稿纸, 让岁月来点苔 - 水寒江静, 满目青山, 载月明归. 自然对心灵的疗救, 天地对灵魂的洗濯, 载一船明月远去, 得一次释然的洒脱 - 凌晨四点醒来, 发现海棠花未眠 </description>
+            <content type="html"><![CDATA[<p>新式类的变化:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">-</span> 针对内置属性的获取: 跳过实例
+<span style="color:#66d9ef">-</span> 类和类型合并: 类即类型,类型即类
+<span style="color:#66d9ef">-</span> <span style="color:#e6db74">`object`</span>自动根类: 所有新式类(包括类型)继承自`object`
+<span style="color:#66d9ef">-</span> 继承搜索顺序: MRO与钻石模式
+<span style="color:#66d9ef">-</span> 继承算法
+<span style="color:#66d9ef">-</span> 新的高级工具: 新式类有一组新的类工具, 包括`slot`,`property`,描述符,`super`和`__getattribute__`
+</code></pre></div><p>钻石继承改变:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">-</span> 经典类: <span style="color:#e6db74">`DFLR`</span>,`Depth First,Left to Right`,深度优先,从左至右
+<span style="color:#66d9ef">-</span> 新式类: <span style="color:#e6db74">`MRO`</span>,`Method Resolution Order`,方法解析顺序
+</code></pre></div><p><code>Slot</code>最好只用在罕见的、有大量实例出现的、内存密集型应用的情况下</p>
+<p>只要一个类树中任何一个类没有定义<code>slot</code>,就会创建一个明明空间字典,从而阻止内存优化的优势</p>
+<hr>
+<p>干净文艺的句子:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown"><span style="color:#66d9ef">-</span> 山川是不倦收的文章, 日月为你掌灯伴读
+<span style="color:#66d9ef">-</span> 天地不过是飘摇的逆旅, 昼夜不过是光阴的门户
+<span style="color:#66d9ef">-</span> 繁华落尽, 我心中仍有花落的声音. 一朵, 一朵, 在无人的山间轻轻飘落
+<span style="color:#66d9ef">-</span> 半天朱霞, 粲然如焚, 映着草地也有三分红意了
+<span style="color:#66d9ef">-</span> 唯有你的光辉, 能像漫过山岭的薄雾
+<span style="color:#66d9ef">-</span> 四月的天空如果不肯裂帛, 五月的袷衣如何起头?
+<span style="color:#66d9ef">-</span> 我将自己摊成稿纸, 让岁月来点苔
+<span style="color:#66d9ef">-</span> 水寒江静, 满目青山, 载月明归. 自然对心灵的疗救, 天地对灵魂的洗濯, 载一船明月远去, 得一次释然的洒脱
+<span style="color:#66d9ef">-</span> 凌晨四点醒来, 发现海棠花未眠
+</code></pre></div>]]></content>
+        </item>
         
         <item>
             <title>Python类的设计</title>
